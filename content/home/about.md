@@ -10,10 +10,10 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Machine Learning",
-    "R Programming",
+    "Machine learning",
+    "R programming",
     "Neuroscience",
-    "Bullshitbingo ;-)"
+    "Bullshit bingo ;-)"
   ]
 
 # List your qualifications (such as academic degrees).
