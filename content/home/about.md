@@ -36,7 +36,7 @@ weight = 5
 
 # Biography
 
-Malte Grosser is a business consultant, who is mainly responsible for data science applications at the business intelligence consultancy and Microsoft partner implexis analytics. He mostly deals with complex problems regarding predictive analytics or artificial intelligence in the retail sector.
+Malte Grosser is a business consultant, who is mainly responsible for data science applications at the business intelligence consultancy and Microsoft partner implexis analytics. He mostly deals with complex problems regarding predictive analytics and artificial intelligence in the retail sector.
 
 He also does his PhD in the neuroradiology of the University Medical Center Hamburg-Eppendorf. His research interests include the applications of machine learning and pattern recognition in neurosciences, where he specializes on the prediction of the outcome of patients suffering from an ischemic stroke.
 
