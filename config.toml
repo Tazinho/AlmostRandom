@@ -1,4 +1,4 @@
-baseurl = "/"  # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
+baseurl = "https://malte-grosser.com/"  # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
 title = "Almost Random"
 copyright = "&copy; 2017 Malte Grosser"
 theme = "hugo-academic"
@@ -160,6 +160,8 @@ defaultContentLanguageInSubdir = false
     'Book',  # 5
     'Book chapter'  # 6
   ]
+  
+  rssLimit = 10
 
   # Configuration of talk pages.
   [params.talks]
@@ -233,25 +235,25 @@ defaultContentLanguageInSubdir = false
   url = "#about"
   weight = 1
 
-#[[menu.main]]
-#  name = "Posts"
-#  url = "#posts"
-#  weight = 2
+[[menu.main]]
+  name = "Blog"
+  url = "#posts"
+  weight = 2
 
 [[menu.main]]
   name = "Talks"
   url = "#talks"
-  weight = 2
+  weight = 3
 
 [[menu.main]]
   name = "Projects"
   url = "#projects"
-  weight = 3
+  weight = 4
 
 [[menu.main]]
   name = "Publications"
   url = "#publications"
-  weight = 4
+  weight = 5
 
 # [[menu.main]]
 #   name = "Teaching"

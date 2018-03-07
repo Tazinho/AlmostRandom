@@ -8,7 +8,9 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Malte Grosser</copyright>
     <lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0100</lastBuildDate>
-    <atom:link href="/ignore/" rel="self" type="application/rss+xml" />
+    
+        <atom:link href="/ignore/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Improved localized prediction of tissue outcome in acute ischemic stroke patients</title>

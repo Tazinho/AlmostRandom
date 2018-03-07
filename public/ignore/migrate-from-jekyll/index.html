@@ -11,7 +11,7 @@
   <meta name="description" content="Business Consultant">
   
   
-  <link rel="alternate" hreflang="en-us" href="/post/faq/">
+  <link rel="alternate" hreflang="en-us" href="/ignore/migrate-from-jekyll/">
 
   
   
@@ -64,7 +64,7 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="/post/faq/">
+  <link rel="canonical" href="/ignore/migrate-from-jekyll/">
 
   <meta property="twitter:card" content="summary_large_image">
   
@@ -72,19 +72,19 @@
   <meta property="twitter:creator" content="@Tazmaaan">
   
   <meta property="og:site_name" content="Almost Random">
-  <meta property="og:url" content="/post/faq/">
-  <meta property="og:title" content="Frequently Asked Questions (FAQ) | Almost Random">
+  <meta property="og:url" content="/ignore/migrate-from-jekyll/">
+  <meta property="og:title" content="Migrate from Jekyll to Hugo | Almost Random">
   <meta property="og:description" content="">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2016-04-10T00:00:00&#43;02:00">
+  <meta property="article:published_time" content="2014-03-10T00:00:00&#43;01:00">
   
-  <meta property="article:modified_time" content="2016-04-10T00:00:00&#43;02:00">
-  
-
+  <meta property="article:modified_time" content="2014-03-10T00:00:00&#43;01:00">
   
 
-  <title>Frequently Asked Questions (FAQ) | Almost Random</title>
+  
+
+  <title>Migrate from Jekyll to Hugo | Almost Random</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -176,7 +176,7 @@
 
   <div class="article-container">
     <div class="article-inner">
-      <h1 itemprop="name">Frequently Asked Questions (FAQ)</h1>
+      <h1 itemprop="name">Migrate from Jekyll to Hugo</h1>
 
       
 
@@ -184,8 +184,8 @@
 
   <span class="article-date">
     
-    <time datetime="2016-04-10 00:00:00 &#43;0200 CEST" itemprop="datePublished">
-      Apr 10, 2016
+    <time datetime="2014-03-10 00:00:00 &#43;0100 CET" itemprop="datePublished">
+      Mar 10, 2014
     </time>
   </span>
 
@@ -207,35 +207,35 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Frequently%20Asked%20Questions%20%28FAQ%29&amp;url=%2fpost%2ffaq%2f"
+         href="https://twitter.com/intent/tweet?text=Migrate%20from%20Jekyll%20to%20Hugo&amp;url=%2fignore%2fmigrate-from-jekyll%2f"
          target="_blank" rel="noopener">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=%2fpost%2ffaq%2f"
+         href="https://www.facebook.com/sharer.php?u=%2fignore%2fmigrate-from-jekyll%2f"
          target="_blank" rel="noopener">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpost%2ffaq%2f&amp;title=Frequently%20Asked%20Questions%20%28FAQ%29"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fignore%2fmigrate-from-jekyll%2f&amp;title=Migrate%20from%20Jekyll%20to%20Hugo"
          target="_blank" rel="noopener">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=%2fpost%2ffaq%2f&amp;title=Frequently%20Asked%20Questions%20%28FAQ%29"
+         href="http://service.weibo.com/share/share.php?url=%2fignore%2fmigrate-from-jekyll%2f&amp;title=Migrate%20from%20Jekyll%20to%20Hugo"
          target="_blank" rel="noopener">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Frequently%20Asked%20Questions%20%28FAQ%29&amp;body=%2fpost%2ffaq%2f">
+         href="mailto:?subject=Migrate%20from%20Jekyll%20to%20Hugo&amp;body=%2fignore%2fmigrate-from-jekyll%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -249,50 +249,41 @@
 
 
       <div class="article-style" itemprop="articleBody">
-        <p>Common questions and answers will be listed here.</p>
+        
 
-<p><strong>I cloned/downloaded Academic but Hugo produces errors when using it with my existing Hugo site</strong></p>
+<p>Here are a few tips for migrating an existing website from Jekyll to Hugo. These tips can be applied in conjunction with following Hugo Academic&rsquo;s <a href="" target="_blank">getting started guide</a>.</p>
 
-<p>Academic is a website <em>framework</em> rather than just a <em>theme</em>. Therefore, you must follow the full installation guide found on the Demo/Documentation website or in the Github Readme. If you still have problems, first try running Hugo on the Academic Example Site found in the <code>themes/academic/exampleSite</code> folder and then compare the configuration parameters in the Example Site&rsquo;s <code>config.toml</code> and content files with the files in your existing site.</p>
+<h2 id="move-static-content-to-static">Move static content to <code>static</code></h2>
 
-<p><strong>Hosting your site with Netlify or Cloudflare and experience strange behavior such as filters not working?</strong></p>
+<p>Jekyll has a rule that any directory not starting with <code>_</code> will be copied as-is to the <code>_site</code> output. Hugo keeps all static content under <code>static</code>. You should therefore move it all there.
+With Jekyll, something that looked like</p>
 
-<p>Disable post-processing steps such as <em>minification</em> in your Netlify/Cloudflare admin panel.</p>
-
-<p><strong>Publications and other content are not sorted by newest first</strong></p>
-
-<p>Hugo/TOML require that the value for the <code>date</code> field should be in <a href="https://github.com/toml-lang/toml#local-date-time" target="_blank">TOML format</a>, as per frontmatter of the <code>content/publication/</code> files in the example site. If you want to use a partial date, such as year, you should still complete a full date to make a valid TOML date format.</p>
-
-<p><strong>Issue parsing LaTeX in publication abstract</strong></p>
-
-<p>Let&rsquo;s consider the following LaTeX which fails to parse correctly:</p>
-
-<pre><code>abstract = &quot;${O(d_{\max})}$&quot;
+<pre><code>▾ &lt;root&gt;/
+    ▾ images/
+        logo.png
 </code></pre>
 
-<p>This is a side effect of Academic and Hugo attempting to parse TOML, Markdown and LaTeX content in the abstract. The solution is to:</p>
+<p>should become</p>
 
-<ul>
-<li>escape each LaTeX backslash (<code>\</code>) with an extra backslash, yielding <code>\\</code></li>
-<li>escape each LaTeX underscore (<code>_</code>) with two backslashes, yielding <code>\\_</code>.</li>
-</ul>
-
-<p>Hence, editing the above example, we get:</p>
-
-<pre><code>abstract = &quot;${O(d\\_{\\max})}$&quot;
+<pre><code>▾ &lt;root&gt;/
+    ▾ static/
+        ▾ images/
+            logo.png
 </code></pre>
 
-<p><strong>Cannot achieve line break in multiline equation (LaTeX/Mathjax)</strong></p>
+<p>Additionally, you&rsquo;ll want any files that should reside at the root (such as <code>CNAME</code>) to be moved to <code>static</code>.</p>
 
-<p><code>\\</code> usually achieves a line break in a multiline LaTeX/Mathjax equation, but due to Hugo&rsquo;s Markdown parser it doesn&rsquo;t.</p>
+<h2 id="fix-content">Fix content</h2>
 
-<p>Solution: use 6 backslashes for a line break, for example:</p>
+<p>Depending on the amount of customization that was done for each post in Jekyll, this step will require more or less effort. There are no hard and fast rules here except that <code>hugo server --watch</code> and the Hugo Academic example site are your friends. Test your changes and fix errors as needed.</p>
 
-<pre><code>$$\begin{eqnarray} 
-y &amp;=&amp; 1+1   \\\\\\
-&amp;=&amp; 2
-\end{eqnarray}$$
-</code></pre>
+<h2 id="publish">Publish</h2>
+
+<p>The default is for Jekyll to publish the website to a <code>_site</code> directory, whereas Hugo publishes to a <code>public</code> directory.</p>
+
+<h2 id="a-practical-example">A practical example</h2>
+
+<p>Alexandre Normand migrated his website from Jekyll to Hugo in less than a day. You can see all his changes by looking at this GitHub <a href="https://github.com/alexandre-normand/alexandre-normand/compare/869d69435bd2665c3fbf5b5c78d4c22759d7613a...b7f6605b1265e83b4b81495423294208cc74d610" target="_blank">diff</a>. However, bear in mind that this example is <strong>not specific to the Academic theme nor does it use the latest version of Hugo</strong>.</p>
 
       </div>
 
@@ -301,9 +292,7 @@ y &amp;=&amp; 1+1   \\\\\\
 
 <div class="article-tags">
   
-  <a class="btn btn-primary btn-outline" href="/tags/academic">academic</a>
-  
-  <a class="btn btn-primary btn-outline" href="/tags/hugo">hugo</a>
+  <a class="btn btn-primary btn-outline" href="/tags/jekyll">jekyll</a>
   
 </div>
 
@@ -394,6 +383,8 @@ y &amp;=&amp; 1+1   \\\\\\
       <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
       
 
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
       
 
       
