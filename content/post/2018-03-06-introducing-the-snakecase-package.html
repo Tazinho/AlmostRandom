@@ -12,11 +12,11 @@ header:
 
 
 
-<p>There are many style guides out there, which recommend specific naming conventions for programming languages. At 2017’s useR conference Rasmus Bååth showed quite impressively the variety of cases, which even exist within base R in his talk <a href="https://www.youtube.com/watch?v=Pv5dfsHBBKE">“The current state of naming conventions in R”</a>.</p>
+<p>There are many style guides out there which recommend specific naming conventions for programming languages. At 2017’s useR conference Rasmus Bååth showed quite impressively the variety of cases which even exist within base R in his talk <a href="https://www.youtube.com/watch?v=Pv5dfsHBBKE">“The current state of naming conventions in R”</a>.</p>
 <p>However, consistent style is not only about naming new objects.</p>
 <div id="import" class="section level2">
 <h2>Import</h2>
-<p>When you do a data analysis, most of the data already exists and you import it from disk, an API or a database. Here is the first moment in your data analysis when you have to decide, if you want to rename your data or leave it as is.</p>
+<p>When you do a data analysis, most of the data already exists and you import it from disk, an API or a database. Here is the first moment in your data analysis when you have to decide if you want to rename your data or leave it as it is.</p>
 <p>Lets say you have some data named in any of the following conventions</p>
 <pre class="r"><code>string &lt;- c(&quot;lowerCamelCase&quot;, &quot;ALL_CAPS&quot;, &quot;IDontKNOWWhat_thisCASE_is&quot;)</code></pre>
 <p>You can now easily convert this string for example to snake case via</p>
@@ -27,11 +27,11 @@ to_snake_case(string)
 </div>
 <div id="graphics" class="section level2">
 <h2>Graphics</h2>
-<p>Whenever you want to make a graphic and you don’t like your conventions to come up in it, you can easily convert strings to a more human readable output like</p>
+<p>Whenever you want to construct a graphic and you don’t like your conventions to come up in it, you can easily convert strings to a more humanly readable output like</p>
 <pre class="r"><code>to_mixed_case(string, sep_out = &quot; &quot;)
 #&gt; [1] &quot;lower Camel Case&quot;              &quot;All Caps&quot;                     
 #&gt; [3] &quot;I Dont Know What this Case is&quot;</code></pre>
-<p>You might notice the <code>sep_out</code> argument. This allows you to combine any case with any output separator to create other well known cases like</p>
+<p>You might have noticed the <code>sep_out</code> argument. This allows you to combine any case with any output separator to create other well known cases like</p>
 <pre class="r"><code>to_snake_case(string, sep_out = &quot;.&quot;)
 #&gt; [1] &quot;lower.camel.case&quot;              &quot;all.caps&quot;                     
 #&gt; [3] &quot;i.dont.know.what.this.case.is&quot;
@@ -45,18 +45,18 @@ to_snake_case(string, sep_out = &quot;-&quot;)
 </div>
 <div id="export" class="section level2">
 <h2>Export</h2>
-<p>Finally when you are done with your analysis and want to write data back into a .CSV file or your customers database, which has a camel case convention, you can just use</p>
+<p>Finally, when you are done with your analysis and want to write data back into a .CSV file or your customers database, which has a camel case convention, you can just use</p>
 <pre class="r"><code>to_upper_camel_case(string)
 #&gt; [1] &quot;LowerCamelCase&quot;          &quot;AllCaps&quot;                
 #&gt; [3] &quot;IDontKnowWhatThisCaseIs&quot;</code></pre>
 </div>
 <div id="further-information" class="section level2">
 <h2>Further information</h2>
-<p>The snakecase package goes quite deep into the little quirks, which arise in automatic case conversion. However, it is well tweaked, to handle almost every edge case in an intuitive and elegant manner.</p>
-<p>To get a complete overview of its functionality like other cases, handling of abbreviations, special input characters, different parsing options, transliterations and more, please have a look into the quite extensive <a href="https://github.com/Tazinho/snakecase">readme on its github repository</a>.</p>
+<p>The snakecase package goes quite deep into the little quirks which arise in automatic case conversion. However, it is well tweaked, to handle almost every edge case in an intuitive and elegant manner.</p>
+<p>To get a complete overview of its functionality like other cases, handling of abbreviations, special input characters, different parsing options, transliterations and more, I recommend you to have a look into the quite extensive <a href="https://github.com/Tazinho/snakecase">readme on its github repository</a>.</p>
 <p>As the package is relatively small and basically consists of its workhorse function <code>to_any_case()</code>, I can also react quite fast on new <a href="https://github.com/Tazinho/snakecase/issues">issues</a>.</p>
 <p>And of course I <a href="https://twitter.com/Tazmaaan">tweet</a> occasionally about new functionality.</p>
-<p>To round this up let me give you one advice about best practices: Be aware that automatic case conversion depends on the input string and it is recommended to verify the results. So you might want to pipe them into <code>dput()</code> and hard-code name changes instead of blindly trusting the output</p>
+<p>To round this up let me give you one advice about best practices: be aware that automatic case conversion depends on the input string and it is recommended to verify the results. Hence you might want to pipe them into <code>dput()</code> and hard-code name changes instead of blindly trusting the output</p>
 <pre class="r"><code>library(magrittr)
 to_any_case(c(&quot;SomeBAdInput&quot;, &quot;someGoodInput&quot;)) %&gt;% dput()
 #&gt; c(&quot;some_b_ad_input&quot;, &quot;some_good_input&quot;)</code></pre>
