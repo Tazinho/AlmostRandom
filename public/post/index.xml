@@ -23,7 +23,7 @@
 &lt;div id=&#34;import&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Import&lt;/h2&gt;
 &lt;p&gt;When you do a data analysis, most of the data already exists and you import it from disk, an API or a database. Here is the first moment in your data analysis when you have to decide if you want to rename your data or leave it as it is.&lt;/p&gt;
-&lt;p&gt;Lets say you have some data named in any of the following conventions&lt;/p&gt;
+&lt;p&gt;Let’s say you have some data named in any of the following conventions&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;string &amp;lt;- c(&amp;quot;lowerCamelCase&amp;quot;, &amp;quot;ALL_CAPS&amp;quot;, &amp;quot;IDontKNOWWhat_thisCASE_is&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;You can now easily convert this string for example to snake case via&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(snakecase)

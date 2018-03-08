@@ -25,7 +25,7 @@ However, consistent style is not only about naming new objects.
 
 When you do a data analysis, most of the data already exists and you import it from disk, an API or a database. Here is the first moment in your data analysis when you have to decide if you want to rename your data or leave it as it is.
 
-Lets say you have some data named in any of the following conventions
+Let’s say you have some data named in any of the following conventions
 
 ```{r}
 string <- c("lowerCamelCase", "ALL_CAPS", "IDontKNOWWhat_thisCASE_is")
