@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R on Almost Random</title>
+    <link>/categories/r/</link>
+    <description>Recent content in R on Almost Random</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Malte Grosser</copyright>
+    <lastBuildDate>Tue, 06 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/categories/r/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Introducing the snakecase package</title>
+      <link>/post/introducing-the-snakecase-package/</link>
+      <pubDate>Tue, 06 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/introducing-the-snakecase-package/</guid>
+      <description>&lt;p&gt;There are many style guides out there which recommend specific naming conventions for programming languages. At 2017’s useR conference Rasmus Bååth showed quite impressively the variety of cases which even exist within base R in his talk &lt;a href=&#34;https://www.youtube.com/watch?v=Pv5dfsHBBKE&#34;&gt;“The current state of naming conventions in R”&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;However, consistent style is not only about naming new objects.&lt;/p&gt;
+&lt;div id=&#34;import&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Import&lt;/h2&gt;
+&lt;p&gt;When you do a data analysis, most of the data already exists and you import it from disk, an API or a database. Here is the first moment in your data analysis when you have to decide if you want to rename your data or leave it as it is.&lt;/p&gt;
+&lt;p&gt;Let’s say you have some data named in any of the following conventions&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;string &amp;lt;- c(&amp;quot;lowerCamelCase&amp;quot;, &amp;quot;ALL_CAPS&amp;quot;, &amp;quot;IDontKNOWWhat_thisCASE_is&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You can now easily convert this string for example to snake case via&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(snakecase)
+to_snake_case(string)
+#&amp;gt; [1] &amp;quot;lower_camel_case&amp;quot;              &amp;quot;all_caps&amp;quot;                     
+#&amp;gt; [3] &amp;quot;i_dont_know_what_this_case_is&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;graphics&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Graphics&lt;/h2&gt;
+&lt;p&gt;Whenever you want to construct a graphic and you don’t like your conventions to come up in it, you can easily convert strings to a more humanly readable output like&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;to_mixed_case(string, sep_out = &amp;quot; &amp;quot;)
+#&amp;gt; [1] &amp;quot;lower Camel Case&amp;quot;              &amp;quot;All Caps&amp;quot;                     
+#&amp;gt; [3] &amp;quot;I Dont Know What this Case is&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You might have noticed the &lt;code&gt;sep_out&lt;/code&gt; argument. This allows you to combine any case with any output separator to create other well known cases like&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;to_snake_case(string, sep_out = &amp;quot;.&amp;quot;)
+#&amp;gt; [1] &amp;quot;lower.camel.case&amp;quot;              &amp;quot;all.caps&amp;quot;                     
+#&amp;gt; [3] &amp;quot;i.dont.know.what.this.case.is&amp;quot;
+to_snake_case(string, sep_out = &amp;quot;-&amp;quot;)
+#&amp;gt; [1] &amp;quot;lower-camel-case&amp;quot;              &amp;quot;all-caps&amp;quot;                     
+#&amp;gt; [3] &amp;quot;i-dont-know-what-this-case-is&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;or completely new ones like&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;to_screaming_snake_case(string, sep_out = &amp;quot;=&amp;quot;)
+#&amp;gt; [1] &amp;quot;LOWER=CAMEL=CASE&amp;quot;              &amp;quot;ALL=CAPS&amp;quot;                     
+#&amp;gt; [3] &amp;quot;I=DONT=KNOW=WHAT=THIS=CASE=IS&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;export&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Export&lt;/h2&gt;
+&lt;p&gt;Finally, when you are done with your analysis and want to write data back into a .CSV file or your customers database, which has a camel case convention, you can just use&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;to_upper_camel_case(string)
+#&amp;gt; [1] &amp;quot;LowerCamelCase&amp;quot;          &amp;quot;AllCaps&amp;quot;                
+#&amp;gt; [3] &amp;quot;IDontKnowWhatThisCaseIs&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;further-information&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Further information&lt;/h2&gt;
+&lt;p&gt;The snakecase package goes quite deep into the little quirks which arise in automatic case conversion. However, it is well tweaked, to handle almost every edge case in an intuitive and elegant manner.&lt;/p&gt;
+&lt;p&gt;To get a complete overview of its functionality like other cases, handling of abbreviations, special input characters, different parsing options, transliterations and more, I recommend you to have a look into the quite extensive &lt;a href=&#34;https://github.com/Tazinho/snakecase&#34;&gt;readme on its github repository&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;As the package is relatively small and basically consists of its workhorse function &lt;code&gt;to_any_case()&lt;/code&gt;, I can also react quite fast on new &lt;a href=&#34;https://github.com/Tazinho/snakecase/issues&#34;&gt;issues&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;And of course I &lt;a href=&#34;https://twitter.com/Tazmaaan&#34;&gt;tweet&lt;/a&gt; occasionally about new functionality.&lt;/p&gt;
+&lt;p&gt;To round this up let me give you one advice about best practices: be aware that automatic case conversion depends on the input string and it is recommended to verify the results. Hence you might want to pipe them into &lt;code&gt;dput()&lt;/code&gt; and hard-code name changes instead of blindly trusting the output&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(magrittr)
+to_any_case(c(&amp;quot;SomeBAdInput&amp;quot;, &amp;quot;someGoodInput&amp;quot;)) %&amp;gt;% dput()
+#&amp;gt; c(&amp;quot;some_b_ad_input&amp;quot;, &amp;quot;some_good_input&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Happy snakecasing everyone ;)&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
