@@ -9,7 +9,7 @@ title = "snakecase-pkg"
 summary = "A systematic approach to parse strings and automate the conversion to snake_case, lowerCamelCase or any other case."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "snakecase05.png"
+image_preview = "snakecase07.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
