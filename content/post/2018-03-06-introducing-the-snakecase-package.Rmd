@@ -5,6 +5,7 @@ date: '2018-03-06'
 slug: introducing-the-snakecase-package
 categories:
   - R
+  - R-bloggers
 tags: []
 header:
   image: "headers/Rplot40_wide_right_top.png"
