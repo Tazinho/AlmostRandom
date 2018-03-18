@@ -7,13 +7,13 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Malte Grosser</copyright>
-    <lastBuildDate>Tue, 06 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Mar 2018 00:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/r/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Introducing the snakecase package</title>
       <link>/post/introducing-the-snakecase-package/</link>
-      <pubDate>Tue, 06 Mar 2018 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 19 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/introducing-the-snakecase-package/</guid>
       <description>&lt;p&gt;There are many style guides out there which recommend specific naming conventions for programming languages. At 2017’s useR conference Rasmus Bååth showed quite impressively the variety of cases which even exist within base R in his talk &lt;a href=&#34;https://www.youtube.com/watch?v=Pv5dfsHBBKE&#34;&gt;“The current state of naming conventions in R”&lt;/a&gt;.&lt;/p&gt;

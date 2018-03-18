@@ -5,8 +5,8 @@
     
     <url>
     
-      <loc>/project/rusershamburg/</loc>
-      <lastmod>2018-03-12T00:00:00+00:00</lastmod>
+      <loc>/post/introducing-the-snakecase-package/</loc>
+      <lastmod>2018-03-19T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -14,8 +14,8 @@
     
     <url>
     
-      <loc>/post/introducing-the-snakecase-package/</loc>
-      <lastmod>2018-03-06T00:00:00+00:00</lastmod>
+      <loc>/project/rusershamburg/</loc>
+      <lastmod>2018-03-12T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -249,6 +249,16 @@
     
     <url>
     
+      <loc>/categories/r/</loc>
+      <lastmod>2018-03-19T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tags/r/</loc>
       <lastmod>2018-03-12T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -269,18 +279,8 @@
     
     <url>
     
-      <loc>/categories/r/</loc>
-      <lastmod>2018-03-06T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/categories/r-bloggers/</loc>
-      <lastmod>2018-03-06T00:00:00+00:00</lastmod>
+      <lastmod>2018-03-19T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
