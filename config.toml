@@ -1,6 +1,7 @@
+relativeurls = true
 baseurl = "http://malte-grosser.com/"  # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
 title = "Almost Random"
-copyright = "&copy; 2017 Malte Grosser"
+copyright = "&copy; 2017-2018 Malte Grosser"
 theme = "hugo-academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
@@ -137,10 +138,10 @@ defaultContentLanguageInSubdir = false
   #   https://sourcethemes.com/academic/post/writing-markdown-latex/#highlighting-options
   highlight = true
   highlight_languages = []
-  # highlight_style = "github"
+  highlight_style = "github"
 
   # Enable native social sharing buttons?
-  sharing = true
+  sharing = false
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
