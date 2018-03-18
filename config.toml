@@ -273,11 +273,17 @@ defaultContentLanguageInSubdir = false
   url = "#publications"
   weight = 5
 
-# [[menu.main]]
-#  name = "Blogroll"
-#  url = "#blogroll"
-#  weight = 6
-#  identifier = "something"
+ [[menu.main]]
+  name = "Blogroll"
+  url = "#blogroll"
+  weight = 6
+  identifier = "dropdown1"
+
+ [[menu.main]]
+  name = "R-bloggers"
+  url = "https://www.r-bloggers.com/"
+  weight = 7
+  parent = "dropdown1"
 
 # [[menu.main]]
 #   name = "Teaching"
