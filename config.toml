@@ -241,7 +241,7 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "rss"
     icon_pack = "fa"
-    link = "//www.malte-grosser.com/index.xml"
+    link = "//www.malte-grosser.com/categories/R-bloggers/index.xml"
 
 #  [[params.social]]
 #    icon = "star-o"
