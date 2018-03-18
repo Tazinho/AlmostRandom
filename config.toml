@@ -1,4 +1,3 @@
-relativeurls = true
 baseurl = "http://malte-grosser.com/"  # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
 title = "Almost Random"
 copyright = "&copy; 2017-2018 Malte Grosser"
