@@ -238,6 +238,11 @@ defaultContentLanguageInSubdir = false
     icon_pack = "fa"
     link = "//www.xing.com/profile/Malte_Grosser/cv"
 
+  [[params.social]]
+    icon = "rss"
+    icon_pack = "fa"
+    link = "//www.malte-grosser.com/index.xml"
+
 #  [[params.social]]
 #    icon = "star-o"
 #    icon_pack = "fa"
