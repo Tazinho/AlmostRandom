@@ -9,7 +9,7 @@ preserveTaxonomyNames = true
 paginate = 10
 
 # Enable comments by entering your Disqus shortname
-disqusShortname = ""
+disqusShortname = "disqus_WGAASbo8r7"
 
 # Enable analytics by entering your Google Analytics tracking ID
 googleAnalytics = "UA-110831086-1"
@@ -58,7 +58,7 @@ defaultContentLanguageInSubdir = false
 #  telegram = ""
 
   # Enable Keybase in Contact widget by entering your keybase.io username.
-  keybase = ""
+#  keybase = ""
 
   # Discussion link (e.g. link to a forum, mailing list, or chat).
   #   Uncomment line below to use.
@@ -66,7 +66,7 @@ defaultContentLanguageInSubdir = false
 
   # Diplay a logo in navigation bar rather than title (optional).
   #   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
-  logo = ""
+ # logo = ""
 
   # Enable/disable map in Contact widget.
   # To show your address on a map in the contact widget, you need to enter your latitude, longitude and choose
@@ -199,6 +199,8 @@ defaultContentLanguageInSubdir = false
   #   "mailto:your@email.com" as the link.
   #
   #   Full list: https://fortawesome.github.io/Font-Awesome/icons/
+  #   If above list doesn't work, try this one:
+  #   https://fontawesome.com/v4.7.0/icons/
   #
   # Icon pack "ai" includes the following academic network icons:
   #
@@ -212,6 +214,11 @@ defaultContentLanguageInSubdir = false
     link = "mailto:malte.grosser@gmail.com"
 
   [[params.social]]
+    icon = "github"
+    icon_pack = "fa"
+    link = "//github.com/Tazinho"
+
+  [[params.social]]
     icon = "twitter"
     icon_pack = "fa"
     link = "//twitter.com/Tazmaaan"
@@ -222,10 +229,19 @@ defaultContentLanguageInSubdir = false
 #    link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
 
   [[params.social]]
-    icon = "github"
+    icon = "linkedin"
     icon_pack = "fa"
-    link = "//github.com/Tazinho"
+    link = "//www.linkedin.com/in/malte-grosser-111167154/"
 
+  [[params.social]]
+    icon = "xing"
+    icon_pack = "fa"
+    link = "//www.xing.com/profile/Malte_Grosser/cv"
+
+#  [[params.social]]
+#    icon = "star-o"
+#    icon_pack = "fa"
+#    link = "//www.r-bloggers.com/"
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
@@ -256,6 +272,12 @@ defaultContentLanguageInSubdir = false
   name = "Publications"
   url = "#publications"
   weight = 5
+
+# [[menu.main]]
+#  name = "Blogroll"
+#  url = "#blogroll"
+#  weight = 6
+#  identifier = "something"
 
 # [[menu.main]]
 #   name = "Teaching"
