@@ -290,6 +290,12 @@ defaultContentLanguageInSubdir = false
   weight = 7
   parent = "dropdown1"
 
+ [[menu.main]]
+  name = "R Weekly"
+  url = "https://rweekly.org/"
+  weight = 8
+  parent = "dropdown1"
+
 # [[menu.main]]
 #   name = "Teaching"
 #   url = "#teaching"
