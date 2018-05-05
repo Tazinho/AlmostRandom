@@ -295,6 +295,15 @@ defaultContentLanguageInSubdir = false
   url = "https://rweekly.org/"
   weight = 8
   parent = "dropdown1"
+  
+ [[menu.main]]
+  name = "R Users Hamburg"
+  url = "https://rusershamburg.github.io/"
+  weight = 9
+  parent = "dropdown1"
+
+
+
 
 # [[menu.main]]
 #   name = "Teaching"
