@@ -11,7 +11,7 @@ weight = 5
 [interests]
   interests = [
     "Machine learning",
-    "R & Python programming",
+    "R programming",
     "Neuroscience",
     "Bullshit bingo ;-)"
   ]
