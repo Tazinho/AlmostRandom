@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R-package on Almost Random</title>
-    <link>/tags/r-package/</link>
+    <link>http://malte-grosser.com/tags/r-package/</link>
     <description>Recent content in R-package on Almost Random</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,10 +12,10 @@
     
     <item>
       <title>snakecase-pkg</title>
-      <link>/project/snakecase-pkg/</link>
+      <link>http://malte-grosser.com/project/snakecase-pkg/</link>
       <pubDate>Sun, 12 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>/project/snakecase-pkg/</guid>
+      <guid>http://malte-grosser.com/project/snakecase-pkg/</guid>
       <description>&lt;!--
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
 
