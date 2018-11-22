@@ -16,7 +16,7 @@ image_preview = "advrs_cover2.png"
 tags = ["Advanced R", "bookdown", "R"]
 
 # Optional external URL for project (replaces project detail page).
-external_link = "https://bookdown.org/Tazinho/Advanced-R-Solutions/"
+external_link = "https://advanced-r-solutions.rbind.io/"
 
 # Does the project detail page use math formatting?
 math = false
