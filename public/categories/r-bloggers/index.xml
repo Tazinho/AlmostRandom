@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R-bloggers on Almost Random</title>
-    <link>/categories/r-bloggers/</link>
+    <link>http://malte-grosser.com/categories/r-bloggers/</link>
     <description>Recent content in R-bloggers on Almost Random</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,10 +12,10 @@
     
     <item>
       <title>Introducing the snakecase package</title>
-      <link>/post/introducing-the-snakecase-package/</link>
+      <link>http://malte-grosser.com/post/introducing-the-snakecase-package/</link>
       <pubDate>Tue, 06 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/post/introducing-the-snakecase-package/</guid>
+      <guid>http://malte-grosser.com/post/introducing-the-snakecase-package/</guid>
       <description>&lt;p&gt;There are many style guides out there which recommend specific naming conventions for programming languages. At 2017’s useR conference Rasmus Bååth showed quite impressively the variety of cases which even exist within base R in his talk &lt;a href=&#34;https://www.youtube.com/watch?v=Pv5dfsHBBKE&#34;&gt;“The current state of naming conventions in R”&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;However, consistent style is not only about naming new objects.&lt;/p&gt;
 &lt;div id=&#34;import&#34; class=&#34;section level2&#34;&gt;

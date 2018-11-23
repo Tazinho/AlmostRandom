@@ -14,6 +14,15 @@
     
     <url>
     
+      <loc>http://malte-grosser.com/post/introducing-the-snakecase-package/</loc>
+      <lastmod>2018-03-06T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://malte-grosser.com/ignore/dgnr-2017/</loc>
       <lastmod>2018-01-01T00:00:00+01:00</lastmod>
     </url>
@@ -252,6 +261,26 @@
     
       <loc>http://malte-grosser.com/tags/r/</loc>
       <lastmod>2017-11-12T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://malte-grosser.com/categories/r/</loc>
+      <lastmod>2018-03-06T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://malte-grosser.com/categories/r-bloggers/</loc>
+      <lastmod>2018-03-06T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
