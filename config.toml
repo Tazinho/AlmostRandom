@@ -221,7 +221,7 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "twitter"
     icon_pack = "fa"
-    link = "//twitter.com/Tazmaaan"
+    link = "https://twitter.com/malte_grosser"
 
 #  [[params.social]]
 #    icon = "google-scholar"
