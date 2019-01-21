@@ -8,7 +8,9 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2017-2018 Malte Grosser</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/publication/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://malte-grosser.com/publication/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>CT-perfusion stroke imaging: a threshold free probabilistic approach to predict infarct volume compared to traditional ischemic thresholds</title>
@@ -16,10 +18,7 @@
       <pubDate>Thu, 27 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>http://malte-grosser.com/publication/flottmann-prdict-infarct-volume/</guid>
-      <description>&lt;!--
-#More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code.
---&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
@@ -28,10 +27,7 @@
       <pubDate>Thu, 11 May 2017 00:00:00 +0000</pubDate>
       
       <guid>http://malte-grosser.com/publication/schneider-edema-diagnostic-sign/</guid>
-      <description>&lt;!--
-#More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code.
---&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
@@ -40,10 +36,7 @@
       <pubDate>Fri, 18 Mar 2016 00:00:00 +0000</pubDate>
       
       <guid>http://malte-grosser.com/publication/faizy-ms-lesion-heterogeneity-myelin-water-imaging/</guid>
-      <description>&lt;!--
-#More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code.
---&gt;
-</description>
+      <description></description>
     </item>
     
   </channel>

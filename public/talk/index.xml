@@ -8,7 +8,9 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2017-2018 Malte Grosser</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/talk/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://malte-grosser.com/talk/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Advanced R Solutions</title>
@@ -16,10 +18,7 @@
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
       
       <guid>http://malte-grosser.com/talk/advanced-r-solutions/</guid>
-      <description>&lt;!---
-Embed your slides or video here using [shortcodes](https://sourcethemes.com/academic/post/writing-markdown-latex/). Further details can easily be added using *Markdown* and $\rm \LaTeX$ math code.
---&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
@@ -28,10 +27,7 @@ Embed your slides or video here using [shortcodes](https://sourcethemes.com/acad
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
       
       <guid>http://malte-grosser.com/talk/interactive-spatial-clusters/</guid>
-      <description>&lt;!--
-Embed your slides or video here using [shortcodes](https://sourcethemes.com/academic/post/writing-markdown-latex/). Further details can easily be added using *Markdown* and $\rm \LaTeX$ math code.
---&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
@@ -40,10 +36,7 @@ Embed your slides or video here using [shortcodes](https://sourcethemes.com/acad
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
       
       <guid>http://malte-grosser.com/talk/snakecase-pkg/</guid>
-      <description>&lt;!--
-Embed your slides or video here using [shortcodes](https://sourcethemes.com/academic/post/writing-markdown-latex/). Further details can easily be added using *Markdown* and $\rm \LaTeX$ math code.
---&gt;
-</description>
+      <description></description>
     </item>
     
   </channel>

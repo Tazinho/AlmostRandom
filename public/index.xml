@@ -10,5 +10,213 @@
     <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0200</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>rusershamburg</title>
+      <link>http://malte-grosser.com/project/rusershamburg/</link>
+      <pubDate>Mon, 12 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://malte-grosser.com/project/rusershamburg/</guid>
+      <description>&lt;!--
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+
+Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.
+
+Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.
+
+Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.
+
+Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.
+--&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Introducing the snakecase package</title>
+      <link>http://malte-grosser.com/post/introducing-the-snakecase-package/</link>
+      <pubDate>Tue, 06 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://malte-grosser.com/post/introducing-the-snakecase-package/</guid>
+      <description>
+
+
+&lt;p&gt;There are many style guides out there which recommend specific naming conventions for programming languages. At 2017’s useR conference Rasmus Bååth showed quite impressively the variety of cases which even exist within base R in his talk &lt;a href=&#34;https://www.youtube.com/watch?v=Pv5dfsHBBKE&#34;&gt;“The current state of naming conventions in R”&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;However, consistent style is not only about naming new objects.&lt;/p&gt;
+&lt;div id=&#34;import&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Import&lt;/h2&gt;
+&lt;p&gt;When you do a data analysis, most of the data already exists and you import it from disk, an API or a database. Here is the first moment in your data analysis when you have to decide if you want to rename your data or leave it as it is.&lt;/p&gt;
+&lt;p&gt;Let’s say you have some data named in any of the following conventions&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;string &amp;lt;- c(&amp;quot;lowerCamelCase&amp;quot;, &amp;quot;ALL_CAPS&amp;quot;, &amp;quot;IDontKNOWWhat_thisCASE_is&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You can now easily convert this string for example to snake case via&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(snakecase)
+to_snake_case(string)
+#&amp;gt; [1] &amp;quot;lower_camel_case&amp;quot;              &amp;quot;all_caps&amp;quot;                     
+#&amp;gt; [3] &amp;quot;i_dont_know_what_this_case_is&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;graphics&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Graphics&lt;/h2&gt;
+&lt;p&gt;Whenever you want to construct a graphic and you don’t like your conventions to come up in it, you can easily convert strings to a more humanly readable output like&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;to_mixed_case(string, sep_out = &amp;quot; &amp;quot;)
+#&amp;gt; [1] &amp;quot;lower Camel Case&amp;quot;              &amp;quot;All Caps&amp;quot;                     
+#&amp;gt; [3] &amp;quot;I Dont Know What this Case is&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You might have noticed the &lt;code&gt;sep_out&lt;/code&gt; argument. This allows you to combine any case with any output separator to create other well known cases like&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;to_snake_case(string, sep_out = &amp;quot;.&amp;quot;)
+#&amp;gt; [1] &amp;quot;lower.camel.case&amp;quot;              &amp;quot;all.caps&amp;quot;                     
+#&amp;gt; [3] &amp;quot;i.dont.know.what.this.case.is&amp;quot;
+to_snake_case(string, sep_out = &amp;quot;-&amp;quot;)
+#&amp;gt; [1] &amp;quot;lower-camel-case&amp;quot;              &amp;quot;all-caps&amp;quot;                     
+#&amp;gt; [3] &amp;quot;i-dont-know-what-this-case-is&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;or completely new ones like&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;to_screaming_snake_case(string, sep_out = &amp;quot;=&amp;quot;)
+#&amp;gt; [1] &amp;quot;LOWER=CAMEL=CASE&amp;quot;              &amp;quot;ALL=CAPS&amp;quot;                     
+#&amp;gt; [3] &amp;quot;I=DONT=KNOW=WHAT=THIS=CASE=IS&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;export&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Export&lt;/h2&gt;
+&lt;p&gt;Finally, when you are done with your analysis and want to write data back into a .CSV file or your customers database, which has a camel case convention, you can just use&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;to_upper_camel_case(string)
+#&amp;gt; [1] &amp;quot;LowerCamelCase&amp;quot;          &amp;quot;AllCaps&amp;quot;                
+#&amp;gt; [3] &amp;quot;IDontKnowWhatThisCaseIs&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;further-information&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Further information&lt;/h2&gt;
+&lt;p&gt;The snakecase package goes quite deep into the little quirks which arise in automatic case conversion. However, it is well tweaked, to handle almost every edge case in an intuitive and elegant manner.&lt;/p&gt;
+&lt;p&gt;To get a complete overview of its functionality like other cases, handling of abbreviations, special input characters, different parsing options, transliterations and more, I recommend you to have a look into the quite extensive &lt;a href=&#34;https://github.com/Tazinho/snakecase&#34;&gt;readme on its github repository&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;As the package is relatively small and basically consists of its workhorse function &lt;code&gt;to_any_case()&lt;/code&gt;, I can also react quite fast on new &lt;a href=&#34;https://github.com/Tazinho/snakecase/issues&#34;&gt;issues&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;And of course I &lt;a href=&#34;https://twitter.com/Tazmaaan&#34;&gt;tweet&lt;/a&gt; occasionally about new functionality.&lt;/p&gt;
+&lt;p&gt;To round this up let me give you one advice about best practices: be aware that automatic case conversion depends on the input string and it is recommended to verify the results. Hence you might want to pipe them into &lt;code&gt;dput()&lt;/code&gt; and hard-code name changes instead of blindly trusting the output&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(magrittr)
+to_any_case(c(&amp;quot;SomeBAdInput&amp;quot;, &amp;quot;someGoodInput&amp;quot;)) %&amp;gt;% dput()
+#&amp;gt; c(&amp;quot;some_b_ad_input&amp;quot;, &amp;quot;some_good_input&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Happy snakecasing everyone ;)&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Improved localized prediction of tissue outcome in acute ischemic stroke patients</title>
+      <link>http://malte-grosser.com/ignore/dgnr-2017/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0100</pubDate>
+      
+      <guid>http://malte-grosser.com/ignore/dgnr-2017/</guid>
+      <description>&lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
+
+&lt;!--
+Embed your slides or video here using [shortcodes](https://sourcethemes.com/academic/post/writing-markdown-latex/). Further details can easily be added using *Markdown* and $\rm \LaTeX$ math code.
+--&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Advanced R Solutions</title>
+      <link>http://malte-grosser.com/project/advanced-r-solutions/</link>
+      <pubDate>Sun, 12 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://malte-grosser.com/project/advanced-r-solutions/</guid>
+      <description>&lt;!--
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+
+Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.
+
+Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.
+
+Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.
+
+Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.
+--&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>snakecase-pkg</title>
+      <link>http://malte-grosser.com/project/snakecase-pkg/</link>
+      <pubDate>Sun, 12 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://malte-grosser.com/project/snakecase-pkg/</guid>
+      <description>&lt;!--
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+
+Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.
+
+Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.
+
+Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.
+
+Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.
+--&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CT-perfusion stroke imaging: a threshold free probabilistic approach to predict infarct volume compared to traditional ischemic thresholds</title>
+      <link>http://malte-grosser.com/publication/flottmann-prdict-infarct-volume/</link>
+      <pubDate>Thu, 27 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://malte-grosser.com/publication/flottmann-prdict-infarct-volume/</guid>
+      <description>&lt;!--
+#More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code.
+--&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Edema is not a reliable diagnostic sign to exclude small brain metastases</title>
+      <link>http://malte-grosser.com/publication/schneider-edema-diagnostic-sign/</link>
+      <pubDate>Thu, 11 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://malte-grosser.com/publication/schneider-edema-diagnostic-sign/</guid>
+      <description>&lt;!--
+#More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code.
+--&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Advanced R Solutions</title>
+      <link>http://malte-grosser.com/talk/advanced-r-solutions/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
+      
+      <guid>http://malte-grosser.com/talk/advanced-r-solutions/</guid>
+      <description>&lt;!---
+Embed your slides or video here using [shortcodes](https://sourcethemes.com/academic/post/writing-markdown-latex/). Further details can easily be added using *Markdown* and $\rm \LaTeX$ math code.
+--&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Interactive spatial clusters</title>
+      <link>http://malte-grosser.com/talk/interactive-spatial-clusters/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
+      
+      <guid>http://malte-grosser.com/talk/interactive-spatial-clusters/</guid>
+      <description>&lt;!--
+Embed your slides or video here using [shortcodes](https://sourcethemes.com/academic/post/writing-markdown-latex/). Further details can easily be added using *Markdown* and $\rm \LaTeX$ math code.
+--&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>snakecase-pkg</title>
+      <link>http://malte-grosser.com/talk/snakecase-pkg/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
+      
+      <guid>http://malte-grosser.com/talk/snakecase-pkg/</guid>
+      <description>&lt;!--
+Embed your slides or video here using [shortcodes](https://sourcethemes.com/academic/post/writing-markdown-latex/). Further details can easily be added using *Markdown* and $\rm \LaTeX$ math code.
+--&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Heterogeneity of Multiple Sclerosis Lesions in Multislice Myelin Water Imaging</title>
+      <link>http://malte-grosser.com/publication/faizy-ms-lesion-heterogeneity-myelin-water-imaging/</link>
+      <pubDate>Fri, 18 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://malte-grosser.com/publication/faizy-ms-lesion-heterogeneity-myelin-water-imaging/</guid>
+      <description>&lt;!--
+#More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code.
+--&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

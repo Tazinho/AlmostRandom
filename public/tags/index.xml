@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Almost Random</title>
+    <link>http://malte-grosser.com/tags/</link>
+    <description>Recent content in Tags on Almost Random</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017-2018 Malte Grosser</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://malte-grosser.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Content tagged as &#39;Academic&#39;</title>
+      <link>http://malte-grosser.com/tags/academic/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://malte-grosser.com/tags/academic/</guid>
+      <description>Here is a list of all the content that has been tagged as academic.</description>
+    </item>
+    
+    <item>
+      <title>Advanced R</title>
+      <link>http://malte-grosser.com/tags/advanced-r/</link>
+      <pubDate>Sun, 12 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://malte-grosser.com/tags/advanced-r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>http://malte-grosser.com/tags/r/</link>
+      <pubDate>Sun, 12 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://malte-grosser.com/tags/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bookdown</title>
+      <link>http://malte-grosser.com/tags/bookdown/</link>
+      <pubDate>Sun, 12 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://malte-grosser.com/tags/bookdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>community</title>
+      <link>http://malte-grosser.com/tags/community/</link>
+      <pubDate>Mon, 12 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://malte-grosser.com/tags/community/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hamburg</title>
+      <link>http://malte-grosser.com/tags/hamburg/</link>
+      <pubDate>Mon, 12 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://malte-grosser.com/tags/hamburg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>meetup</title>
+      <link>http://malte-grosser.com/tags/meetup/</link>
+      <pubDate>Mon, 12 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://malte-grosser.com/tags/meetup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>r</title>
+      <link>http://malte-grosser.com/tags/r/</link>
+      <pubDate>Mon, 12 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://malte-grosser.com/tags/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>r-package</title>
+      <link>http://malte-grosser.com/tags/r-package/</link>
+      <pubDate>Sun, 12 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://malte-grosser.com/tags/r-package/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>snakecase</title>
+      <link>http://malte-grosser.com/tags/snakecase/</link>
+      <pubDate>Sun, 12 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://malte-grosser.com/tags/snakecase/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

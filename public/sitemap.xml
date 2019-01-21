@@ -170,37 +170,7 @@
     
     <url>
     
-      <loc>http://malte-grosser.com/tags/bookdown/</loc>
-      <lastmod>2017-11-12T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>http://malte-grosser.com/categories/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://malte-grosser.com/tags/community/</loc>
-      <lastmod>2018-03-12T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://malte-grosser.com/tags/hamburg/</loc>
-      <lastmod>2018-03-12T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -211,16 +181,6 @@
     
       <loc>http://malte-grosser.com/ignore/</loc>
       <lastmod>2018-01-01T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://malte-grosser.com/tags/meetup/</loc>
-      <lastmod>2018-03-12T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -241,16 +201,6 @@
     
       <loc>http://malte-grosser.com/publication_types/</loc>
       <lastmod>2017-07-27T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://malte-grosser.com/tags/r/</loc>
-      <lastmod>2018-03-12T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -289,6 +239,66 @@
     
     <url>
     
+      <loc>http://malte-grosser.com/tags/</loc>
+      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://malte-grosser.com/tags/bookdown/</loc>
+      <lastmod>2017-11-12T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://malte-grosser.com/tags/community/</loc>
+      <lastmod>2018-03-12T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://malte-grosser.com/tags/hamburg/</loc>
+      <lastmod>2018-03-12T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://malte-grosser.com/tags/meetup/</loc>
+      <lastmod>2018-03-12T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://malte-grosser.com/tags/r/</loc>
+      <lastmod>2018-03-12T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://malte-grosser.com/tags/r-package/</loc>
       <lastmod>2017-11-12T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -301,16 +311,6 @@
     
       <loc>http://malte-grosser.com/tags/snakecase/</loc>
       <lastmod>2017-11-12T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://malte-grosser.com/tags/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
