@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ignores on Almost Random</title>
-    <link>http://malte-grosser.com/ignore/</link>
+    <link>/ignore/</link>
     <description>Recent content in Ignores on Almost Random</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017-2018 Malte Grosser</copyright>
     <lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0100</lastBuildDate>
     
-	<atom:link href="http://malte-grosser.com/ignore/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/ignore/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Improved localized prediction of tissue outcome in acute ischemic stroke patients</title>
-      <link>http://malte-grosser.com/ignore/dgnr-2017/</link>
+      <link>/ignore/dgnr-2017/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0100</pubDate>
       
-      <guid>http://malte-grosser.com/ignore/dgnr-2017/</guid>
+      <guid>/ignore/dgnr-2017/</guid>
       <description>&amp;ndash;&amp;gt;</description>
     </item>
     

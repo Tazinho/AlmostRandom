@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Almost Random</title>
-    <link>http://malte-grosser.com/project/</link>
+    <link>/project/</link>
     <description>Recent content in Projects on Almost Random</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017-2018 Malte Grosser</copyright>
     <lastBuildDate>Mon, 12 Mar 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://malte-grosser.com/project/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>rusershamburg</title>
-      <link>http://malte-grosser.com/project/rusershamburg/</link>
+      <link>/project/rusershamburg/</link>
       <pubDate>Mon, 12 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://malte-grosser.com/project/rusershamburg/</guid>
+      <guid>/project/rusershamburg/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Advanced R Solutions</title>
-      <link>http://malte-grosser.com/project/advanced-r-solutions/</link>
+      <link>/project/advanced-r-solutions/</link>
       <pubDate>Sun, 12 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://malte-grosser.com/project/advanced-r-solutions/</guid>
+      <guid>/project/advanced-r-solutions/</guid>
       <description></description>
     </item>
     
     <item>
       <title>snakecase-pkg</title>
-      <link>http://malte-grosser.com/project/snakecase-pkg/</link>
+      <link>/project/snakecase-pkg/</link>
       <pubDate>Sun, 12 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://malte-grosser.com/project/snakecase-pkg/</guid>
+      <guid>/project/snakecase-pkg/</guid>
       <description></description>
     </item>
     

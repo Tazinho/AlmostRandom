@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Almost Random on Almost Random</title>
-    <link>http://malte-grosser.com/</link>
+    <link>/</link>
     <description>Recent content in Almost Random on Almost Random</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,10 +12,10 @@
     
     <item>
       <title>rusershamburg</title>
-      <link>http://malte-grosser.com/project/rusershamburg/</link>
+      <link>/project/rusershamburg/</link>
       <pubDate>Mon, 12 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://malte-grosser.com/project/rusershamburg/</guid>
+      <guid>/project/rusershamburg/</guid>
       <description>&lt;!--
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
 
@@ -32,10 +32,10 @@ Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoq
     
     <item>
       <title>Introducing the snakecase package</title>
-      <link>http://malte-grosser.com/post/introducing-the-snakecase-package/</link>
+      <link>/post/introducing-the-snakecase-package/</link>
       <pubDate>Tue, 06 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://malte-grosser.com/post/introducing-the-snakecase-package/</guid>
+      <guid>/post/introducing-the-snakecase-package/</guid>
       <description>
 
 
@@ -94,10 +94,10 @@ to_any_case(c(&amp;quot;SomeBAdInput&amp;quot;, &amp;quot;someGoodInput&amp;quot
     
     <item>
       <title>Improved localized prediction of tissue outcome in acute ischemic stroke patients</title>
-      <link>http://malte-grosser.com/ignore/dgnr-2017/</link>
+      <link>/ignore/dgnr-2017/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0100</pubDate>
       
-      <guid>http://malte-grosser.com/ignore/dgnr-2017/</guid>
+      <guid>/ignore/dgnr-2017/</guid>
       <description>&lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
 
 &lt;!--
@@ -108,10 +108,10 @@ Embed your slides or video here using [shortcodes](https://sourcethemes.com/acad
     
     <item>
       <title>Advanced R Solutions</title>
-      <link>http://malte-grosser.com/project/advanced-r-solutions/</link>
+      <link>/project/advanced-r-solutions/</link>
       <pubDate>Sun, 12 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://malte-grosser.com/project/advanced-r-solutions/</guid>
+      <guid>/project/advanced-r-solutions/</guid>
       <description>&lt;!--
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
 
@@ -128,10 +128,10 @@ Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoq
     
     <item>
       <title>snakecase-pkg</title>
-      <link>http://malte-grosser.com/project/snakecase-pkg/</link>
+      <link>/project/snakecase-pkg/</link>
       <pubDate>Sun, 12 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://malte-grosser.com/project/snakecase-pkg/</guid>
+      <guid>/project/snakecase-pkg/</guid>
       <description>&lt;!--
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
 
@@ -148,10 +148,10 @@ Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoq
     
     <item>
       <title>CT-perfusion stroke imaging: a threshold free probabilistic approach to predict infarct volume compared to traditional ischemic thresholds</title>
-      <link>http://malte-grosser.com/publication/flottmann-prdict-infarct-volume/</link>
+      <link>/publication/flottmann-prdict-infarct-volume/</link>
       <pubDate>Thu, 27 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://malte-grosser.com/publication/flottmann-prdict-infarct-volume/</guid>
+      <guid>/publication/flottmann-prdict-infarct-volume/</guid>
       <description>&lt;!--
 #More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code.
 --&gt;
@@ -160,10 +160,10 @@ Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoq
     
     <item>
       <title>Edema is not a reliable diagnostic sign to exclude small brain metastases</title>
-      <link>http://malte-grosser.com/publication/schneider-edema-diagnostic-sign/</link>
+      <link>/publication/schneider-edema-diagnostic-sign/</link>
       <pubDate>Thu, 11 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://malte-grosser.com/publication/schneider-edema-diagnostic-sign/</guid>
+      <guid>/publication/schneider-edema-diagnostic-sign/</guid>
       <description>&lt;!--
 #More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code.
 --&gt;
@@ -172,10 +172,10 @@ Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoq
     
     <item>
       <title>Advanced R Solutions</title>
-      <link>http://malte-grosser.com/talk/advanced-r-solutions/</link>
+      <link>/talk/advanced-r-solutions/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
       
-      <guid>http://malte-grosser.com/talk/advanced-r-solutions/</guid>
+      <guid>/talk/advanced-r-solutions/</guid>
       <description>&lt;!---
 Embed your slides or video here using [shortcodes](https://sourcethemes.com/academic/post/writing-markdown-latex/). Further details can easily be added using *Markdown* and $\rm \LaTeX$ math code.
 --&gt;
@@ -184,10 +184,10 @@ Embed your slides or video here using [shortcodes](https://sourcethemes.com/acad
     
     <item>
       <title>Interactive spatial clusters</title>
-      <link>http://malte-grosser.com/talk/interactive-spatial-clusters/</link>
+      <link>/talk/interactive-spatial-clusters/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
       
-      <guid>http://malte-grosser.com/talk/interactive-spatial-clusters/</guid>
+      <guid>/talk/interactive-spatial-clusters/</guid>
       <description>&lt;!--
 Embed your slides or video here using [shortcodes](https://sourcethemes.com/academic/post/writing-markdown-latex/). Further details can easily be added using *Markdown* and $\rm \LaTeX$ math code.
 --&gt;
@@ -196,10 +196,10 @@ Embed your slides or video here using [shortcodes](https://sourcethemes.com/acad
     
     <item>
       <title>snakecase-pkg</title>
-      <link>http://malte-grosser.com/talk/snakecase-pkg/</link>
+      <link>/talk/snakecase-pkg/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
       
-      <guid>http://malte-grosser.com/talk/snakecase-pkg/</guid>
+      <guid>/talk/snakecase-pkg/</guid>
       <description>&lt;!--
 Embed your slides or video here using [shortcodes](https://sourcethemes.com/academic/post/writing-markdown-latex/). Further details can easily be added using *Markdown* and $\rm \LaTeX$ math code.
 --&gt;
@@ -208,10 +208,10 @@ Embed your slides or video here using [shortcodes](https://sourcethemes.com/acad
     
     <item>
       <title>Heterogeneity of Multiple Sclerosis Lesions in Multislice Myelin Water Imaging</title>
-      <link>http://malte-grosser.com/publication/faizy-ms-lesion-heterogeneity-myelin-water-imaging/</link>
+      <link>/publication/faizy-ms-lesion-heterogeneity-myelin-water-imaging/</link>
       <pubDate>Fri, 18 Mar 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://malte-grosser.com/publication/faizy-ms-lesion-heterogeneity-myelin-water-imaging/</guid>
+      <guid>/publication/faizy-ms-lesion-heterogeneity-myelin-water-imaging/</guid>
       <description>&lt;!--
 #More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code.
 --&gt;

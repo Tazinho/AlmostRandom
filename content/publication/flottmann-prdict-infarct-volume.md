@@ -17,7 +17,7 @@ authors = ["Flottmann F", "Brooks G", "Faizy TD", "Ernst M", "Forkert ND", "Gros
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "Nature"
+publication = "Scientific Reports"
 publication_short = ""
 
 # Abstract and optional shortened version.
