@@ -36,8 +36,8 @@ weight = 5
 
 # Biography
 
-I am a business consultant at [Hitachi Solutions](https://www.hitachi-solutions.de/), where I am mainly responsible for data science applications and predictive analytics.
+I am a business consultant at [Hitachi Solutions](https://www.hitachi-solutions.de/) where I am mainly responsible for data science applications and predictive analytics.
 
-Additionally, I am a PhD candidate in the neuroradiology of the [UKE](https://www.uke.de/). My research interests include the application of machine learning and pattern recognition in neurosciences where I specialize on the prediction of tissue outcome of patients suffering from an ischemic stroke.
+Besides my work for Hitachi, I am a PhD candidate in the neuroradiology of the [UKE](https://www.uke.de/) where my focus is on new approaches to predict the tissue outcome of patients suffering from an ischemic stroke.
 
-Regarding the overlap of both positions, I am focussing on higher programming languages, big data technologies and analytical toolchains, leading me -- almost randomly -- into all kind of different use cases and side projects.
+Due to the similarities between both activities, I am focussing on higher programming languages, big data technologies and analytic tool chains, which leads me - almost by chance - into all sorts of different use cases and side projects.
