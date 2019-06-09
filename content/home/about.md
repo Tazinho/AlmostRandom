@@ -40,4 +40,4 @@ I am a business consultant at [Hitachi Solutions](https://www.hitachi-solutions.
 
 Besides my work for Hitachi, I am a PhD candidate in the neuroradiology of the [UKE](https://www.uke.de/) where my focus is on new approaches to predict the tissue outcome of patients suffering from an ischemic stroke.
 
-Due to the similarities between both activities, I am focussing on higher programming languages, big data technologies and analytic tool chains, which leads me - almost by chance - into all sorts of different use cases and side projects.
+Due to the similarities between both roles, I am focussing on higher programming languages, big data technologies and analytic tool chains, which leads me - almost by chance - into all sorts of different use cases and side projects.
