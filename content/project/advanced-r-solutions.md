@@ -9,7 +9,7 @@ title = "Advanced R Solutions"
 summary = "A set of solutions for the Advanced R programming book."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "advrs_cover4.png"
+image_preview = "advrs_cover_5.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
