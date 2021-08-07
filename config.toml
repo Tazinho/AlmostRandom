@@ -42,7 +42,7 @@ defaultContentLanguageInSubdir = false
 
   # Your details.
   name = "Malte Grosser"
-  role = "Business Consultant"
+  role = "Chief Data Scientist"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
