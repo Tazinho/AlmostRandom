@@ -24,6 +24,6 @@ weight = 3
 #  label = '<i class="fa fa-download"></i> Install Now'
 +++
 
-Welcome to my website and blog about data science.
+Hi, thanks for visiting my little page about my current Data Science projects.
 
 <div style="margin-bottom: 12em; overflow: auto; height:12px;"></div> 

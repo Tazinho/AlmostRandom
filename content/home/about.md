@@ -34,10 +34,8 @@ weight = 5
  
 +++
 
-# Biography
+I am currently working as Chief Data Scientist at  [Cronbach](https://www.cronbach.co/), where I am mainly responsible for the technological and analytical processes of the company.
 
-I am a business consultant at [Hitachi Solutions](https://www.hitachi-solutions.de/) where I am mainly responsible for data science applications and predictive analytics.
+Besides this job, I am about to finish my PhD thesis at the [UKE](https://www.uke.de/) about tissue outcome prediction of acute ischemic stroke patients.
 
-Besides my work for Hitachi, I am a PhD candidate in the neuroradiology of the [UKE](https://www.uke.de/) where my focus is on new approaches to predict the tissue outcome of patients suffering from an ischemic stroke.
-
-Due to the similarities between both roles, I am focussing on higher programming languages, big data technologies and analytic tool chains, which leads me - almost by chance - into all sorts of different use cases and side projects.
+In the past, I have worked a lot in parallel in business and research. Due to the overlap and the often similar technical requirements of the projects I developed a general interest in higher level programming languages for dealing with data. Through this I met a lot of cool people and and interesting people and collected ideas for small side projects every now and then. Some of them can be found on this site.
