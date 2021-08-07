@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>community on Almost Random</title>
-    <link>/tags/community/</link>
+    <link>http://malte-grosser.com/tags/community/</link>
     <description>Recent content in community on Almost Random</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017-2018 Malte Grosser</copyright>
+    <copyright>&amp;copy; 2017-2021 Malte Grosser</copyright>
     <lastBuildDate>Mon, 12 Mar 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/community/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://malte-grosser.com/tags/community/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>rusershamburg</title>
-      <link>/project/rusershamburg/</link>
+      <link>http://malte-grosser.com/project/rusershamburg/</link>
       <pubDate>Mon, 12 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/project/rusershamburg/</guid>
+      <guid>http://malte-grosser.com/project/rusershamburg/</guid>
       <description></description>
     </item>
     

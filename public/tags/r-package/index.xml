@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>r-package on Almost Random</title>
-    <link>/tags/r-package/</link>
+    <link>http://malte-grosser.com/tags/r-package/</link>
     <description>Recent content in r-package on Almost Random</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017-2018 Malte Grosser</copyright>
+    <copyright>&amp;copy; 2017-2021 Malte Grosser</copyright>
     <lastBuildDate>Sun, 12 Nov 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/r-package/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://malte-grosser.com/tags/r-package/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>snakecase-pkg</title>
-      <link>/project/snakecase-pkg/</link>
+      <link>http://malte-grosser.com/project/snakecase-pkg/</link>
       <pubDate>Sun, 12 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>/project/snakecase-pkg/</guid>
+      <guid>http://malte-grosser.com/project/snakecase-pkg/</guid>
       <description></description>
     </item>
     

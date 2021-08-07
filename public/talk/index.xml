@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recent &amp; Upcoming Talks on Almost Random</title>
-    <link>/talk/</link>
+    <link>http://malte-grosser.com/talk/</link>
     <description>Recent content in Recent &amp; Upcoming Talks on Almost Random</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017-2018 Malte Grosser</copyright>
+    <copyright>&amp;copy; 2017-2021 Malte Grosser</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://malte-grosser.com/talk/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Advanced R Solutions</title>
-      <link>/talk/advanced-r-solutions/</link>
+      <link>http://malte-grosser.com/talk/advanced-r-solutions/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
       
-      <guid>/talk/advanced-r-solutions/</guid>
+      <guid>http://malte-grosser.com/talk/advanced-r-solutions/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Interactive spatial clusters</title>
-      <link>/talk/interactive-spatial-clusters/</link>
+      <link>http://malte-grosser.com/talk/interactive-spatial-clusters/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
       
-      <guid>/talk/interactive-spatial-clusters/</guid>
+      <guid>http://malte-grosser.com/talk/interactive-spatial-clusters/</guid>
       <description></description>
     </item>
     
     <item>
       <title>snakecase-pkg</title>
-      <link>/talk/snakecase-pkg/</link>
+      <link>http://malte-grosser.com/talk/snakecase-pkg/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
       
-      <guid>/talk/snakecase-pkg/</guid>
+      <guid>http://malte-grosser.com/talk/snakecase-pkg/</guid>
       <description></description>
     </item>
     

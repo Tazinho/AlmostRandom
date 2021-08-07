@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homes on Almost Random</title>
-    <link>/home/</link>
+    <link>http://malte-grosser.com/home/</link>
     <description>Recent content in Homes on Almost Random</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017-2018 Malte Grosser</copyright>
+    <copyright>&amp;copy; 2017-2021 Malte Grosser</copyright>
     <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0200</lastBuildDate>
     
-	<atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://malte-grosser.com/home/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>/home/hero/</link>
+      <link>http://malte-grosser.com/home/hero/</link>
       <pubDate>Sun, 15 Oct 2017 00:00:00 +0200</pubDate>
       
-      <guid>/home/hero/</guid>
+      <guid>http://malte-grosser.com/home/hero/</guid>
       <description>Welcome to my website and blog about data science.
  </description>
     </item>
     
     <item>
       <title></title>
-      <link>/home/about/</link>
+      <link>http://malte-grosser.com/home/about/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/home/about/</guid>
+      <guid>http://malte-grosser.com/home/about/</guid>
       <description>Biography I am a business consultant at Hitachi Solutions where I am mainly responsible for data science applications and predictive analytics.
 Besides my work for Hitachi, I am a PhD candidate in the neuroradiology of the UKE where my focus is on new approaches to predict the tissue outcome of patients suffering from an ischemic stroke.
 Due to the similarities between both roles, I am focussing on higher programming languages, big data technologies and analytic tool chains, which leads me - almost by chance - into all sorts of different use cases and side projects.</description>
@@ -35,55 +35,55 @@ Due to the similarities between both roles, I am focussing on higher programming
     
     <item>
       <title>Recent Posts</title>
-      <link>/home/posts/</link>
+      <link>http://malte-grosser.com/home/posts/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/home/posts/</guid>
+      <guid>http://malte-grosser.com/home/posts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Talks</title>
-      <link>/home/talks/</link>
+      <link>http://malte-grosser.com/home/talks/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/home/talks/</guid>
+      <guid>http://malte-grosser.com/home/talks/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>/home/projects/</link>
+      <link>http://malte-grosser.com/home/projects/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/home/projects/</guid>
+      <guid>http://malte-grosser.com/home/projects/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Selected Publications</title>
-      <link>/home/publications_selected/</link>
+      <link>http://malte-grosser.com/home/publications_selected/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
       
-      <guid>/home/publications_selected/</guid>
+      <guid>http://malte-grosser.com/home/publications_selected/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Publications</title>
-      <link>/home/publications/</link>
+      <link>http://malte-grosser.com/home/publications/</link>
       <pubDate>Mon, 13 Nov 2017 00:00:00 +0100</pubDate>
       
-      <guid>/home/publications/</guid>
+      <guid>http://malte-grosser.com/home/publications/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Teaching</title>
-      <link>/home/teaching/</link>
+      <link>http://malte-grosser.com/home/teaching/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/home/teaching/</guid>
+      <guid>http://malte-grosser.com/home/teaching/</guid>
       <description>This is an example of using the custom widget to create your own homepage section.
 I am a teaching instructor for the following courses at University X:
  CS101: An intro to computer science CS102: An intro to computer science CS103: An intro to computer science CS104: An intro to computer science CS105: An intro to computer science CS106: An intro to computer science CS107: An intro to computer science  </description>
@@ -91,19 +91,19 @@ I am a teaching instructor for the following courses at University X:
     
     <item>
       <title>Tags</title>
-      <link>/home/tags/</link>
+      <link>http://malte-grosser.com/home/tags/</link>
       <pubDate>Wed, 20 Sep 2017 00:00:00 +0200</pubDate>
       
-      <guid>/home/tags/</guid>
+      <guid>http://malte-grosser.com/home/tags/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>/home/contact/</link>
+      <link>http://malte-grosser.com/home/contact/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/home/contact/</guid>
+      <guid>http://malte-grosser.com/home/contact/</guid>
       <description></description>
     </item>
     
