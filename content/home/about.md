@@ -34,7 +34,9 @@ weight = 5
  
 +++
 
-I am currently working as Chief Data Scientist at  [Cronbach](https://www.cronbach.co/), where I am mainly responsible for the technological and analytical processes of the company. In addition to our contextual and psychographic targeting solution (see [here](https://www.mediaplus.com/de/news/ne-r-o-ai.html) for more info), I like to develop small tools to support our customers and consultants in the form of R-Packages or Shiny Apps. Preferably with components of machine learning as well.
+Hi, thank you for visiting my little page about my Data Science projects.
+
+I am working as Chief Data Scientist at  [Cronbach](https://www.cronbach.co/), where I am mainly responsible for the technological and analytical processes of the company. In addition to our contextual and psychographic targeting solution (see [here](https://www.mediaplus.com/de/news/ne-r-o-ai.html) for more info), I like to develop small tools to support our customers and consultants in the form of R-Packages or Shiny Apps. Preferably with components of machine learning as well.
 
 Besides this job, I am about to finish my PhD thesis at the [UKE](https://www.uke.de/) about tissue outcome prediction of acute ischemic stroke patients.
 

@@ -13,7 +13,7 @@ weight = 3
 #   Deactivate an option by commenting out the line, prefixing it with `#`.
 [header]
   overlay_color = "#666"  # An HTML color value.
-  overlay_img = "katze_unsplash_2.jpg"  # Image path relative to your `static/img/` folder.
+  overlay_img = "code_1.jpg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.5  # Darken the image. Value in range 0-1.
 
 # Call to action button (optional).
@@ -23,7 +23,5 @@ weight = 3
 #  url = "./post/getting-started/"
 #  label = '<i class="fa fa-download"></i> Install Now'
 +++
-
-Hi, thanks for visiting my little page about my current Data Science projects.
 
 <div style="margin-bottom: 12em; overflow: auto; height:12px;"></div> 
