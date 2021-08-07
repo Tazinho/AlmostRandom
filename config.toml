@@ -49,7 +49,7 @@ defaultContentLanguageInSubdir = false
   organizations = [ { name = "Cronbach GmbH – Data Driven Relevance", url = "https://www.cronbach.co/" }]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "MGO_small.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  avatar = "code_2.JPG"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "malte.grosser@gmail.com"
 #  address = "Building 1 Room 1, Stanford University, California, 90210, USA"
 #  office_hours = "Monday 10:00 to 13:00 or email for appointment"
