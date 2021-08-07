@@ -38,4 +38,4 @@ I am currently working as Chief Data Scientist at  [Cronbach](https://www.cronba
 
 Besides this job, I am about to finish my PhD thesis at the [UKE](https://www.uke.de/) about tissue outcome prediction of acute ischemic stroke patients.
 
-In the past, I have worked a lot in parallel in business and research. Due to the overlap and the often similar technical requirements of the projects I developed a general interest in higher level programming languages for dealing with data. Through this I met a lot of cool people and and interesting people and collected ideas for small side projects every now and then. Some of them can be found on this site.
+In the past, I have worked a lot in parallel in business and research. Due to the overlap and the often similar technical requirements of the projects I developed a general interest in higher level programming languages for dealing with data. Through this I met a lot of cool people and collected ideas for small side projects every now and then. Some of them can be found on this site.
