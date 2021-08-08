@@ -11,6 +11,18 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Improved multi-parametric prediction of tissue outcome in acute ischemic stroke patients using spatial features</title>
+      <link>http://malte-grosser.com/publication/grosser-spatial-features/</link>
+      <pubDate>Fri, 24 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://malte-grosser.com/publication/grosser-spatial-features/</guid>
+      <description>&lt;p&gt;&amp;lt;!&amp;ndash;
+#More detail can easily be written here using *Markdown* and \$\rm \LaTeX\$ math code.
+&amp;ndash;&amp;gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>rusershamburg</title>
       <link>http://malte-grosser.com/project/rusershamburg/</link>
       <pubDate>Mon, 12 Mar 2018 00:00:00 +0000</pubDate>
@@ -134,10 +146,10 @@ Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoq
     
     <item>
       <title>CT-perfusion stroke imaging: a threshold free probabilistic approach to predict infarct volume compared to traditional ischemic thresholds</title>
-      <link>http://malte-grosser.com/publication/flottmann-prdict-infarct-volume/</link>
+      <link>http://malte-grosser.com/publication/flottmann-predict-infarct-volume/</link>
       <pubDate>Thu, 27 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://malte-grosser.com/publication/flottmann-prdict-infarct-volume/</guid>
+      <guid>http://malte-grosser.com/publication/flottmann-predict-infarct-volume/</guid>
       <description>&lt;!--
 #More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code.
 --&gt;
