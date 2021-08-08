@@ -34,6 +34,6 @@ weight = 5
  
 +++
 
-Hi, welcome to this page about my personal Data Science projects.
+Hi, welcome to my page about my personal Data Science projects.
 
-In the past, I did a lot of parallel work in industry and research. (Currently I am working as a Chief Data Scientist and a PhD candidate.) Due to the overlaps and the often similar technical requirements of these roles, I developed a general interest in higher level programming languages for dealing with data. Through this I met a lot of cool people, and every now and then we realized one or the other idea for a side project together. Some of the results can be found here on this page.
+In the past, I worked a lot in parallel in industry and research. This often involved gaining insights from smaller and larger data sets. So I spent a lot of time working on higher level programming languages and dealing with data. I also met a lot of cool people who were working on similar topics, and every now and then a neat idea for a side project came up. Some of these we have been able to realize and the results can be found here on this page.
