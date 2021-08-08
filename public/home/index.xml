@@ -41,20 +41,20 @@ In the past, I worked a lot in parallel in industry and research. This often inv
     </item>
     
     <item>
-      <title>Recent Posts</title>
-      <link>http://malte-grosser.com/home/posts/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://malte-grosser.com/home/posts/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Talks</title>
       <link>http://malte-grosser.com/home/talks/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>http://malte-grosser.com/home/talks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent Posts</title>
+      <link>http://malte-grosser.com/home/posts/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://malte-grosser.com/home/posts/</guid>
       <description></description>
     </item>
     
