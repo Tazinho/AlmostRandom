@@ -11,9 +11,8 @@ weight = 5
 [interests]
   interests = [
     "Machine learning",
-    "R programming",
-    "Neuroscience",
-    "Bullshit bingo ;-)"
+    "Programming",
+    "Neuroscience"
   ]
 
 # List your qualifications (such as academic degrees).
