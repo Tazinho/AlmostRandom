@@ -21,7 +21,7 @@ projects = ["snakecase-pkg"]
 # Links (optional).
 url_pdf = ""
 url_slides = "https://github.com/rusershamburg/meetup-9/blob/master/20170516_snakecase_pkg.pdf"
-url_video = "https://www.youtube.com/watch?v=T6p0l8XzP64"
+url_video = ""
 url_code = ""
 
 # Does the content use math formatting?
