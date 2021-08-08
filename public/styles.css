@@ -100,14 +100,14 @@ h4, h5, h6 {
 
 a,
 h3.article-title a:hover {
-  color: #888888;
+  color: #4D4D4D;
   text-decoration: none;
   transition: color 0.6s ease;
 }
 
 a:hover,
 a:focus {
-  color: #888888;
+  color: #4D4D4D;
 }
 
 img,
@@ -525,7 +525,7 @@ article {
 }
 
 .article-metadata a:hover {
-  color: #888888;
+  color: #4D4D4D;
 }
 
 .article-list-item {
@@ -853,8 +853,8 @@ footer a#back_to_top i {
  **************************************************/
 
 .btn-primary {
-  border-color: #888888 !important;
-  background: #888888 !important;
+  border-color: #4D4D4D !important;
+  background: #4D4D4D !important;
 }
 
 .btn-primary:hover,
@@ -862,7 +862,7 @@ footer a#back_to_top i {
 .btn-primary.active,
 .btn-primary:visited,
 .open > .dropdown-toggle.btn-primary {
-  background: #888888 !important;
+  background: #4D4D4D !important;
 }
 
 .btn-light {
@@ -915,12 +915,12 @@ footer a#back_to_top i {
 }
 
 .btn-primary.btn-outline {
-  color: #888888 !important;
-  border-color: #888888 !important;
+  color: #4D4D4D !important;
+  border-color: #4D4D4D !important;
 }
 
 .btn-primary.btn-outline:focus {
-  color: #888888 !important;
+  color: #4D4D4D !important;
 }
 
 .btn-primary.btn-outline:active {

@@ -5,7 +5,7 @@ name = "Default"
 light = true
 
 # Primary
-primary = "#888888"
+primary = "#4D4D4D"
 primary_light = "#6ec6ff"
 primary_dark = "#0069c0"
 
