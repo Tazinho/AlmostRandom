@@ -259,8 +259,8 @@ defaultContentLanguageInSubdir = false
   weight = 1
 
 [[menu.main]]
-  name = "Blog"
-  url = "#posts"
+  name = "Projects"
+  url = "#projects"
   weight = 2
 
 [[menu.main]]
@@ -269,8 +269,8 @@ defaultContentLanguageInSubdir = false
   weight = 3
 
 [[menu.main]]
-  name = "Projects"
-  url = "#projects"
+  name = "Blog"
+  url = "#posts"
   weight = 4
 
 [[menu.main]]
@@ -301,9 +301,6 @@ defaultContentLanguageInSubdir = false
   url = "https://rusershamburg.github.io/"
   weight = 9
   parent = "dropdown1"
-
-
-
 
 # [[menu.main]]
 #   name = "Teaching"
