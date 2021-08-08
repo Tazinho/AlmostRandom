@@ -19,7 +19,7 @@ selected = false
 #projects = ["advanced-r-solutions"]
 
 # Links (optional).
-url_pdf = "https://raw.githubusercontent.com/Tazinho/AlmostRandom/master/static/img/Poster_DGNR_2017.pdf"
+url_pdf = "files/talks/Poster_DGNR_2017.pdf"
 url_slides = ""
 url_video = ""
 url_code = ""
