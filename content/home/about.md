@@ -7,19 +7,16 @@ date = "2016-04-20T00:00:00"
 # Order that this section will appear in.
 weight = 10
 
-# List your academic interests.
-[interests]
-  interests = [
-    "Programming",
-    "Machine learning",
-    "Neuroscience"
-  ]
-
 # List your qualifications (such as academic degrees).
 #[[education.courses]]
 #  course = "PhD candidate"
 #  institution = "University Medical Center Hamburg-Eppendorf"
 #  year = 2015
+
+[[education.courses]]
+  course = "Dr. rer. biol. hum."
+  institution = "University of Hamburg"
+  year = 2022
 
 [[education.courses]]
   course = "MSc Mathematics"
@@ -30,6 +27,14 @@ weight = 10
   course = "BSc Business Mathematics"
   institution = "University of Hamburg"
   year = 2010
+  
+# List your academic interests.
+[interests]
+  interests = [
+    "Programming",
+    "Machine Learning",
+    "Neuroradiology"
+  ]
  
 +++
 
