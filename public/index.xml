@@ -11,6 +11,80 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Data dictionaries for humans, agents and jumping frogs</title>
+      <link>http://malte-grosser.com/post/data-dict-jumping-frogs/</link>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://malte-grosser.com/post/data-dict-jumping-frogs/</guid>
+      <description>
+
+&lt;p&gt;Apparently, you can rent a frog and enter a jumping competition. You might find yourself competing against teams with decades of experience choosing and preparing theirs. Welcome to the Calaveras County Jumping Frog Jubilee.&lt;/p&gt;
+
+&lt;p&gt;In &lt;a href=&#34;https://doi.org/10.1242/jeb.090357&#34; target=&#34;_blank&#34;&gt;Astley et al. (2013)&lt;/a&gt;, researchers studied bullfrog jumps at the event, comparing frogs rented by fairgoers with those entered by experienced teams. Their measurements now provide the example for the &lt;a href=&#34;https://data-dict.tidyverse.org/quickstart.html&#34; target=&#34;_blank&#34;&gt;Data Dict quickstart&lt;/a&gt;. That is a pretty good way to get me interested in data documentation.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;video controls playsinline preload=&#34;metadata&#34; style=&#34;width: 100%; height: auto;&#34;&gt;
+    &lt;source src=&#34;https://static-movie-usa.glencoesoftware.com/mp4/10.1242/79/6bbae3e84c93954e19c7bc76631c715d6bad8578/JEB090357-Video1.mp4&#34; type=&#34;video/mp4&#34;&gt;
+    Your browser does not support embedded video.
+  &lt;/video&gt;
+  &lt;figcaption&gt;
+    Supplementary Movie 1 from Astley et al. (2013):
+    &lt;a href=&#34;https://doi.org/10.1242/jeb.090357&#34;&gt;Chasing maximal performance: a cautionary tale from the celebrated jumping frogs of Calaveras County&lt;/a&gt;.
+    &lt;em&gt;Journal of Experimental Biology&lt;/em&gt;, 216, 3947–3953.
+    &lt;a href=&#34;https://static-movie-usa.glencoesoftware.com/mp4/10.1242/79/6bbae3e84c93954e19c7bc76631c715d6bad8578/JEB090357-Video1.mp4&#34;&gt;Watch the video directly&lt;/a&gt;.
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;meet-the-data&#34;&gt;Meet the data&lt;/h2&gt;
+
+&lt;p&gt;Say someone sends you the &lt;a href=&#34;https://github.com/hadley/frog-jumping&#34; target=&#34;_blank&#34;&gt;frog dataset&lt;/a&gt;. Before comparing jumps, you need to know what was measured. One leap? Three in a row? Did every jump count? The &lt;a href=&#34;https://github.com/hadley/frog-jumping/blob/main/data-collection.md&#34; target=&#34;_blank&#34;&gt;collection notes&lt;/a&gt; explain that the competition judged the straight-line distance across three successive jumps, while the researchers measured individual jumps from video. They also excluded certain short, continuous movements called “skitters”.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://data-dict.tidyverse.org/&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;data-dict&lt;/code&gt;&lt;/a&gt; gives information like this a home alongside the data. A &lt;code&gt;data-dict.yaml&lt;/code&gt; describes tables, columns, units and relationships. A command-line tool checks declared rules and turns the dictionary into a readable website. The project is &lt;a href=&#34;https://data-dict.tidyverse.org/who-why-when.html&#34; target=&#34;_blank&#34;&gt;open source and supported by Posit&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;take-a-look&#34;&gt;Take a look&lt;/h2&gt;
+
+&lt;p&gt;You can see the result without installing anything. Open the &lt;a href=&#34;https://data-dict.tidyverse.org/examples/rendered/otters.html&#34; target=&#34;_blank&#34;&gt;sea-otter dictionary&lt;/a&gt;, a separate example linked from the quickstart, and compare it with its &lt;a href=&#34;https://data-dict.tidyverse.org/examples/otters.html&#34; target=&#34;_blank&#34;&gt;YAML source&lt;/a&gt;. Start with &lt;code&gt;otters&lt;/code&gt; and &lt;code&gt;measurements&lt;/code&gt;. One describes animals, the other capture or collection events. An otter can appear in several events, connected through &lt;code&gt;otter_no&lt;/code&gt;. Look at &lt;code&gt;weight&lt;/code&gt; and you learn that it is measured in kilograms. Elsewhere, an unidentified length measurement is documented as still unexplained. That is useful documentation: you can find your way around the data, including the parts nobody has fully figured out. There are more examples in the &lt;a href=&#34;https://data-dict.tidyverse.org/examples/index.html&#34; target=&#34;_blank&#34;&gt;gallery&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The presentation matters. A feature can exist and still be cumbersome enough that nobody uses it. I have often appreciated the attention to usability in Hadley Wickham&amp;rsquo;s tools and the wider tidyverse, reflected in its &lt;a href=&#34;https://design.tidyverse.org/&#34; target=&#34;_blank&#34;&gt;design principles&lt;/a&gt;. Data Dict&amp;rsquo;s short route from a text file to something people can browse appeals to me for the same reason.&lt;/p&gt;
+
+&lt;h2 id=&#34;give-it-a-jump&#34;&gt;Give it a jump&lt;/h2&gt;
+
+&lt;p&gt;After &lt;a href=&#34;https://data-dict.tidyverse.org/install.html&#34; target=&#34;_blank&#34;&gt;installing the CLI&lt;/a&gt;, clone the frog repository and create a draft:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;git clone https://github.com/hadley/frog-jumping
+cd frog-jumping
+data-dict draft frogs.parquet
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now open &lt;code&gt;data-dict.yaml&lt;/code&gt;. Review the proposed descriptions and fill in the TODOs using the collection notes. Then check and render it:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;data-dict validate-data data-dict.yaml
+data-dict render-spec data-dict.yaml
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This is the workflow from the &lt;a href=&#34;https://data-dict.tidyverse.org/quickstart.html&#34; target=&#34;_blank&#34;&gt;quickstart&lt;/a&gt;: draft, review, check, share. The result is a self-contained HTML page for your frog dictionary, like the otter example above.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&#34;https://data-dict.tidyverse.org/validate.html&#34; target=&#34;_blank&#34;&gt;checks&lt;/a&gt; can flag missing values, duplicate identifiers and broken links between tables. You can also write your own rules in familiar &lt;a href=&#34;https://data-dict.tidyverse.org/validate.html#expression-languages&#34; target=&#34;_blank&#34;&gt;SQL-, R- or Python-style syntax&lt;/a&gt;. For example, an end date should not precede its start date. Supported expressions run through Data Dict&amp;rsquo;s own engine, so these are subsets of the languages rather than arbitrary R or Python code.&lt;/p&gt;
+
+&lt;h2 id=&#34;let-an-agent-help&#34;&gt;Let an agent help&lt;/h2&gt;
+
+&lt;p&gt;The quickstart also offers an &lt;a href=&#34;https://data-dict.tidyverse.org/quickstart.html#ask-an-agent-to-draft-the-dictionary&#34; target=&#34;_blank&#34;&gt;agent-assisted route&lt;/a&gt;. Point an agent at the data and collection notes, and ask it to use the Data Dict CLI to document the dataset. The bundled instructions guide it through drafting, consulting the notes and raising unresolved questions.&lt;/p&gt;
+
+&lt;p&gt;I like that division of work. The agent can help turn the data and existing notes into structured metadata and leave unresolved points as &lt;a href=&#34;https://data-dict.tidyverse.org/spec.html#todo&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;todos&lt;/code&gt;&lt;/a&gt;. The CLI then does the less glamorous but important part: it deterministically checks whether the data matches the documented expectations and can render the dictionary as readable documentation. What remains unclear stays visible until someone who understands the data can resolve it.&lt;/p&gt;
+
+&lt;h2 id=&#34;keep-an-eye-on-it&#34;&gt;Keep an eye on it&lt;/h2&gt;
+
+&lt;p&gt;Data Dict is still an early project. The current specification supports &lt;a href=&#34;https://data-dict.tidyverse.org/spec.html#source&#34; target=&#34;_blank&#34;&gt;Parquet sources&lt;/a&gt;, with SQL sources described as a future direction. There is also an open &lt;a href=&#34;https://github.com/tidyverse/data-dict/issues/20&#34; target=&#34;_blank&#34;&gt;proposal for generating sample data&lt;/a&gt; from a dictionary. That could be handy for testing, although satisfying relationships between tables makes it a substantial task.&lt;/p&gt;
+
+&lt;p&gt;There is already useful work in this space, including the &lt;a href=&#34;https://bitol-io.github.io/open-data-contract-standard/latest/&#34; target=&#34;_blank&#34;&gt;Open Data Contract Standard&lt;/a&gt; and &lt;a href=&#34;https://www.getdbt.com/blog/what-is-data-lineage&#34; target=&#34;_blank&#34;&gt;dbt&amp;rsquo;s documentation and tests&lt;/a&gt;. For a team with established tooling, I would ask how a new dictionary can reuse what is already maintained.&lt;/p&gt;
+
+&lt;p&gt;For a first experiment, though, the question is smaller: will the next person opening this dataset have an easier time understanding it? That person might be a colleague, an agent, or you six months from now. If a few descriptions and checks can save them some head-scratching, that is a useful jump forward.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Based on the documentation checked on 21 September 2026, including &lt;a href=&#34;https://data-dict.tidyverse.org/spec.html&#34; target=&#34;_blank&#34;&gt;specification version 0.1.0&lt;/a&gt;. The commands above follow the documented quickstart; this article is an introduction, not a report of a completed hands-on evaluation.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Localized prediction of tissue outcome in acute ischemic stroke patients using diffusion- and perfusion-weighted MRI datasets</title>
       <link>http://malte-grosser.com/publication/grosser-localized-prediction/</link>
       <pubDate>Thu, 05 Nov 2020 00:00:00 +0000</pubDate>
@@ -248,18 +322,6 @@ Embed your slides or video here using [shortcodes](https://sourcethemes.com/acad
       <guid>http://malte-grosser.com/talk/snakecase-pkg/</guid>
       <description>&lt;!--
 Embed your slides or video here using [shortcodes](https://sourcethemes.com/academic/post/writing-markdown-latex/). Further details can easily be added using *Markdown* and $\rm \LaTeX$ math code.
---&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Heterogeneity of Multiple Sclerosis Lesions in Multislice Myelin Water Imaging</title>
-      <link>http://malte-grosser.com/publication/faizy-ms-lesion-heterogeneity-myelin-water-imaging/</link>
-      <pubDate>Fri, 18 Mar 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://malte-grosser.com/publication/faizy-ms-lesion-heterogeneity-myelin-water-imaging/</guid>
-      <description>&lt;!--
-#More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code.
 --&gt;
 </description>
     </item>

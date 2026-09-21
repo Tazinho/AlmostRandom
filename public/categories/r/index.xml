@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017-2026 Malte Grosser</copyright>
-    <lastBuildDate>Tue, 06 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 21 Sep 2026 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://malte-grosser.com/categories/r/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Data dictionaries for humans, agents and jumping frogs</title>
+      <link>http://malte-grosser.com/post/data-dict-jumping-frogs/</link>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://malte-grosser.com/post/data-dict-jumping-frogs/</guid>
+      <description>Apparently, you can rent a frog and enter a jumping competition. You might find yourself competing against teams with decades of experience choosing and preparing theirs. Welcome to the Calaveras County Jumping Frog Jubilee.
+In Astley et al. (2013), researchers studied bullfrog jumps at the event, comparing frogs rented by fairgoers with those entered by experienced teams. Their measurements now provide the example for the Data Dict quickstart. That is a pretty good way to get me interested in data documentation.</description>
+    </item>
     
     <item>
       <title>Introducing the snakecase package</title>
