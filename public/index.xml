@@ -79,8 +79,6 @@ data-dict render-spec data-dict.yaml
 &lt;p&gt;There is already useful work in this space, including the &lt;a href=&#34;https://bitol-io.github.io/open-data-contract-standard/latest/&#34; target=&#34;_blank&#34;&gt;Open Data Contract Standard&lt;/a&gt; and &lt;a href=&#34;https://www.getdbt.com/blog/what-is-data-lineage&#34; target=&#34;_blank&#34;&gt;dbt&amp;rsquo;s documentation and tests&lt;/a&gt;. For a team with established tooling, I would ask how a new dictionary can reuse what is already maintained.&lt;/p&gt;
 
 &lt;p&gt;For a first experiment, though, the question is smaller: will the next person opening this dataset have an easier time understanding it? That person might be a colleague, an agent, or you six months from now. If a few descriptions and checks can save them some head-scratching, that is a useful jump forward.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Based on the documentation checked on 21 September 2026, including &lt;a href=&#34;https://data-dict.tidyverse.org/spec.html&#34; target=&#34;_blank&#34;&gt;specification version 0.1.0&lt;/a&gt;. The commands above follow the documented quickstart; this article is an introduction, not a report of a completed hands-on evaluation.&lt;/em&gt;&lt;/p&gt;
 </description>
     </item>
     

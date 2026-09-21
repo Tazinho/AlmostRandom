@@ -75,5 +75,3 @@ Data Dict is still an early project. The current specification supports [Parquet
 There is already useful work in this space, including the [Open Data Contract Standard](https://bitol-io.github.io/open-data-contract-standard/latest/) and [dbt's documentation and tests](https://www.getdbt.com/blog/what-is-data-lineage). For a team with established tooling, I would ask how a new dictionary can reuse what is already maintained.
 
 For a first experiment, though, the question is smaller: will the next person opening this dataset have an easier time understanding it? That person might be a colleague, an agent, or you six months from now. If a few descriptions and checks can save them some head-scratching, that is a useful jump forward.
-
-*Based on the documentation checked on 21 September 2026, including [specification version 0.1.0](https://data-dict.tidyverse.org/spec.html). The commands above follow the documented quickstart; this article is an introduction, not a report of a completed hands-on evaluation.*
