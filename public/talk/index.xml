@@ -2,49 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recent &amp; Upcoming Talks on Almost Random</title>
-    <link>http://malte-grosser.com/talk/</link>
+    <link>https://www.malte-grosser.com/talk/</link>
     <description>Recent content in Recent &amp; Upcoming Talks on Almost Random</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017-2026 Malte Grosser</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://malte-grosser.com/talk/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.malte-grosser.com/talk/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Improved localized prediction of tissue outcome in acute ischemic stroke patients</title>
-      <link>http://malte-grosser.com/talk/localized_prediction/</link>
+      <link>https://www.malte-grosser.com/talk/localized_prediction/</link>
       <pubDate>Sat, 14 Oct 2017 00:00:00 +0200</pubDate>
       
-      <guid>http://malte-grosser.com/talk/localized_prediction/</guid>
+      <guid>https://www.malte-grosser.com/talk/localized_prediction/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Advanced R Solutions</title>
-      <link>http://malte-grosser.com/talk/advanced-r-solutions/</link>
+      <link>https://www.malte-grosser.com/talk/advanced-r-solutions/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
       
-      <guid>http://malte-grosser.com/talk/advanced-r-solutions/</guid>
+      <guid>https://www.malte-grosser.com/talk/advanced-r-solutions/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Interactive spatial clusters</title>
-      <link>http://malte-grosser.com/talk/interactive-spatial-clusters/</link>
+      <link>https://www.malte-grosser.com/talk/interactive-spatial-clusters/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
       
-      <guid>http://malte-grosser.com/talk/interactive-spatial-clusters/</guid>
+      <guid>https://www.malte-grosser.com/talk/interactive-spatial-clusters/</guid>
       <description></description>
     </item>
     
     <item>
       <title>snakecase-pkg</title>
-      <link>http://malte-grosser.com/talk/snakecase-pkg/</link>
+      <link>https://www.malte-grosser.com/talk/snakecase-pkg/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
       
-      <guid>http://malte-grosser.com/talk/snakecase-pkg/</guid>
+      <guid>https://www.malte-grosser.com/talk/snakecase-pkg/</guid>
       <description></description>
     </item>
     

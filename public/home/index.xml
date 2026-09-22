@@ -2,86 +2,86 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homes on Almost Random</title>
-    <link>http://malte-grosser.com/home/</link>
+    <link>https://www.malte-grosser.com/home/</link>
     <description>Recent content in Homes on Almost Random</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017-2026 Malte Grosser</copyright>
     <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0200</lastBuildDate>
     
-	<atom:link href="http://malte-grosser.com/home/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.malte-grosser.com/home/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>http://malte-grosser.com/home/hero/</link>
+      <link>https://www.malte-grosser.com/home/hero/</link>
       <pubDate>Sun, 15 Oct 2017 00:00:00 +0200</pubDate>
       
-      <guid>http://malte-grosser.com/home/hero/</guid>
+      <guid>https://www.malte-grosser.com/home/hero/</guid>
       <description> </description>
     </item>
     
     <item>
       <title></title>
-      <link>http://malte-grosser.com/home/about/</link>
+      <link>https://www.malte-grosser.com/home/about/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://malte-grosser.com/home/about/</guid>
+      <guid>https://www.malte-grosser.com/home/about/</guid>
       <description>Hi, welcome to my page about my personal Data Science projects.
 In the past, I worked a lot in parallel in industry and research. This often involved gaining insights from smaller and larger data sets. So I spent a lot of time working on higher level programming languages and dealing with data. I also met a lot of cool people who were working on similar topics, and every now and then a neat idea for a side project came up.</description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>http://malte-grosser.com/home/projects/</link>
+      <link>https://www.malte-grosser.com/home/projects/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://malte-grosser.com/home/projects/</guid>
+      <guid>https://www.malte-grosser.com/home/projects/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Talks</title>
-      <link>http://malte-grosser.com/home/talks/</link>
+      <link>https://www.malte-grosser.com/home/talks/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://malte-grosser.com/home/talks/</guid>
+      <guid>https://www.malte-grosser.com/home/talks/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recent Posts</title>
-      <link>http://malte-grosser.com/home/posts/</link>
+      <link>https://www.malte-grosser.com/home/posts/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://malte-grosser.com/home/posts/</guid>
+      <guid>https://www.malte-grosser.com/home/posts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Publications</title>
-      <link>http://malte-grosser.com/home/publications/</link>
+      <link>https://www.malte-grosser.com/home/publications/</link>
       <pubDate>Mon, 13 Nov 2017 00:00:00 +0100</pubDate>
       
-      <guid>http://malte-grosser.com/home/publications/</guid>
+      <guid>https://www.malte-grosser.com/home/publications/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Selected Publications</title>
-      <link>http://malte-grosser.com/home/publications_selected/</link>
+      <link>https://www.malte-grosser.com/home/publications_selected/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
       
-      <guid>http://malte-grosser.com/home/publications_selected/</guid>
+      <guid>https://www.malte-grosser.com/home/publications_selected/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Teaching</title>
-      <link>http://malte-grosser.com/home/teaching/</link>
+      <link>https://www.malte-grosser.com/home/teaching/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://malte-grosser.com/home/teaching/</guid>
+      <guid>https://www.malte-grosser.com/home/teaching/</guid>
       <description>This is an example of using the custom widget to create your own homepage section.
 I am a teaching instructor for the following courses at University X:
  CS101: An intro to computer science CS102: An intro to computer science CS103: An intro to computer science CS104: An intro to computer science CS105: An intro to computer science CS106: An intro to computer science CS107: An intro to computer science  </description>
@@ -89,19 +89,19 @@ I am a teaching instructor for the following courses at University X:
     
     <item>
       <title>Tags</title>
-      <link>http://malte-grosser.com/home/tags/</link>
+      <link>https://www.malte-grosser.com/home/tags/</link>
       <pubDate>Wed, 20 Sep 2017 00:00:00 +0200</pubDate>
       
-      <guid>http://malte-grosser.com/home/tags/</guid>
+      <guid>https://www.malte-grosser.com/home/tags/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>http://malte-grosser.com/home/contact/</link>
+      <link>https://www.malte-grosser.com/home/contact/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://malte-grosser.com/home/contact/</guid>
+      <guid>https://www.malte-grosser.com/home/contact/</guid>
       <description></description>
     </item>
     

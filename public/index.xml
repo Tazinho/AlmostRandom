@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Almost Random on Almost Random</title>
-    <link>http://malte-grosser.com/</link>
+    <link>https://www.malte-grosser.com/</link>
     <description>Recent content in Almost Random on Almost Random</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,10 +12,10 @@
     
     <item>
       <title>Data dictionaries for humans, agents and jumping frogs</title>
-      <link>http://malte-grosser.com/post/data-dict-jumping-frogs/</link>
+      <link>https://www.malte-grosser.com/post/data-dict-jumping-frogs/</link>
       <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://malte-grosser.com/post/data-dict-jumping-frogs/</guid>
+      <guid>https://www.malte-grosser.com/post/data-dict-jumping-frogs/</guid>
       <description>
 
 &lt;p&gt;Apparently, you can rent a frog and enter a jumping competition. You might find yourself competing against teams with decades of experience choosing and preparing theirs. Welcome to the Calaveras County Jumping Frog Jubilee.&lt;/p&gt;
@@ -84,10 +84,10 @@ data-dict render-spec data-dict.yaml
     
     <item>
       <title>Localized prediction of tissue outcome in acute ischemic stroke patients using diffusion- and perfusion-weighted MRI datasets</title>
-      <link>http://malte-grosser.com/publication/grosser-localized-prediction/</link>
+      <link>https://www.malte-grosser.com/publication/grosser-localized-prediction/</link>
       <pubDate>Thu, 05 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://malte-grosser.com/publication/grosser-localized-prediction/</guid>
+      <guid>https://www.malte-grosser.com/publication/grosser-localized-prediction/</guid>
       <description>&lt;p&gt;&amp;lt;!&amp;ndash;
 #More detail can easily be written here using *Markdown* and \$\rm \LaTeX\$ math code.
 &amp;ndash;&amp;gt;&lt;/p&gt;
@@ -96,10 +96,10 @@ data-dict render-spec data-dict.yaml
     
     <item>
       <title>Improved multi-parametric prediction of tissue outcome in acute ischemic stroke patients using spatial features</title>
-      <link>http://malte-grosser.com/publication/grosser-spatial-features/</link>
+      <link>https://www.malte-grosser.com/publication/grosser-spatial-features/</link>
       <pubDate>Fri, 24 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://malte-grosser.com/publication/grosser-spatial-features/</guid>
+      <guid>https://www.malte-grosser.com/publication/grosser-spatial-features/</guid>
       <description>&lt;p&gt;&amp;lt;!&amp;ndash;
 #More detail can easily be written here using *Markdown* and \$\rm \LaTeX\$ math code.
 &amp;ndash;&amp;gt;&lt;/p&gt;
@@ -108,10 +108,10 @@ data-dict render-spec data-dict.yaml
     
     <item>
       <title>rusershamburg</title>
-      <link>http://malte-grosser.com/project/rusershamburg/</link>
+      <link>https://www.malte-grosser.com/project/rusershamburg/</link>
       <pubDate>Mon, 12 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://malte-grosser.com/project/rusershamburg/</guid>
+      <guid>https://www.malte-grosser.com/project/rusershamburg/</guid>
       <description>&lt;!--
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
 
@@ -128,10 +128,10 @@ Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoq
     
     <item>
       <title>Introducing the snakecase package</title>
-      <link>http://malte-grosser.com/post/introducing-the-snakecase-package/</link>
+      <link>https://www.malte-grosser.com/post/introducing-the-snakecase-package/</link>
       <pubDate>Tue, 06 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://malte-grosser.com/post/introducing-the-snakecase-package/</guid>
+      <guid>https://www.malte-grosser.com/post/introducing-the-snakecase-package/</guid>
       <description>
 
 
@@ -190,10 +190,10 @@ to_any_case(c(&amp;quot;SomeBAdInput&amp;quot;, &amp;quot;someGoodInput&amp;quot
     
     <item>
       <title>Advanced R Solutions</title>
-      <link>http://malte-grosser.com/project/advanced-r-solutions/</link>
+      <link>https://www.malte-grosser.com/project/advanced-r-solutions/</link>
       <pubDate>Sun, 12 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://malte-grosser.com/project/advanced-r-solutions/</guid>
+      <guid>https://www.malte-grosser.com/project/advanced-r-solutions/</guid>
       <description>&lt;!--
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
 
@@ -210,10 +210,10 @@ Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoq
     
     <item>
       <title>snakecase-pkg</title>
-      <link>http://malte-grosser.com/project/snakecase-pkg/</link>
+      <link>https://www.malte-grosser.com/project/snakecase-pkg/</link>
       <pubDate>Sun, 12 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://malte-grosser.com/project/snakecase-pkg/</guid>
+      <guid>https://www.malte-grosser.com/project/snakecase-pkg/</guid>
       <description>&lt;!--
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
 
@@ -230,10 +230,10 @@ Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoq
     
     <item>
       <title>Improved localized prediction of tissue outcome in acute ischemic stroke patients</title>
-      <link>http://malte-grosser.com/talk/localized_prediction/</link>
+      <link>https://www.malte-grosser.com/talk/localized_prediction/</link>
       <pubDate>Sat, 14 Oct 2017 00:00:00 +0200</pubDate>
       
-      <guid>http://malte-grosser.com/talk/localized_prediction/</guid>
+      <guid>https://www.malte-grosser.com/talk/localized_prediction/</guid>
       <description>&lt;!---
 Embed your slides or video here using [shortcodes](https://sourcethemes.com/academic/post/writing-markdown-latex/). Further details can easily be added using *Markdown* and $\rm \LaTeX$ math code.
 --&gt;
@@ -242,10 +242,10 @@ Embed your slides or video here using [shortcodes](https://sourcethemes.com/acad
     
     <item>
       <title>CT-perfusion stroke imaging: a threshold free probabilistic approach to predict infarct volume compared to traditional ischemic thresholds</title>
-      <link>http://malte-grosser.com/publication/flottmann-predict-infarct-volume/</link>
+      <link>https://www.malte-grosser.com/publication/flottmann-predict-infarct-volume/</link>
       <pubDate>Thu, 27 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://malte-grosser.com/publication/flottmann-predict-infarct-volume/</guid>
+      <guid>https://www.malte-grosser.com/publication/flottmann-predict-infarct-volume/</guid>
       <description>&lt;!--
 #More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code.
 --&gt;
@@ -254,10 +254,10 @@ Embed your slides or video here using [shortcodes](https://sourcethemes.com/acad
     
     <item>
       <title>Longitudinal MRI brain volumetry in CLN3 disease: Introduction of a new sensitive and objective marker for the measurement of clinical disease outcome</title>
-      <link>http://malte-grosser.com/publication/hochstein-cln3-introduction/</link>
+      <link>https://www.malte-grosser.com/publication/hochstein-cln3-introduction/</link>
       <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://malte-grosser.com/publication/hochstein-cln3-introduction/</guid>
+      <guid>https://www.malte-grosser.com/publication/hochstein-cln3-introduction/</guid>
       <description>&lt;p&gt;&amp;lt;!&amp;ndash;
 #More detail can easily be written here using *Markdown* and \$\rm \LaTeX\$ math code.
 &amp;ndash;&amp;gt;&lt;/p&gt;
@@ -266,10 +266,10 @@ Embed your slides or video here using [shortcodes](https://sourcethemes.com/acad
     
     <item>
       <title>Edema is not a reliable diagnostic sign to exclude small brain metastases</title>
-      <link>http://malte-grosser.com/publication/schneider-edema-diagnostic-sign/</link>
+      <link>https://www.malte-grosser.com/publication/schneider-edema-diagnostic-sign/</link>
       <pubDate>Thu, 11 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://malte-grosser.com/publication/schneider-edema-diagnostic-sign/</guid>
+      <guid>https://www.malte-grosser.com/publication/schneider-edema-diagnostic-sign/</guid>
       <description>&lt;!--
 #More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code.
 --&gt;
@@ -278,10 +278,10 @@ Embed your slides or video here using [shortcodes](https://sourcethemes.com/acad
     
     <item>
       <title>Longitudinal 8-year Brain Volumetric Analysis in 35 CLN3 Patients: Successful Development of a Sensitive Marker to Measure Clinical Outcome</title>
-      <link>http://malte-grosser.com/publication/hochstein-cln3-development/</link>
+      <link>https://www.malte-grosser.com/publication/hochstein-cln3-development/</link>
       <pubDate>Wed, 26 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://malte-grosser.com/publication/hochstein-cln3-development/</guid>
+      <guid>https://www.malte-grosser.com/publication/hochstein-cln3-development/</guid>
       <description>&lt;p&gt;&amp;lt;!&amp;ndash;
 #More detail can easily be written here using *Markdown* and \$\rm \LaTeX\$ math code.
 &amp;ndash;&amp;gt;&lt;/p&gt;
@@ -290,10 +290,10 @@ Embed your slides or video here using [shortcodes](https://sourcethemes.com/acad
     
     <item>
       <title>Advanced R Solutions</title>
-      <link>http://malte-grosser.com/talk/advanced-r-solutions/</link>
+      <link>https://www.malte-grosser.com/talk/advanced-r-solutions/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
       
-      <guid>http://malte-grosser.com/talk/advanced-r-solutions/</guid>
+      <guid>https://www.malte-grosser.com/talk/advanced-r-solutions/</guid>
       <description>&lt;!---
 Embed your slides or video here using [shortcodes](https://sourcethemes.com/academic/post/writing-markdown-latex/). Further details can easily be added using *Markdown* and $\rm \LaTeX$ math code.
 --&gt;
@@ -302,10 +302,10 @@ Embed your slides or video here using [shortcodes](https://sourcethemes.com/acad
     
     <item>
       <title>Interactive spatial clusters</title>
-      <link>http://malte-grosser.com/talk/interactive-spatial-clusters/</link>
+      <link>https://www.malte-grosser.com/talk/interactive-spatial-clusters/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
       
-      <guid>http://malte-grosser.com/talk/interactive-spatial-clusters/</guid>
+      <guid>https://www.malte-grosser.com/talk/interactive-spatial-clusters/</guid>
       <description>&lt;!--
 Embed your slides or video here using [shortcodes](https://sourcethemes.com/academic/post/writing-markdown-latex/). Further details can easily be added using *Markdown* and $\rm \LaTeX$ math code.
 --&gt;
@@ -314,10 +314,10 @@ Embed your slides or video here using [shortcodes](https://sourcethemes.com/acad
     
     <item>
       <title>snakecase-pkg</title>
-      <link>http://malte-grosser.com/talk/snakecase-pkg/</link>
+      <link>https://www.malte-grosser.com/talk/snakecase-pkg/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
       
-      <guid>http://malte-grosser.com/talk/snakecase-pkg/</guid>
+      <guid>https://www.malte-grosser.com/talk/snakecase-pkg/</guid>
       <description>&lt;!--
 Embed your slides or video here using [shortcodes](https://sourcethemes.com/academic/post/writing-markdown-latex/). Further details can easily be added using *Markdown* and $\rm \LaTeX$ math code.
 --&gt;
