@@ -1,0 +1,20 @@
+/* Links in Artikeltext, Listen und Bildunterschriften */
+.article-style p a,
+.article-style li a,
+.article-style figcaption a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #999;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.article-style p a:hover,
+.article-style li a:hover,
+.article-style figcaption a:hover,
+.article-style p a:focus-visible,
+.article-style li a:focus-visible,
+.article-style figcaption a:focus-visible {
+  text-decoration-color: currentColor;
+  text-decoration-thickness: 2px;
+}
