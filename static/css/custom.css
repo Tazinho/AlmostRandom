@@ -20,9 +20,12 @@
 }
 
 /* Label video captions separately from figures. */
-.article-style figure.video-figure > figcaption::before {
+/*.article-style figure.video-figure > figcaption::before {
   content: "Video: ";
   text-transform: none;
+}*/
+.article-style figure.video-figure > figcaption::before {
+  content: none;
 }
 
 .article-style figure.video-figure > figcaption {
