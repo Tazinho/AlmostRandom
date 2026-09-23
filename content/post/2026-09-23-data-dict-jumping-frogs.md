@@ -20,7 +20,7 @@ header:
 
 Apparently, you can rent a frog and enter a jumping competition. You might find yourself competing against teams with years or even decades of experience choosing and preparing theirs. Welcome to the Calaveras County Jumping Frog Jubilee.
 
-In [Astley et al. (2013)](https://doi.org/10.1242/jeb.090357), researchers studied bullfrog jumps at the event, comparing frogs rented by fairgoers with those entered by experienced teams.[^jump-distance] Their measurements now provide the example for the [Data Dict quickstart](https://data-dict.tidyverse.org/quickstart.html). It is certainly a memorable way to get into data documentation.
+In [Astley et al. (2013)](https://doi.org/10.1242/jeb.090357), researchers studied bullfrog jumps at the event, comparing frogs rented by fairgoers with those entered by experienced teams.[^jump-distance] Their measurements provide the example for the [Data Dict quickstart](https://data-dict.tidyverse.org/quickstart.html). It is certainly a memorable way to get into data documentation.
 
 <figure class="video-figure" style="margin: 1rem 0 1.5rem;">
   <video controls playsinline preload="metadata" style="display: block; width: 100%; height: auto; margin: 0 0 0.5rem;">
@@ -35,17 +35,19 @@ In [Astley et al. (2013)](https://doi.org/10.1242/jeb.090357), researchers studi
 
 ## Meet the data
 
-How far can a bullfrog jump? Even with the [data in hand](https://github.com/hadley/frog-jumping), there is a detail worth checking: what counts as a jump? The [collection notes](https://github.com/hadley/frog-jumping/blob/main/data-collection.md) explain that the competition scored the straight-line distance across three successive jumps. The researchers measured individual jumps from video and excluded short, continuous movements called “skitters”. Same event, different measurements. That distinction belongs with the data wherever it goes. An AI agent asked to analyse those jumps needs that context just as much as a human does.
+How far can a bullfrog jump? Even with the [data in hand](https://github.com/hadley/frog-jumping), there is a detail worth checking: what counts as a jump? The [collection notes](https://github.com/hadley/frog-jumping/blob/main/data-collection.md) explain that the competition scored the straight-line distance across three successive jumps. The researchers measured individual jumps from video and excluded short, continuous movements called “skitters”. Same event, different measurements. Someone analysing the distances needs to know which they are working with. An AI agent needs that context too.
 
 The context includes how the data was obtained. The measurements come from a live-animal competition, and the [collection notes](https://github.com/hadley/frog-jumping/blob/main/data-collection.md) describe [how participants prompt the frogs to jump](https://journals.biologists.com/jeb/article/216/21/3947/11669/Chasing-maximal-performance-a-cautionary-tale-from). For me, that raises animal-welfare concerns alongside the curiosity of the example.[^frog-welfare] That ethical context is worth keeping visible too.
 
-A data dictionary can record what each row represents, how values were measured and how tables fit together. [Data Dict](https://data-dict.tidyverse.org/), an open-source project initiated by [Hadley Wickham](https://github.com/hadley/data-dict.yaml) and supported by Posit, combines a format for those descriptions with a command-line tool. In `data-dict.yaml`, descriptions of the data and rules it should satisfy live together in one file. The command-line tool checks those rules against the data and turns the dictionary into readable documentation. The format is [designed for teams working across R, Python and SQL](https://data-dict.tidyverse.org/who-why-when.html).
+A data dictionary can record what each row represents, how values were measured and how tables fit together. [Data Dict](https://data-dict.tidyverse.org/) provides a format for writing this down alongside rules the data should satisfy. Both live in one file, `data-dict.yaml`. Its command-line tool checks the rules against the data and turns the dictionary into readable documentation.
+
+The open-source project was initiated by [Hadley Wickham](https://github.com/hadley/data-dict.yaml) and is supported by Posit. The format is [designed for teams working across R, Python and SQL](https://data-dict.tidyverse.org/who-why-when.html).
 
 ## Take a look
 
-To see how a dictionary handles several related tables, take a short detour from frogs to otters. The [sea-otter example](https://data-dict.tidyverse.org/examples/rendered/otters.html) is already rendered, so you can browse it without installing anything. One table describes the animals; another records the occasions on which measurements were collected. An otter caught twice can have two records, so counting those records would overcount animals. The dictionary explains how the tables connect, gives weight in kilograms and flags an unexplained length measurement. That is the kind of detail I want close at hand: what is known, and where questions remain.
+To see how a dictionary handles several related tables, take a short detour from frogs to otters. The [sea-otter example](https://data-dict.tidyverse.org/examples/rendered/otters.html) is already rendered, so you can browse it without installing anything. One table describes the animals; another records the occasions on which measurements were collected. An otter caught twice can have two measurement records, so counting those records would overcount animals. The dictionary explains how the tables connect, gives weight in kilograms and flags an unexplained length measurement.
 
-Compare it with the [YAML source](https://data-dict.tidyverse.org/examples/otters.html), or browse the [example gallery](https://data-dict.tidyverse.org/examples/index.html). Being able to edit the dictionary as text and share it as a web page makes it accessible to colleagues who do not write code too.
+Compare it with the [YAML source](https://data-dict.tidyverse.org/examples/otters.html), or browse the [example gallery](https://data-dict.tidyverse.org/examples/index.html). The dictionary can be edited and versioned as text, while the rendered page can be shared with colleagues who do not need to work with YAML.
 
 ## Give it a jump
 
@@ -64,15 +66,15 @@ data-dict validate-data data-dict.yaml
 data-dict render-spec data-dict.yaml
 ```
 
-The result is a self-contained HTML page, like the otter example. The [quickstart](https://data-dict.tidyverse.org/quickstart.html) explains both commands. The [validation](https://data-dict.tidyverse.org/validate.html) acts as a set of tests for your data. Depending on the rules you declare, it can flag missing values, duplicate identifiers or references to records that do not exist.
+The first command [checks the data against the declared rules](https://data-dict.tidyverse.org/validate.html); the second produces a self-contained HTML page, like the otter example. The [quickstart](https://data-dict.tidyverse.org/quickstart.html) explains both. The checks act as tests for your data: depending on the rules you declare, they can flag missing values, duplicate identifiers or references to records that do not exist.
 
-You can also require an end date to fall on or after its start date, using [SQL-, R- or Python-style syntax](https://data-dict.tidyverse.org/validate.html#expression-languages). These are supported subsets interpreted by Data Dict, rather than arbitrary code in those languages. A useful consequence: expectations written into the dictionary can be checked again when new data arrives.
+You can also require an end date to fall on or after its start date, using [SQL-, R- or Python-style syntax](https://data-dict.tidyverse.org/validate.html#expression-languages). These are supported subsets interpreted by Data Dict, rather than arbitrary code in those languages. Those checks can be run again when new data arrives. But a distance could pass a range check without revealing whether it describes one jump or three. Writing useful rules still requires understanding what was measured.
 
 ## Let an agent help
 
-The [agent-assisted route](https://data-dict.tidyverse.org/quickstart.html#ask-an-agent-to-draft-the-dictionary) starts with the same data and notes. Ask an agent to document them using the Data Dict CLI; the bundled instructions guide it through drafting and consulting the notes. Unresolved questions can remain as [`todos`](https://data-dict.tidyverse.org/spec.html#todo). Your job is to review the meaning: a plausible unit can still be wrong, even when every test passes.
+The [agent-assisted route](https://data-dict.tidyverse.org/quickstart.html#ask-an-agent-to-draft-the-dictionary) starts with the same data and notes. Ask an agent to document them using the Data Dict CLI; the bundled instructions guide it through drafting and consulting the notes. Unresolved questions can remain as [`todos`](https://data-dict.tidyverse.org/spec.html#todo). You still need to review the descriptions and rules against what you know about the data.
 
-The dictionary is useful to agents reading the data too. Posit's [querychat](https://opensource.posit.co/software/querychat/), which lets people ask questions about data in natural language, already [accepts Data Dict files](https://posit-dev.github.io/querychat/py/build.html#data-dictionary). Descriptions, relationships and terminology give the model context for writing queries, putting the same documentation to work beyond the original analysis.
+The dictionary is useful to agents reading the data too. Posit's [querychat](https://opensource.posit.co/software/querychat/), which lets people ask questions about data in natural language, already [accepts Data Dict files](https://posit-dev.github.io/querychat/py/build.html#data-dictionary). Descriptions, relationships and terminology give the model context for writing queries.
 
 ## Keep an eye on it
 
