@@ -41,7 +41,7 @@ A data dictionary records what each row represents, how values were measured and
 
 ## Take a look
 
-To see how a dictionary handles several related tables, take a short detour from frogs to otters. The [sea-otter example](https://data-dict.tidyverse.org/examples/rendered/otters.html) is already rendered, so you can browse it without installing anything. One table describes the animals; another records the occasions on which measurements were collected. An otter caught twice can have two records, so counting those records would overcount animals. The dictionary explains how the tables connect, gives weight in kilograms and flags an unexplained length measurement. That is the detail I want close at hand, including where to ask another question.
+To see how a dictionary handles several related tables, take a short detour from frogs to otters. The [sea-otter example](https://data-dict.tidyverse.org/examples/rendered/otters.html) is already rendered, so you can browse it without installing anything. One table describes the animals; another records the occasions on which measurements were collected. An otter caught twice can have two records, so counting those records would overcount animals. The dictionary explains how the tables connect, gives weight in kilograms and flags an unexplained length measurement. That is the kind of detail I want close at hand: what is known, and where questions remain.
 
 Compare it with the [YAML source](https://data-dict.tidyverse.org/examples/otters.html), or browse the [example gallery](https://data-dict.tidyverse.org/examples/index.html). Being able to edit the dictionary as text and share it as a web page makes it accessible to colleagues who do not write code too.
 
