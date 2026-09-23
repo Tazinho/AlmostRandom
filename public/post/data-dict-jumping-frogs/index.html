@@ -285,7 +285,9 @@
       <div class="article-style" itemprop="articleBody">
         
 
-<p>Apparently, you can rent a frog and enter a jumping competition. You might find yourself competing against teams with years or even decades of experience choosing and preparing theirs. Welcome to the Calaveras County Jumping Frog Jubilee. In <a href="https://doi.org/10.1242/jeb.090357" target="_blank">Astley et al. (2013)</a>, researchers studied bullfrog jumps at the event, comparing frogs rented by fairgoers with those entered by experienced teams. Their measurements now provide the example for the <a href="https://data-dict.tidyverse.org/quickstart.html" target="_blank">Data Dict quickstart</a>. That is a pretty good way to get me interested in data documentation.</p>
+<p>Apparently, you can rent a frog and enter a jumping competition. You might find yourself competing against teams with years or even decades of experience choosing and preparing theirs. Welcome to the Calaveras County Jumping Frog Jubilee. In <a href="https://doi.org/10.1242/jeb.090357" target="_blank">Astley et al. (2013)</a>, researchers studied bullfrog jumps at the event, comparing frogs rented by fairgoers with those entered by experienced teams. Their measurements now provide the example for the <a href="https://data-dict.tidyverse.org/quickstart.html" target="_blank">Data Dict quickstart</a>.</p>
+
+<p>It is certainly a memorable way to get into data documentation.</p>
 
 <figure>
   <video controls playsinline preload="metadata" style="width: 100%; height: auto;">
@@ -296,54 +298,71 @@
     Supplementary Movie 1 from Astley et al. (2013):
     <a href="https://doi.org/10.1242/jeb.090357">Chasing maximal performance: a cautionary tale from the celebrated jumping frogs of Calaveras County</a>.
     <em>Journal of Experimental Biology</em>, 216, 3947–3953.
-    For more scenes from the competition, <a href="https://www.youtube.com/results?search_query=Calaveras+County+Jumping+Frog">browse videos on YouTube</a>.
   </figcaption>
 </figure>
 
 <h2 id="meet-the-data">Meet the data</h2>
 
-<p>How far can a bullfrog jump? Even with the <a href="https://github.com/hadley/frog-jumping" target="_blank">data in hand</a>, there is a detail worth checking: what counts as a jump? The <a href="https://github.com/hadley/frog-jumping/blob/main/data-collection.md" target="_blank">collection notes</a> explain that the competition scored the straight-line distance across three successive jumps. The researchers measured individual jumps from video and excluded short, continuous movements called “skitters”. Same event, different measurements. That distinction belongs with the data wherever it goes. An AI agent asked to analyse those jumps needs that context just as much as a human does.</p>
+<p>How far can a bullfrog jump? Even with the <a href="https://github.com/hadley/frog-jumping" target="_blank">data in hand</a>, there is a detail worth checking: what counts as a jump?</p>
 
-<p>A data dictionary records what the data means: what each row represents, how values were measured and how tables fit together. <a href="https://data-dict.tidyverse.org/" target="_blank">Data Dict</a> is an open-source project from <a href="https://github.com/hadley/data-dict.yaml" target="_blank">Hadley Wickham</a>, supported by Posit, that combines a format for writing this down with a command-line tool for putting it to use. You keep the descriptions and rules in a text file called <code>data-dict.yaml</code>. The tool can check the data against those rules and turn the file into documentation people can browse. It is <a href="https://data-dict.tidyverse.org/who-why-when.html" target="_blank">designed for teams working across R, Python and SQL</a>.</p>
+<p>The <a href="https://github.com/hadley/frog-jumping/blob/main/data-collection.md" target="_blank">collection notes</a> explain that the competition scored the straight-line distance across three successive jumps. The researchers measured individual jumps from video and excluded short, continuous movements called “skitters”.</p>
+
+<p>Same event, different measurements. That distinction belongs with the data wherever it goes.</p>
+
+<p>An AI agent asked to analyse those jumps needs that context just as much as a human does.</p>
+
+<p>A data dictionary records what the data means: what each row represents, how values were measured and how tables fit together. <a href="https://data-dict.tidyverse.org/" target="_blank">Data Dict</a> is an open-source project from <a href="https://github.com/hadley/data-dict.yaml" target="_blank">Hadley Wickham</a>, supported by Posit, that combines a format for writing this down with a command-line tool for putting it to use. You keep the descriptions and rules in a text file called <code>data-dict.yaml</code>.</p>
+
+<p>The tool can check the data against those rules and turn the file into documentation people can browse. It is <a href="https://data-dict.tidyverse.org/who-why-when.html" target="_blank">designed for teams working across R, Python and SQL</a>.</p>
 
 <h2 id="take-a-look">Take a look</h2>
 
-<p>The <a href="https://data-dict.tidyverse.org/examples/rendered/otters.html" target="_blank">sea-otter dictionary</a> shows what that looks like, without installing anything. One table describes the individual otters; another records the occasions on which measurements were collected for each animal. An otter caught twice can therefore have two measurement records. If you want to count animals, counting those records would give you the wrong answer. The dictionary explains the relationship and identifies the field that connects the tables. It also tells you that weight is measured in kilograms and openly records that one length measurement remains unexplained. That is the kind of detail I want close at hand: enough to use the data, including where to ask another question. You can compare the website with its <a href="https://data-dict.tidyverse.org/examples/otters.html" target="_blank">YAML source</a>, or explore the <a href="https://data-dict.tidyverse.org/examples/index.html" target="_blank">example gallery</a>.</p>
+<p>The <a href="https://data-dict.tidyverse.org/examples/rendered/otters.html" target="_blank">sea-otter dictionary</a> shows what that looks like, without installing anything. One table describes the individual otters; another records the occasions on which measurements were collected for each animal. An otter caught twice can therefore have two measurement records. If you want to count animals, counting those records would give you the wrong answer. The dictionary explains the relationship and identifies the field that connects the tables.</p>
+
+<p>It also tells you that weight is measured in kilograms and openly records that one length measurement remains unexplained. That is the kind of detail I want close at hand: enough to use the data, including where to ask another question. You can compare the website with its <a href="https://data-dict.tidyverse.org/examples/otters.html" target="_blank">YAML source</a>, or explore the <a href="https://data-dict.tidyverse.org/examples/index.html" target="_blank">example gallery</a>.</p>
 
 <p>The presentation matters too. A dictionary you can edit as text and share as a readable web page is easier to bring into everyday work, including conversations with colleagues who do not write code.</p>
 
+<p>The frog dataset also has context beyond its schema. The measurements come from a live-animal competition, and the <a href="https://github.com/hadley/frog-jumping/blob/main/data-collection.md" target="_blank">collection notes</a> describe <a href="https://journals.biologists.com/jeb/article/216/21/3947/11669/Chasing-maximal-performance-a-cautionary-tale-from" target="_blank">how participants prompt the frogs to jump</a>. What first looks like an unusual and entertaining dataset is therefore less uncomplicated on closer inspection, particularly from an animal-welfare perspective. That is part of the provenance too, and worth keeping visible rather than treating the event as just a quirky backdrop.</p>
+
 <h2 id="give-it-a-jump">Give it a jump</h2>
 
-<p>To try it yourself, start with the frog dataset. After <a href="https://data-dict.tidyverse.org/install.html" target="_blank">installing the CLI</a>, download the repository with Git and create a draft:</p>
+<p>To try Data Dict yourself, the quickstart uses the same frog dataset. After <a href="https://data-dict.tidyverse.org/install.html" target="_blank">installing the CLI</a>, download the repository with Git and create a draft:</p>
 
 <pre><code class="language-sh">git clone https://github.com/hadley/frog-jumping
 cd frog-jumping
 data-dict draft frogs.parquet
 </code></pre>
 
-<p>This generates <code>data-dict.yaml</code> with information inferred from the data, such as column types, and TODOs for what still needs explaining. No agent is required. Open the file and use the collection notes to fill in descriptions and resolve the TODOs you can. Then check the data and create the documentation:</p>
+<p>This generates <code>data-dict.yaml</code> with information inferred from the data, such as column types, and TODOs for what still needs explaining. No agent is required. Open the file and use the <a href="https://github.com/hadley/frog-jumping/blob/main/data-collection.md" target="_blank">collection notes</a> to fill in descriptions and resolve the TODOs you can. Then check the data and create the documentation:</p>
 
 <pre><code class="language-sh">data-dict validate-data data-dict.yaml
 data-dict render-spec data-dict.yaml
 </code></pre>
 
-<p>The result is a self-contained HTML page for the frog dictionary, like the otter example above. The <a href="https://data-dict.tidyverse.org/quickstart.html" target="_blank">quickstart</a> walks through both commands. The <a href="https://data-dict.tidyverse.org/validate.html" target="_blank">validation</a> acts as a set of tests for your data. Depending on the rules you declare, it can flag missing values, duplicate identifiers or references to records that do not exist. You can also require an end date to fall on or after its start date, using <a href="https://data-dict.tidyverse.org/validate.html#expression-languages" target="_blank">SQL-, R- or Python-style syntax</a>. These are supported subsets interpreted by Data Dict, rather than arbitrary code in those languages. A useful consequence: expectations written into the dictionary can be checked again when new data arrives.</p>
+<p>The result is a self-contained HTML page for the frog dictionary, like the otter example above. The <a href="https://data-dict.tidyverse.org/quickstart.html" target="_blank">quickstart</a> walks through both commands. The <a href="https://data-dict.tidyverse.org/validate.html" target="_blank">validation</a> acts as a set of tests for your data. Depending on the rules you declare, it can flag missing values, duplicate identifiers or references to records that do not exist.</p>
+
+<p>You can also require an end date to fall on or after its start date, using <a href="https://data-dict.tidyverse.org/validate.html#expression-languages" target="_blank">SQL-, R- or Python-style syntax</a>. These are supported subsets interpreted by Data Dict, rather than arbitrary code in those languages. A useful consequence: expectations written into the dictionary can be checked again when new data arrives.</p>
 
 <h2 id="let-an-agent-help">Let an agent help</h2>
 
-<p>If you would rather start with assistance, the quickstart offers an <a href="https://data-dict.tidyverse.org/quickstart.html#ask-an-agent-to-draft-the-dictionary" target="_blank">agent-assisted route</a>. Give an AI agent the data and collection notes, and ask it to document the dataset using the Data Dict CLI. The bundled instructions guide it through creating a draft, finding explanations in the notes and asking about anything it cannot resolve. That leaves a clear job for the person reviewing it: check whether the descriptions say what the data actually means. A plausible unit can still be the wrong unit, even when every test passes. Unresolved questions can stay visible as <a href="https://data-dict.tidyverse.org/spec.html#todo" target="_blank"><code>todos</code></a>, ready for someone who knows the answer.</p>
+<p>If you would rather start with assistance, the quickstart offers an <a href="https://data-dict.tidyverse.org/quickstart.html#ask-an-agent-to-draft-the-dictionary" target="_blank">agent-assisted route</a>. Give an AI agent the data and <a href="https://github.com/hadley/frog-jumping/blob/main/data-collection.md" target="_blank">collection notes</a>, and ask it to document the dataset using the Data Dict CLI. The bundled instructions guide it through creating a draft, finding explanations in the notes and asking about anything it cannot resolve. That leaves a clear job for the person reviewing it: check whether the descriptions say what the data actually means.</p>
 
-<p>The dictionary can also help an AI tool use the data later. Posit&rsquo;s <a href="https://opensource.posit.co/software/querychat/" target="_blank">querychat</a>, which lets people ask questions about data in natural language, already <a href="https://posit-dev.github.io/querychat/py/build.html#data-dictionary" target="_blank">accepts Data Dict files</a>. Table descriptions, relationships and terminology give the model context for writing queries. That is a practical reason to maintain these explanations once and make them available beyond the original analysis.</p>
+<p>A plausible unit can still be the wrong unit, even when every test passes. Unresolved questions can stay visible as <a href="https://data-dict.tidyverse.org/spec.html#todo" target="_blank"><code>todos</code></a>, ready for someone who knows the answer.</p>
+
+<p>The dictionary can also help an AI tool use the data later. Posit’s <a href="https://opensource.posit.co/software/querychat/" target="_blank">querychat</a>, which lets people ask questions about data in natural language, already <a href="https://posit-dev.github.io/[querychat](https://opensource.posit.co/software/querychat/)/py/build.html#data-dictionary" target="_blank">accepts Data Dict files</a>. Table descriptions, relationships and terminology give the model context for writing queries. That is a practical reason to maintain these explanations once and make them available beyond the original analysis.</p>
 
 <h2 id="keep-an-eye-on-it">Keep an eye on it</h2>
 
 <p>Data Dict is still an early project. The CLI currently validates <a href="https://data-dict.tidyverse.org/spec.html#source" target="_blank">Parquet files</a>, with SQL sources planned for the future. There is also an open <a href="https://github.com/tidyverse/data-dict/issues/20" target="_blank">proposal to generate sample data</a> from a dictionary. That could be handy for testing, although satisfying relationships between tables makes it a substantial task.</p>
 
-<p>There are related approaches with different scopes. Within a dbt project, <a href="https://docs.getdbt.com/docs/build/documentation" target="_blank">documentation</a> describes models and columns and shows dependencies between models, while <a href="https://docs.getdbt.com/docs/build/data-tests" target="_blank">data tests</a> check declared assumptions. The <a href="https://bitol-io.github.io/open-data-contract-standard/latest/" target="_blank">Open Data Contract Standard</a> goes beyond schema descriptions to include responsibilities and service-level agreements. The starting point explored here is more focused: a dictionary to describe a dataset, check expectations and share context with people and agents.</p>
+<p>There are related approaches with different scopes. Within a dbt project, <a href="https://docs.getdbt.com/docs/build/documentation" target="_blank">documentation</a> describes models and columns and shows dependencies between models, while <a href="https://docs.getdbt.com/docs/build/data-tests" target="_blank">data tests</a> check declared assumptions. The <a href="https://bitol-io.github.io/open-data-contract-standard/latest/" target="_blank">Open Data Contract Standard</a> goes beyond schema descriptions to include responsibilities and service-level agreements.</p>
 
-<p>For a first experiment, though, the question is smaller: will the next person opening this dataset have an easier time understanding it? That person might be a colleague, an agent, or you six months from now. If a few descriptions and checks can save them some head-scratching, that is a useful jump forward.</p>
+<p>The starting point explored here is more focused: a dictionary to describe a dataset, check expectations and share context with people and agents.</p>
 
-<p><strong>A note on the frog-jumping example:</strong> I have reservations about the event itself, particularly the use of animals as entertainment. Its inclusion here should not be read as an endorsement.</p>
+<p>For a first experiment, though, the question is smaller: will the next person opening this dataset have an easier time understanding it? That person might be a colleague, an agent, or you six months from now.</p>
+
+<p>If a few descriptions and checks can save them some head-scratching, that is a useful jump forward.</p>
 
       </div>
 
