@@ -285,7 +285,7 @@
       <div class="article-style" itemprop="articleBody">
         
 
-<p>Apparently, you can rent a frog and enter a jumping competition. You might find yourself competing against teams with years or even decades of experience choosing and preparing theirs. Welcome to the Calaveras County Jumping Frog Jubilee. In <a href="https://doi.org/10.1242/jeb.090357" target="_blank">Astley et al. (2013)</a>, researchers studied bullfrog jumps at the event, comparing frogs rented by fairgoers with those entered by experienced teams. Their measurements now provide the example for the <a href="https://data-dict.tidyverse.org/quickstart.html" target="_blank">Data Dict quickstart</a>. It is certainly a memorable way to get into data documentation.</p>
+<p>Apparently, you can rent a frog and enter a jumping competition. You might find yourself competing against teams with years or even decades of experience choosing and preparing theirs. Welcome to the Calaveras County Jumping Frog Jubilee. In <a href="https://doi.org/10.1242/jeb.090357" target="_blank">Astley et al. (2013)</a>, researchers studied bullfrog jumps at the event, comparing frogs rented by fairgoers with those entered by experienced teams.<sup class="footnote-ref" id="fnref:jump-distance"><a href="#fn:jump-distance">1</a></sup> Their measurements now provide the example for the <a href="https://data-dict.tidyverse.org/quickstart.html" target="_blank">Data Dict quickstart</a>. It is certainly a memorable way to get into data documentation.</p>
 
 <figure style="margin: 1rem 0 1.5rem;">
   <video controls playsinline preload="metadata" style="display: block; width: 100%; height: auto; margin: 0 0 0.5rem;">
@@ -303,7 +303,7 @@
 
 <p>How far can a bullfrog jump? Even with the <a href="https://github.com/hadley/frog-jumping" target="_blank">data in hand</a>, there is a detail worth checking: what counts as a jump? The <a href="https://github.com/hadley/frog-jumping/blob/main/data-collection.md" target="_blank">collection notes</a> explain that the competition scored the straight-line distance across three successive jumps. The researchers measured individual jumps from video and excluded short, continuous movements called “skitters”. Same event, different measurements. That distinction belongs with the data wherever it goes. An AI agent asked to analyse those jumps needs that context just as much as a human does.</p>
 
-<p>The context includes how the data was obtained. The measurements come from a live-animal competition, and the <a href="https://github.com/hadley/frog-jumping/blob/main/data-collection.md" target="_blank">collection notes</a> describe <a href="https://journals.biologists.com/jeb/article/216/21/3947/11669/Chasing-maximal-performance-a-cautionary-tale-from" target="_blank">how participants prompt the frogs to jump</a>. For me, that raises animal-welfare concerns alongside the curiosity of the example. That is part of the provenance too, and worth keeping visible rather than treating the event as just a quirky backdrop.</p>
+<p>The context includes how the data was obtained. The measurements come from a live-animal competition, and the <a href="https://github.com/hadley/frog-jumping/blob/main/data-collection.md" target="_blank">collection notes</a> describe <a href="https://journals.biologists.com/jeb/article/216/21/3947/11669/Chasing-maximal-performance-a-cautionary-tale-from" target="_blank">how participants prompt the frogs to jump</a>. For me, that raises animal-welfare concerns alongside the curiosity of the example.<sup class="footnote-ref" id="fnref:frog-welfare"><a href="#fn:frog-welfare">2</a></sup> That is part of the provenance too, and worth keeping visible rather than treating the event as just a quirky backdrop.</p>
 
 <p>A data dictionary records what each row represents, how values were measured and how tables fit together. <a href="https://data-dict.tidyverse.org/" target="_blank">Data Dict</a>, an open-source project from <a href="https://github.com/hadley/data-dict.yaml" target="_blank">Hadley Wickham</a> supported by Posit, combines a format for those descriptions with a command-line tool. You write descriptions and rules in <code>data-dict.yaml</code>; the tool checks the data against those rules and renders readable documentation. It is <a href="https://data-dict.tidyverse.org/who-why-when.html" target="_blank">designed for teams working across R, Python and SQL</a>.</p>
 
@@ -345,6 +345,17 @@ data-dict render-spec data-dict.yaml
 <p>There are related approaches with different scopes. Within a dbt project, <a href="https://docs.getdbt.com/docs/build/documentation" target="_blank">documentation</a> describes models and columns and shows dependencies between models, while <a href="https://docs.getdbt.com/docs/build/data-tests" target="_blank">data tests</a> check declared assumptions. The <a href="https://bitol-io.github.io/open-data-contract-standard/latest/" target="_blank">Open Data Contract Standard</a> goes beyond schema descriptions to include responsibilities and service-level agreements. The starting point explored here is more focused: a dictionary to describe a dataset, check expectations and share context with people and agents.</p>
 
 <p>For a first experiment, though, the question is smaller: will the next person opening this dataset have an easier time understanding it? That person might be a colleague, an agent, or you six months from now. If a few descriptions and checks can save them some head-scratching, that is a useful jump forward.</p>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:jump-distance">The longest bullfrog jump recorded in the study was 2.2 m, about 70% longer than the previously published maximum of 1.295 m. Of the 3,124 recorded jumps, 58% exceeded that earlier maximum. See <a href="https://doi.org/10.1242/jeb.090357" target="_blank">Astley et al. (2013)</a>.
+ <a class="footnote-return" href="#fnref:jump-distance"><sup>^</sup></a></li>
+<li id="fn:frog-welfare">The organisers describe housing and care arrangements for the frogs during the event and report having adopted a Frog Welfare Policy. See the <a href="https://www.frogtown.org/frog-jump" target="_blank">organisers&rsquo; account</a>.
+ <a class="footnote-return" href="#fnref:frog-welfare"><sup>^</sup></a></li>
+</ol>
+</div>
 
       </div>
 
