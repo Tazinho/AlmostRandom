@@ -18,7 +18,7 @@ header:
   image: "headers/data-dict-jumping-frogs-header-v3.png"
 ---
 
-Apparently, you can rent a frog and enter a jumping competition. You might find yourself competing against teams with years or even decades of experience choosing and preparing frogs for their frogs. Welcome to the Calaveras County Jumping Frog Jubilee.
+Apparently, you can rent a frog and enter a jumping competition. You might find yourself up against teams with years or even decades of experience selecting and preparing their frogs. Welcome to the Calaveras County Jumping Frog Jubilee.
 
 In [Astley et al. (2013)](https://doi.org/10.1242/jeb.090357), researchers studied bullfrog jumps at the event, comparing frogs rented by fairgoers with those entered by experienced teams.[^jump-distance] Their measurements provide the example for the [Data Dict quickstart](https://data-dict.tidyverse.org/quickstart.html). It is certainly a memorable way to get into data documentation.
 
