@@ -78,4 +78,4 @@ There are related approaches with different scopes. Within a dbt project, [docum
 
 For a first experiment, though, the question is smaller: will the next person opening this dataset have an easier time understanding it? That person might be a colleague, an agent, or you six months from now. If a few descriptions and checks can save them some head-scratching, that is a useful jump forward.
 
-**A note on the frog-jumping example:** I use this dataset because it is the example in the Data Dict quickstart and because it makes the documentation problem unusually concrete. I do have reservations about using animals as entertainment, and mentioning the event here should not be read as an endorsement of it.
+**A note on the frog-jumping example:** I have reservations about the event itself, particularly the use of animals as entertainment. Its inclusion here should not be read as an endorsement.
