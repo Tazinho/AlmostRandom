@@ -22,7 +22,7 @@ Apparently, you can rent a frog and enter a jumping competition. You might find 
 
 In [Astley et al. (2013)](https://doi.org/10.1242/jeb.090357), researchers studied bullfrog jumps at the event, comparing frogs rented by fairgoers with those entered by experienced teams.[^jump-distance] Their measurements now provide the example for the [Data Dict quickstart](https://data-dict.tidyverse.org/quickstart.html). It is certainly a memorable way to get into data documentation.
 
-<figure style="margin: 1rem 0 1.5rem;">
+<figure class="video-figure" style="margin: 1rem 0 1.5rem;">
   <video controls playsinline preload="metadata" style="display: block; width: 100%; height: auto; margin: 0 0 0.5rem;">
     <source src="https://static-movie-usa.glencoesoftware.com/mp4/10.1242/79/6bbae3e84c93954e19c7bc76631c715d6bad8578/JEB090357-Video1.mp4" type="video/mp4">
     Your browser does not support embedded video.

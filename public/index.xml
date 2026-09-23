@@ -22,7 +22,7 @@
 
 &lt;p&gt;In &lt;a href=&#34;https://doi.org/10.1242/jeb.090357&#34; target=&#34;_blank&#34;&gt;Astley et al. (2013)&lt;/a&gt;, researchers studied bullfrog jumps at the event, comparing frogs rented by fairgoers with those entered by experienced teams.&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:jump-distance&#34;&gt;&lt;a href=&#34;#fn:jump-distance&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; Their measurements now provide the example for the &lt;a href=&#34;https://data-dict.tidyverse.org/quickstart.html&#34; target=&#34;_blank&#34;&gt;Data Dict quickstart&lt;/a&gt;. It is certainly a memorable way to get into data documentation.&lt;/p&gt;
 
-&lt;figure style=&#34;margin: 1rem 0 1.5rem;&#34;&gt;
+&lt;figure class=&#34;video-figure&#34; style=&#34;margin: 1rem 0 1.5rem;&#34;&gt;
   &lt;video controls playsinline preload=&#34;metadata&#34; style=&#34;display: block; width: 100%; height: auto; margin: 0 0 0.5rem;&#34;&gt;
     &lt;source src=&#34;https://static-movie-usa.glencoesoftware.com/mp4/10.1242/79/6bbae3e84c93954e19c7bc76631c715d6bad8578/JEB090357-Video1.mp4&#34; type=&#34;video/mp4&#34;&gt;
     Your browser does not support embedded video.

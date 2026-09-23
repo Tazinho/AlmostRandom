@@ -18,3 +18,13 @@
   text-decoration-color: currentColor;
   text-decoration-thickness: 2px;
 }
+
+/* Label video captions separately from figures. */
+.article-style figure.video-figure > figcaption::before {
+  content: "Video: ";
+  text-transform: none;
+}
+
+.article-style figure.video-figure > figcaption {
+  counter-increment: none;
+}
