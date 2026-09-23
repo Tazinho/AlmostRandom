@@ -37,7 +37,7 @@ How far can a bullfrog jump? Even with the [data in hand](https://github.com/had
 
 The context includes how the data was obtained. The measurements come from a live-animal competition, and the [collection notes](https://github.com/hadley/frog-jumping/blob/main/data-collection.md) describe [how participants prompt the frogs to jump](https://journals.biologists.com/jeb/article/216/21/3947/11669/Chasing-maximal-performance-a-cautionary-tale-from). For me, that raises animal-welfare concerns alongside the curiosity of the example.[^frog-welfare] That ethical context is worth keeping visible too.
 
-A data dictionary can record what each row represents, how values were measured and how tables fit together. [Data Dict](https://data-dict.tidyverse.org/), an open-source project from [Hadley Wickham](https://github.com/hadley/data-dict.yaml) supported by Posit, combines a format for those descriptions with a command-line tool. In `data-dict.yaml`, descriptions of the data and rules it should satisfy live together in one file. The command-line tool checks those rules against the data and turns the dictionary into readable documentation. The format is [designed for teams working across R, Python and SQL](https://data-dict.tidyverse.org/who-why-when.html).
+A data dictionary can record what each row represents, how values were measured and how tables fit together. [Data Dict](https://data-dict.tidyverse.org/), an open-source project initiated by [Hadley Wickham](https://github.com/hadley/data-dict.yaml) and supported by Posit, combines a format for those descriptions with a command-line tool. In `data-dict.yaml`, descriptions of the data and rules it should satisfy live together in one file. The command-line tool checks those rules against the data and turns the dictionary into readable documentation. The format is [designed for teams working across R, Python and SQL](https://data-dict.tidyverse.org/who-why-when.html).
 
 ## Take a look
 
@@ -74,7 +74,7 @@ The dictionary is useful to agents reading the data too. Posit's [querychat](htt
 
 ## Keep an eye on it
 
-Data Dict is still an early project. The CLI currently validates [Parquet files](https://data-dict.tidyverse.org/spec.html#source), with SQL sources planned for the future. There is also an open [proposal to generate sample data](https://github.com/tidyverse/data-dict/issues/20) from a dictionary. That could be handy for testing, although satisfying relationships between tables makes it a substantial task.
+Data Dict is still an early project. The CLI currently validates [Parquet files](https://data-dict.tidyverse.org/spec.html#source), with SQL sources expected in the future. There is also an open [proposal to generate sample data](https://github.com/tidyverse/data-dict/issues/20) from a dictionary. That could be handy for testing, although satisfying relationships between tables makes it a substantial task.
 
 There are related approaches with different scopes. Within a dbt project, [documentation](https://docs.getdbt.com/docs/build/documentation) describes models and columns and shows dependencies between models, while [data tests](https://docs.getdbt.com/docs/build/data-tests) check declared assumptions. The [Open Data Contract Standard](https://bitol-io.github.io/open-data-contract-standard/latest/) goes beyond schema descriptions to include responsibilities and service-level agreements. The starting point explored here is more focused: a dictionary to describe a dataset, check expectations and share context with people and agents.
 
