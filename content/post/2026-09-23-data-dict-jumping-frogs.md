@@ -37,7 +37,7 @@ How far can a bullfrog jump? Even with the [data in hand](https://github.com/had
 
 The context includes how the data was obtained. The measurements come from a live-animal competition, and the [collection notes](https://github.com/hadley/frog-jumping/blob/main/data-collection.md) describe [how participants prompt the frogs to jump](https://journals.biologists.com/jeb/article/216/21/3947/11669/Chasing-maximal-performance-a-cautionary-tale-from). For me, that raises animal-welfare concerns alongside the curiosity of the example.[^frog-welfare] That is part of the provenance too, and worth keeping visible rather than treating the event as just a quirky backdrop.
 
-A data dictionary records what each row represents, how values were measured and how tables fit together. [Data Dict](https://data-dict.tidyverse.org/), an open-source project from [Hadley Wickham](https://github.com/hadley/data-dict.yaml) supported by Posit, combines a format for those descriptions with a command-line tool. You write descriptions and rules in `data-dict.yaml`; the tool checks the data against those rules and renders readable documentation. It is [designed for teams working across R, Python and SQL](https://data-dict.tidyverse.org/who-why-when.html).
+A data dictionary records what each row represents, how values were measured and how tables fit together. [Data Dict](https://data-dict.tidyverse.org/), an open-source project from [Hadley Wickham](https://github.com/hadley/data-dict.yaml) supported by Posit, combines a format for those descriptions with a command-line tool. In `data-dict.yaml`, you describe the data and specify rules it should satisfy. The command-line tool checks those rules against the data and turns the dictionary into readable documentation. It is [designed for teams working across R, Python and SQL](https://data-dict.tidyverse.org/who-why-when.html).
 
 ## Take a look
 
@@ -80,6 +80,6 @@ There are related approaches with different scopes. Within a dbt project, [docum
 
 For a first experiment, though, the question is smaller: will the next person opening this dataset have an easier time understanding it? That person might be a colleague, an agent, or you six months from now. If a few descriptions and checks can save them some head-scratching, that is a useful jump forward.
 
-[^jump-distance]: The longest bullfrog jump recorded in the study was 2.2 m, about 70% longer than the previously published maximum of 1.295 m. Of the 3,124 recorded jumps, 58% exceeded that earlier maximum. See [Astley et al. (2013)](https://doi.org/10.1242/jeb.090357).
+[^jump-distance]: The longest bullfrog jump recorded in the study was 2.2 m, about 70% longer than the previously published maximum in the scientific literature (1.295 m). Of the 3,124 recorded jumps, 58% exceeded that earlier maximum. See [Astley et al. (2013)](https://doi.org/10.1242/jeb.090357).
 
 [^frog-welfare]: The organisers also describe measures intended to support frog welfare, including housing and care arrangements during the event and a Frog Welfare Policy. See the [organisers' account](https://www.frogtown.org/frog-jump).

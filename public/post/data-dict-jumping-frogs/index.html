@@ -304,7 +304,7 @@
 
 <p>The context includes how the data was obtained. The measurements come from a live-animal competition, and the <a href="https://github.com/hadley/frog-jumping/blob/main/data-collection.md" target="_blank">collection notes</a> describe <a href="https://journals.biologists.com/jeb/article/216/21/3947/11669/Chasing-maximal-performance-a-cautionary-tale-from" target="_blank">how participants prompt the frogs to jump</a>. For me, that raises animal-welfare concerns alongside the curiosity of the example.<sup class="footnote-ref" id="fnref:frog-welfare"><a href="#fn:frog-welfare">2</a></sup> That is part of the provenance too, and worth keeping visible rather than treating the event as just a quirky backdrop.</p>
 
-<p>A data dictionary records what each row represents, how values were measured and how tables fit together. <a href="https://data-dict.tidyverse.org/" target="_blank">Data Dict</a>, an open-source project from <a href="https://github.com/hadley/data-dict.yaml" target="_blank">Hadley Wickham</a> supported by Posit, combines a format for those descriptions with a command-line tool. You write descriptions and rules in <code>data-dict.yaml</code>; the tool checks the data against those rules and renders readable documentation. It is <a href="https://data-dict.tidyverse.org/who-why-when.html" target="_blank">designed for teams working across R, Python and SQL</a>.</p>
+<p>A data dictionary records what each row represents, how values were measured and how tables fit together. <a href="https://data-dict.tidyverse.org/" target="_blank">Data Dict</a>, an open-source project from <a href="https://github.com/hadley/data-dict.yaml" target="_blank">Hadley Wickham</a> supported by Posit, combines a format for those descriptions with a command-line tool. In <code>data-dict.yaml</code>, you describe the data and specify rules it should satisfy. The command-line tool checks those rules against the data and turns the dictionary into readable documentation. It is <a href="https://data-dict.tidyverse.org/who-why-when.html" target="_blank">designed for teams working across R, Python and SQL</a>.</p>
 
 <h2 id="take-a-look">Take a look</h2>
 
@@ -349,7 +349,7 @@ data-dict render-spec data-dict.yaml
 <hr />
 
 <ol>
-<li id="fn:jump-distance">The longest bullfrog jump recorded in the study was 2.2 m, about 70% longer than the previously published maximum of 1.295 m. Of the 3,124 recorded jumps, 58% exceeded that earlier maximum. See <a href="https://doi.org/10.1242/jeb.090357" target="_blank">Astley et al. (2013)</a>.
+<li id="fn:jump-distance">The longest bullfrog jump recorded in the study was 2.2 m, about 70% longer than the previously published maximum in the scientific literature (1.295 m). Of the 3,124 recorded jumps, 58% exceeded that earlier maximum. See <a href="https://doi.org/10.1242/jeb.090357" target="_blank">Astley et al. (2013)</a>.
  <a class="footnote-return" href="#fnref:jump-distance"><sup>^</sup></a></li>
 <li id="fn:frog-welfare">The organisers also describe measures intended to support frog welfare, including housing and care arrangements during the event and a Frog Welfare Policy. See the <a href="https://www.frogtown.org/frog-jump" target="_blank">organisers&rsquo; account</a>.
  <a class="footnote-return" href="#fnref:frog-welfare"><sup>^</sup></a></li>
