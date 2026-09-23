@@ -26,9 +26,8 @@ Apparently, you can rent a frog and enter a jumping competition. You might find 
     Your browser does not support embedded video.
   </video>
   <figcaption>
-    Supporting video from Astley et al. (2013), published as Supplementary Movie 1:
-    <a href="https://doi.org/10.1242/jeb.090357">Chasing maximal performance: a cautionary tale from the celebrated jumping frogs of Calaveras County</a>.
-    <em>Journal of Experimental Biology</em>, 216, 3947–3953.
+    Bullfrogs at the Calaveras County Jumping Frog Jubilee. Supporting video from
+    <a href="https://doi.org/10.1242/jeb.090357">Astley et al. (2013)</a>.
   </figcaption>
 </figure>
 
@@ -83,4 +82,4 @@ For a first experiment, though, the question is smaller: will the next person op
 
 [^jump-distance]: The longest bullfrog jump recorded in the study was 2.2 m, about 70% longer than the previously published maximum of 1.295 m. Of the 3,124 recorded jumps, 58% exceeded that earlier maximum. See [Astley et al. (2013)](https://doi.org/10.1242/jeb.090357).
 
-[^frog-welfare]: The organisers describe housing and care arrangements for the frogs during the event and report having adopted a Frog Welfare Policy. See the [organisers' account](https://www.frogtown.org/frog-jump).
+[^frog-welfare]: The organisers also describe measures intended to support frog welfare, including housing and care arrangements during the event and a Frog Welfare Policy. See the [organisers' account](https://www.frogtown.org/frog-jump).

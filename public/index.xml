@@ -26,9 +26,8 @@
     Your browser does not support embedded video.
   &lt;/video&gt;
   &lt;figcaption&gt;
-    Supporting video from Astley et al. (2013), published as Supplementary Movie 1:
-    &lt;a href=&#34;https://doi.org/10.1242/jeb.090357&#34;&gt;Chasing maximal performance: a cautionary tale from the celebrated jumping frogs of Calaveras County&lt;/a&gt;.
-    &lt;em&gt;Journal of Experimental Biology&lt;/em&gt;, 216, 3947–3953.
+    Bullfrogs at the Calaveras County Jumping Frog Jubilee. Supporting video from
+    &lt;a href=&#34;https://doi.org/10.1242/jeb.090357&#34;&gt;Astley et al. (2013)&lt;/a&gt;.
   &lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -85,7 +84,7 @@ data-dict render-spec data-dict.yaml
 &lt;ol&gt;
 &lt;li id=&#34;fn:jump-distance&#34;&gt;The longest bullfrog jump recorded in the study was 2.2 m, about 70% longer than the previously published maximum of 1.295 m. Of the 3,124 recorded jumps, 58% exceeded that earlier maximum. See &lt;a href=&#34;https://doi.org/10.1242/jeb.090357&#34; target=&#34;_blank&#34;&gt;Astley et al. (2013)&lt;/a&gt;.
  &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:jump-distance&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li id=&#34;fn:frog-welfare&#34;&gt;The organisers describe housing and care arrangements for the frogs during the event and report having adopted a Frog Welfare Policy. See the &lt;a href=&#34;https://www.frogtown.org/frog-jump&#34; target=&#34;_blank&#34;&gt;organisers&amp;rsquo; account&lt;/a&gt;.
+&lt;li id=&#34;fn:frog-welfare&#34;&gt;The organisers also describe measures intended to support frog welfare, including housing and care arrangements during the event and a Frog Welfare Policy. See the &lt;a href=&#34;https://www.frogtown.org/frog-jump&#34; target=&#34;_blank&#34;&gt;organisers&amp;rsquo; account&lt;/a&gt;.
  &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:frog-welfare&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
