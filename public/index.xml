@@ -75,6 +75,8 @@ data-dict render-spec data-dict.yaml
 &lt;p&gt;There are related approaches with different scopes. Within a dbt project, &lt;a href=&#34;https://docs.getdbt.com/docs/build/documentation&#34; target=&#34;_blank&#34;&gt;documentation&lt;/a&gt; describes models and columns and shows dependencies between models, while &lt;a href=&#34;https://docs.getdbt.com/docs/build/data-tests&#34; target=&#34;_blank&#34;&gt;data tests&lt;/a&gt; check declared assumptions. The &lt;a href=&#34;https://bitol-io.github.io/open-data-contract-standard/latest/&#34; target=&#34;_blank&#34;&gt;Open Data Contract Standard&lt;/a&gt; goes beyond schema descriptions to include responsibilities and service-level agreements. The starting point explored here is more focused: a dictionary to describe a dataset, check expectations and share context with people and agents.&lt;/p&gt;
 
 &lt;p&gt;For a first experiment, though, the question is smaller: will the next person opening this dataset have an easier time understanding it? That person might be a colleague, an agent, or you six months from now. If a few descriptions and checks can save them some head-scratching, that is a useful jump forward.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;A note on the frog-jumping example:&lt;/strong&gt; I use this dataset because it is the example in the Data Dict quickstart and because it makes the documentation problem unusually concrete. I do have reservations about using animals as entertainment, and mentioning the event here should not be read as an endorsement of it.&lt;/p&gt;
 </description>
     </item>
     
