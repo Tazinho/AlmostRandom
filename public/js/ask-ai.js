@@ -1,3 +1,7 @@
+const markedScript = document.createElement("script"); /*Markdown rendering*/
+markedScript.src = "https://cdn.jsdelivr.net/npm/marked/marked.min.js";
+document.head.appendChild(markedScript);
+
 document.addEventListener("DOMContentLoaded", () => {
 
   const html = `
@@ -78,8 +82,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
       const data = await response.json();
 
-      loading.textContent =
+      if (window.marked && data.answer) {
+        loading.innerHTML = marked.parse(data.answer);
+      } else {
+        loading.textContent =
         data.answer || "Sorry, I couldn't answer that.";
+      }
 
     } catch (error) {
       loading.textContent =

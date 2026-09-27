@@ -147,3 +147,100 @@
   border-radius: 8px;
   cursor: pointer;
 }
+
+/*mobile rendering of Chat AI Markdown*/
+.ai-message p,
+.user-message p {
+  margin: 0 0 0.7em;
+}
+
+.ai-message p:last-child,
+.user-message p:last-child {
+  margin-bottom: 0;
+}
+
+.ai-message ul,
+.ai-message ol {
+  margin: 0.5em 0;
+  padding-left: 1.4em;
+}
+
+.ai-message a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.ai-message strong {
+  font-weight: 600;
+}
+
+/* rendering of AI on Phone */
+@media (max-width: 600px) {
+
+  #ask-ai-window {
+    position: fixed;
+
+    left: 12px;
+    right: 12px;
+    bottom: 12px;
+
+    width: auto;
+    height: min(72dvh, 600px);
+
+    max-width: none;
+    max-height: none;
+
+    border-radius: 16px;
+  }
+
+  #ask-ai-messages {
+    padding: 14px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .ai-message,
+  .user-message {
+    max-width: 88%;
+    margin-bottom: 10px;
+  }
+
+  #ask-ai-form {
+    flex-shrink: 0;
+    padding: 10px;
+  }
+
+  #ask-ai-input {
+    font-size: 16px;
+  }
+
+  #ask-ai-button {
+    right: 16px;
+    bottom: 16px;
+  }
+}
+
+/* and blue button on phone*/
+#ask-ai-form button {
+  width: 44px;
+  min-width: 44px;
+
+  border: 0;
+  border-radius: 8px;
+
+  background: #333;
+  color: white;
+
+  font: inherit;
+  font-size: 20px;
+
+  cursor: pointer;
+
+  appearance: none;
+  -webkit-appearance: none;
+}
