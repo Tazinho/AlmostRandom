@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>chatbot on Almost Random</title>
+    <link>https://www.malte-grosser.com/tags/chatbot/</link>
+    <description>Recent content in chatbot on Almost Random</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017-2026 Malte Grosser</copyright>
+    <lastBuildDate>Mon, 28 Sep 2026 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.malte-grosser.com/tags/chatbot/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Adding a free AI chatbot to a blogdown website</title>
+      <link>https://www.malte-grosser.com/post/adding-a-free-ai-chatbot/</link>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.malte-grosser.com/post/adding-a-free-ai-chatbot/</guid>
+      <description>I wanted to add a small “Ask AI” window to this website. Visitors should be able to ask about my projects, publications or background and get a short answer with a useful link. Running it should cost nothing.
+I described my website setup to ChatGPT, followed its suggestions and discussed the parts I wanted to change. That covered choosing a provider, writing the code and adjusting the window for desktop and mobile.</description>
+    </item>
+    
+  </channel>
+</rss>
