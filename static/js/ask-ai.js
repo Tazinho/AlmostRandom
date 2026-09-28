@@ -9,6 +9,10 @@ document.addEventListener(
     const WORKER_URL =
       "https://malte-ai.malte-grosser.workers.dev";
 
+    const isHomepage =
+      window.location.pathname === "/" ||
+      window.location.pathname === "";
+
 
     // --------------------------------------------------
     // Load Markdown + HTML sanitization
@@ -49,15 +53,13 @@ document.addEventListener(
     // --------------------------------------------------
     // Create chat UI
     // --------------------------------------------------
-    const isBlogArticle = /^\/post\/.+/.test(window.location.pathname);
 
     const html = `
       <button
         id="ask-ai-button"
-        class="${isBlogArticle ? "ask-ai-compact" : ""}"
         aria-label="Ask AI"
       >
-        ${isBlogArticle ? "✨" : "✨ Ask AI"}
+        ✨ Ask AI
       </button>
 
       <div
@@ -172,6 +174,40 @@ document.addEventListener(
 
 
     // --------------------------------------------------
+    // Launcher appearance
+    // Full label only at top of homepage
+    // --------------------------------------------------
+
+    function updateLauncher() {
+
+      const atTop =
+        window.scrollY < 80;
+
+      const showFullLabel =
+        isHomepage && atTop;
+
+      button.classList.toggle(
+        "ask-ai-compact",
+        !showFullLabel
+      );
+
+      button.textContent =
+        showFullLabel
+          ? "✨ Ask AI"
+          : "✨";
+    }
+
+
+    updateLauncher();
+
+    window.addEventListener(
+      "scroll",
+      updateLauncher,
+      { passive: true }
+    );
+
+
+    // --------------------------------------------------
     // Desktop resize from top-left corner
     // --------------------------------------------------
 
@@ -283,7 +319,10 @@ document.addEventListener(
     button.addEventListener(
       "click",
       () => {
+
         windowEl.classList.add("open");
+        button.classList.add("hidden");
+
         input.focus();
       }
     );
@@ -292,7 +331,11 @@ document.addEventListener(
     close.addEventListener(
       "click",
       () => {
+
         windowEl.classList.remove("open");
+        button.classList.remove("hidden");
+
+        updateLauncher();
       }
     );
 
