@@ -273,7 +273,36 @@
   -webkit-appearance: none;
 }
 
+/* --------------------------------------------------
+   font-size
+   /* --------------------------------------------------
+   Desktop chat typography
+   -------------------------------------------------- */
 
+@media (min-width: 601px) {
+
+  .ask-ai-header strong {
+    font-size: 16px;
+  }
+
+  .ask-ai-header small {
+    font-size: 13px;
+  }
+
+  .ai-message,
+  .user-message {
+    font-size: 14px;
+  }
+
+  #ask-ai-input {
+    font-size: 14px;
+  }
+
+  #ask-ai-form button {
+    font-size: 18px;
+  }
+}
+   -------------------------------------------------- */
 /* --------------------------------------------------
    Mobile
    -------------------------------------------------- */
