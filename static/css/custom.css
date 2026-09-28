@@ -20,10 +20,6 @@
 }
 
 /* Label video captions separately from figures. */
-/*.article-style figure.video-figure > figcaption::before {
-  content: "Video: ";
-  text-transform: none;
-}*/
 .article-style figure.video-figure > figcaption::before {
   content: none;
 }
@@ -31,6 +27,11 @@
 .article-style figure.video-figure > figcaption {
   counter-increment: none;
 }
+
+
+/* --------------------------------------------------
+   Ask AI button
+   -------------------------------------------------- */
 
 #ask-ai-button {
   position: fixed;
@@ -48,9 +49,14 @@
   background: #333;
   color: white;
 
-  box-shadow: 0 4px 18px rgba(0,0,0,.18);
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.18);
   cursor: pointer;
 }
+
+
+/* --------------------------------------------------
+   Ask AI window
+   -------------------------------------------------- */
 
 #ask-ai-window {
   display: none;
@@ -62,6 +68,9 @@
   width: 380px;
   height: 520px;
 
+  min-width: 320px;
+  min-height: 320px;
+
   max-width: calc(100vw - 30px);
   max-height: calc(100vh - 120px);
 
@@ -69,7 +78,7 @@
 
   background: white;
   border-radius: 12px;
-  box-shadow: 0 8px 40px rgba(0,0,0,.2);
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.2);
 
   overflow: hidden;
   flex-direction: column;
@@ -79,6 +88,23 @@
   display: flex;
 }
 
+
+/* --------------------------------------------------
+   Desktop resizing
+   -------------------------------------------------- */
+
+@media (min-width: 601px) {
+  #ask-ai-window {
+    resize: both;
+    overflow: auto;
+  }
+}
+
+
+/* --------------------------------------------------
+   Header
+   -------------------------------------------------- */
+
 .ask-ai-header {
   padding: 16px 18px;
   border-bottom: 1px solid #eee;
@@ -86,6 +112,8 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+
+  flex-shrink: 0;
 }
 
 .ask-ai-header small {
@@ -101,8 +129,15 @@
   cursor: pointer;
 }
 
+
+/* --------------------------------------------------
+   Messages
+   -------------------------------------------------- */
+
 #ask-ai-messages {
   flex: 1;
+  min-height: 0;
+
   overflow-y: auto;
   padding: 18px;
 }
@@ -126,29 +161,11 @@
   margin-left: auto;
 }
 
-#ask-ai-form {
-  display: flex;
-  gap: 8px;
 
-  padding: 12px;
-  border-top: 1px solid #eee;
-}
+/* --------------------------------------------------
+   Markdown formatting
+   -------------------------------------------------- */
 
-#ask-ai-input {
-  flex: 1;
-  padding: 10px 12px;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-}
-
-#ask-ai-form button {
-  width: 40px;
-  border: 0;
-  border-radius: 8px;
-  cursor: pointer;
-}
-
-/*mobile rendering of Chat AI Markdown*/
 .ai-message p,
 .user-message p {
   margin: 0 0 0.7em;
@@ -162,7 +179,11 @@
 .ai-message ul,
 .ai-message ol {
   margin: 0.5em 0;
-  padding-left: 1.4em;
+  padding-left: 1.3em;
+}
+
+.ai-message li {
+  margin-bottom: 0.25em;
 }
 
 .ai-message a {
@@ -174,9 +195,60 @@
   font-weight: 600;
 }
 
-/* rendering of AI on Phone */
-@media (max-width: 600px) {
+.ai-message code {
+  font-size: 0.9em;
+}
 
+
+/* --------------------------------------------------
+   Input form
+   -------------------------------------------------- */
+
+#ask-ai-form {
+  display: flex;
+  gap: 8px;
+
+  padding: 12px;
+  border-top: 1px solid #eee;
+
+  flex-shrink: 0;
+}
+
+#ask-ai-input {
+  flex: 1;
+  min-width: 0;
+
+  padding: 10px 12px;
+
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+#ask-ai-form button {
+  width: 44px;
+  min-width: 44px;
+
+  border: 0;
+  border-radius: 8px;
+
+  background: #333;
+  color: white;
+
+  font: inherit;
+  font-size: 20px;
+
+  cursor: pointer;
+
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+
+/* --------------------------------------------------
+   Mobile
+   -------------------------------------------------- */
+
+@media (max-width: 600px) {
   #ask-ai-window {
     position: fixed;
 
@@ -186,16 +258,19 @@
 
     width: auto;
 
-    /* Important: don't force a tall window */
+    min-width: 0;
+    min-height: 0;
+
     height: auto;
     max-height: 70dvh;
 
     border-radius: 16px;
+
+    resize: none;
     overflow: hidden;
   }
 
   #ask-ai-messages {
-    /* Don't stretch to fill unused space */
     flex: 0 1 auto;
 
     min-height: 0;
@@ -224,74 +299,10 @@
 
   #ask-ai-input {
     font-size: 16px;
-    min-width: 0;
-  }
-
-  #ask-ai-form button {
-    width: 44px;
-    min-width: 44px;
-
-    background: #333;
-    color: white;
-
-    appearance: none;
-    -webkit-appearance: none;
   }
 
   #ask-ai-button {
     right: 16px;
     bottom: 16px;
   }
-}
-
-/* and blue button on phone*/
-#ask-ai-form button {
-  width: 44px;
-  min-width: 44px;
-
-  border: 0;
-  border-radius: 8px;
-
-  background: #333;
-  color: white;
-
-  font: inherit;
-  font-size: 20px;
-
-  cursor: pointer;
-
-  appearance: none;
-  -webkit-appearance: none;
-}
-
-/* better formatted markup */
-.ai-message p {
-  margin: 0 0 0.7em;
-}
-
-.ai-message p:last-child {
-  margin-bottom: 0;
-}
-
-.ai-message ul,
-.ai-message ol {
-  margin: 0.5em 0;
-  padding-left: 1.3em;
-}
-
-.ai-message li {
-  margin-bottom: 0.25em;
-}
-
-.ai-message a {
-  color: inherit;
-  text-decoration: underline;
-}
-
-.ai-message strong {
-  font-weight: 600;
-}
-
-.ai-message code {
-  font-size: 0.9em;
 }
