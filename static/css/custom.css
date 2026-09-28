@@ -358,9 +358,12 @@
 /* --------------------------------------------------
    Mobile
    -------------------------------------------------- */
-
 @media (max-width: 600px) {
 
+  /* Chatfenster:
+     - bleibt unten verankert
+     - startet kompakt
+     - darf aber fast die gesamte Bildschirmhöhe nutzen */
   #ask-ai-window {
     position: fixed;
 
@@ -369,11 +372,12 @@
     bottom: 12px;
 
     width: auto;
-    height: fit-content;
+    height: auto;
 
     min-width: 0;
     min-height: 0;
 
+    /* Fast volle sichtbare Höhe auf Mobile */
     max-height: 92dvh;
 
     border-radius: 16px;
@@ -382,13 +386,17 @@
   }
 
 
+  /* Nachrichtenbereich:
+     - wächst mit dem Inhalt
+     - nutzt möglichst viel vom verfügbaren Platz
+     - beginnt erst zu scrollen, wenn fast der ganze Screen genutzt ist */
   #ask-ai-messages {
-    flex: none;
-
-    height: auto;
+    flex: 0 1 auto;
 
     min-height: 0;
-    max-height: 62dvh;
+
+    /* Reserviert ungefähr 135px für Header + Eingabezeile */
+    max-height: calc(92dvh - 135px);
 
     overflow-y: auto;
 
@@ -403,6 +411,7 @@
   }
 
 
+  /* Nachrichtenblasen auf Mobile etwas breiter */
   .ai-message,
   .user-message {
     max-width: 88%;
@@ -411,6 +420,7 @@
   }
 
 
+  /* Eingabebereich soll seine Höhe behalten */
   #ask-ai-form {
     flex-shrink: 0;
 
@@ -418,17 +428,21 @@
   }
 
 
+  /* 16px verhindert unerwünschtes Safari-Zooming
+     beim Fokussieren des Inputs */
   #ask-ai-input {
     font-size: 16px;
   }
 
 
+  /* Floating-Button etwas näher an den Bildschirmrand */
   #ask-ai-button {
     right: 16px;
     bottom: 16px;
   }
 
 
+  /* Resize-Handle nur auf Desktop */
   #ask-ai-resize {
     display: none;
   }
