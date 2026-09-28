@@ -14,7 +14,7 @@ tags:
   - Cloudflare
 draft: false
 header:
-  image: "headers/ai-chatbot-v2.png"
+  image: "headers/ai-chatbot-v3.png"
 ---
 
 I wanted to add a small “Ask AI” window to this website. Visitors should be able to ask about my projects, publications or background and get a short answer with a useful link. Running it should cost nothing.
