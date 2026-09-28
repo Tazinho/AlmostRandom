@@ -304,16 +304,6 @@
     
     <url>
     
-      <loc>https://www.malte-grosser.com/categories/r/</loc>
-      <lastmod>2026-09-23T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>https://www.malte-grosser.com/tags/r/</loc>
       <lastmod>2017-11-12T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -324,8 +314,18 @@
     
     <url>
     
-      <loc>https://www.malte-grosser.com/categories/r-bloggers/</loc>
+      <loc>https://www.malte-grosser.com/categories/r/</loc>
       <lastmod>2026-09-23T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://www.malte-grosser.com/categories/r-bloggers/</loc>
+      <lastmod>2026-09-28T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

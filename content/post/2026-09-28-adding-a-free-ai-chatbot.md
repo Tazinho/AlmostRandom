@@ -6,6 +6,7 @@ slug: adding-a-free-ai-chatbot
 description: "How I added a free website assistant with help from ChatGPT, a Cloudflare Worker and a little website context."
 categories:
   - AI
+  - R-bloggers
 tags:
   - blogdown
   - Hugo
