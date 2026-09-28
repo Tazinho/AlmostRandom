@@ -64,6 +64,11 @@ document.addEventListener(
         aria-label="Ask AI"
       >
 
+        <div
+          id="ask-ai-resize"
+          aria-hidden="true"
+        ></div>
+
         <div class="ask-ai-header">
 
           <div>
@@ -158,6 +163,116 @@ document.addEventListener(
         "ask-ai-messages"
       );
 
+    const resizeHandle =
+      document.getElementById(
+        "ask-ai-resize"
+      );
+
+
+    // --------------------------------------------------
+    // Desktop resize from top-left corner
+    // --------------------------------------------------
+
+    resizeHandle.addEventListener(
+      "pointerdown",
+      event => {
+
+        if (
+          window.matchMedia(
+            "(max-width: 600px)"
+          ).matches
+        ) {
+          return;
+        }
+
+        event.preventDefault();
+
+        const startX = event.clientX;
+        const startY = event.clientY;
+
+        const startWidth =
+          windowEl.offsetWidth;
+
+        const startHeight =
+          windowEl.offsetHeight;
+
+        resizeHandle.setPointerCapture(
+          event.pointerId
+        );
+
+
+        function resize(moveEvent) {
+
+          const width =
+            startWidth +
+            (startX - moveEvent.clientX);
+
+          const height =
+            startHeight +
+            (startY - moveEvent.clientY);
+
+          const maxWidth =
+            window.innerWidth - 24;
+
+          const maxHeight =
+            window.innerHeight - 24;
+
+          const newWidth =
+            Math.min(
+              maxWidth,
+              Math.max(320, width)
+            );
+
+          const newHeight =
+            Math.min(
+              maxHeight,
+              Math.max(320, height)
+            );
+
+          windowEl.style.width =
+            `${newWidth}px`;
+
+          windowEl.style.height =
+            `${newHeight}px`;
+        }
+
+
+        function stop() {
+
+          resizeHandle.removeEventListener(
+            "pointermove",
+            resize
+          );
+
+          resizeHandle.removeEventListener(
+            "pointerup",
+            stop
+          );
+
+          resizeHandle.removeEventListener(
+            "pointercancel",
+            stop
+          );
+        }
+
+
+        resizeHandle.addEventListener(
+          "pointermove",
+          resize
+        );
+
+        resizeHandle.addEventListener(
+          "pointerup",
+          stop
+        );
+
+        resizeHandle.addEventListener(
+          "pointercancel",
+          stop
+        );
+      }
+    );
+
 
     // --------------------------------------------------
     // Open / close
@@ -228,7 +343,6 @@ document.addEventListener(
 
       } else {
 
-        // Safe fallback if CDN loading fails
         element.textContent = text;
       }
 
@@ -255,8 +369,6 @@ document.addEventListener(
         }
 
 
-        // Client-side max length.
-        // The Worker independently checks this too.
         if (question.length > 1000) {
           return;
         }
@@ -297,17 +409,9 @@ document.addEventListener(
           );
 
 
-          // --------------------------------------------
-          // Read response
-          // --------------------------------------------
-
           const data =
             await response.json();
 
-
-          // --------------------------------------------
-          // Worker returned an error
-          // --------------------------------------------
 
           if (!response.ok) {
 
@@ -324,10 +428,6 @@ document.addEventListener(
             return;
           }
 
-
-          // --------------------------------------------
-          // Successful answer
-          // --------------------------------------------
 
           if (data.answer) {
 

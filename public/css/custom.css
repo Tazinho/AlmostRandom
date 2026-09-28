@@ -19,7 +19,8 @@
   text-decoration-thickness: 2px;
 }
 
-/* Label video captions separately from figures. */
+
+/* Label video captions separately from figures */
 .article-style figure.video-figure > figcaption::before {
   content: none;
 }
@@ -90,13 +91,38 @@
 
 
 /* --------------------------------------------------
-   Desktop resizing
+   Top-left resize handle
    -------------------------------------------------- */
 
 @media (min-width: 601px) {
-  #ask-ai-window {
-    resize: both;
-    overflow: auto;
+  #ask-ai-resize {
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 20px;
+    height: 20px;
+
+    z-index: 20;
+
+    cursor: nwse-resize;
+    touch-action: none;
+  }
+
+  #ask-ai-resize::before {
+    content: "";
+
+    position: absolute;
+
+    top: 5px;
+    left: 5px;
+
+    width: 8px;
+    height: 8px;
+
+    border-top: 2px solid #aaa;
+    border-left: 2px solid #aaa;
   }
 }
 
@@ -125,6 +151,7 @@
 #ask-ai-close {
   border: 0;
   background: transparent;
+
   font-size: 24px;
   cursor: pointer;
 }
@@ -146,7 +173,9 @@
 .user-message {
   padding: 10px 13px;
   border-radius: 12px;
+
   margin-bottom: 12px;
+
   max-width: 85%;
   line-height: 1.45;
 }
@@ -158,6 +187,7 @@
 .user-message {
   background: #333;
   color: white;
+
   margin-left: auto;
 }
 
@@ -249,6 +279,7 @@
    -------------------------------------------------- */
 
 @media (max-width: 600px) {
+
   #ask-ai-window {
     position: fixed;
 
@@ -266,7 +297,6 @@
 
     border-radius: 16px;
 
-    resize: none;
     overflow: hidden;
   }
 
@@ -304,5 +334,9 @@
   #ask-ai-button {
     right: 16px;
     bottom: 16px;
+  }
+
+  #ask-ai-resize {
+    display: none;
   }
 }
