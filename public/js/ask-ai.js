@@ -49,13 +49,15 @@ document.addEventListener(
     // --------------------------------------------------
     // Create chat UI
     // --------------------------------------------------
+    const isBlogArticle = /^\/post\/.+/.test(window.location.pathname);
 
     const html = `
       <button
         id="ask-ai-button"
+        class="${isBlogArticle ? "ask-ai-compact" : ""}"
         aria-label="Ask AI"
       >
-        ✨ Ask AI
+        ${isBlogArticle ? "✨" : "✨ Ask AI"}
       </button>
 
       <div
