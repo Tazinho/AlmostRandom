@@ -374,7 +374,7 @@
     min-width: 0;
     min-height: 0;
 
-    max-height: 72dvh;
+    max-height: 92dvh;
 
     border-radius: 16px;
 
@@ -388,7 +388,7 @@
     height: auto;
 
     min-height: 0;
-    max-height: 42dvh;
+    max-height: 62dvh;
 
     overflow-y: auto;
 
