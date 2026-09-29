@@ -8,15 +8,11 @@ date = "2016-04-20T00:00:00"
 weight = 10
 
 # List your qualifications (such as academic degrees).
-#[[education.courses]]
-#  course = "PhD candidate"
-#  institution = "University Medical Center Hamburg-Eppendorf"
-#  year = 2015
-
 [[education.courses]]
   course = "Dr. rer. biol. hum."
   institution = "University of Hamburg"
   year = 2022
+  thesis_url = "https://ediss.sub.uni-hamburg.de/handle/ediss/9871"
 
 [[education.courses]]
   course = "MSc Mathematics"
@@ -27,17 +23,21 @@ weight = 10
   course = "BSc Business Mathematics"
   institution = "University of Hamburg"
   year = 2010
-  
-# List your academic interests.
+
+# Interests.
 [interests]
   interests = [
-    "Programming",
-    "Machine Learning",
-    "Neuroradiology"
+    "Psychology and human behavior",
+    "Collaboration and group dynamics",
+    "Data platforms and applications",
+    "Large language models"
   ]
- 
 +++
 
-Hi, welcome to my page about my personal Data Science projects.
+Hi, welcome to Almost Random!
 
-In the past, I worked a lot in parallel in industry and research. This often involved gaining insights from smaller and larger data sets. So I spent a lot of time working on higher level programming languages and dealing with data. I also met a lot of cool people who were working on similar topics, and every now and then a neat idea for a side project came up. Some of these we have been able to realize and the results can be found here on this page.
+Over the years, I’ve worked in both industry and research, spending quite a bit of time programming, exploring data, and seeing where an idea might lead.
+
+Along the way, I’ve met a lot of interesting people working on similar topics. Every now and then, a neat idea for a side project came up, and some of those kept me busy for quite a while. You’ll find a selection of my projects here, along with talks I’ve given, publications from my research at UKE, and occasional blog posts.
+
+Outside of work, I enjoy basketball, table tennis, and reading.

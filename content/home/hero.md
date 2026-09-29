@@ -24,4 +24,4 @@ weight = 3
 #  label = '<i class="fa fa-download"></i> Install Now'
 +++
 
-<div style="margin-bottom: 12em; overflow: auto; height:12px;"></div> 
+<div style="margin-bottom: 4em; overflow: auto; height:12px;"></div> 

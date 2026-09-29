@@ -27,8 +27,9 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://www.malte-grosser.com/home/about/</guid>
-      <description>Hi, welcome to my page about my personal Data Science projects.
-In the past, I worked a lot in parallel in industry and research. This often involved gaining insights from smaller and larger data sets. So I spent a lot of time working on higher level programming languages and dealing with data. I also met a lot of cool people who were working on similar topics, and every now and then a neat idea for a side project came up.</description>
+      <description>Hi, welcome to Almost Random!
+Over the years, I’ve worked in both industry and research, spending quite a bit of time programming, exploring data, and seeing where an idea might lead.
+Along the way, I’ve met a lot of interesting people working on similar topics. Every now and then, a neat idea for a side project came up, and some of those kept me busy for quite a while. You’ll find a selection of my projects here, along with talks I’ve given, publications from my research at UKE, and occasional blog posts.</description>
     </item>
     
     <item>
@@ -41,20 +42,20 @@ In the past, I worked a lot in parallel in industry and research. This often inv
     </item>
     
     <item>
-      <title>Talks</title>
-      <link>https://www.malte-grosser.com/home/talks/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.malte-grosser.com/home/talks/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Recent Posts</title>
       <link>https://www.malte-grosser.com/home/posts/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://www.malte-grosser.com/home/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Talks</title>
+      <link>https://www.malte-grosser.com/home/talks/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.malte-grosser.com/home/talks/</guid>
       <description></description>
     </item>
     
