@@ -2,6 +2,7 @@
 date = 2017-01-01T00:00:00  # Schedule page publish date.
 
 title = "Interactive spatial clusters"
+image_preview = "talks/interactive-spatial-clusters.png"
 time_start = 2017-02-21T19:00:00
 time_end = 2017-02-21T21:00:00
 abstract = ""

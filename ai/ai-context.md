@@ -1,16 +1,29 @@
 # Malte Grosser — AI context
 
-This context consolidates visitor-facing information from Almost Random, Malte Grosser's personal website, as represented in the repository reviewed on 29 September 2026. Dates describe the listed material; historical affiliations and software descriptions should not be treated as statements of current status.
+This context consolidates visitor-facing information from Almost Random, Malte Grosser's personal website. The repository was reviewed on 29 September 2026; the biography, interests, and dissertation link were updated from the local About page on 30 September 2026. Dates describe the listed material; historical affiliations and software descriptions should not be treated as statements of current status.
 
 ## Short biography
 
-Malte Grosser shares personal data science projects on [Almost Random](https://www.malte-grosser.com/). His biography describes past work in industry and research in parallel, extracting insights from small and large datasets, working with higher-level programming languages, and developing side projects with others. His listed interests are programming, machine learning, and neuroradiology.
+Malte Grosser runs [Almost Random](https://www.malte-grosser.com/), a personal website sharing a selection of his data science projects, talks, publications from his research at UKE, and occasional blog posts.
+
+He has worked in both industry and research, spending time programming, exploring data, and following ideas that sometimes developed into side projects. The website brings together work accumulated over the years; it does not imply that every project is currently active.
+
+His listed interests are:
+- Psychology and personal growth
+- What makes teams work well
+- Data platforms and applications
+- Large language models
+
+These are personal interests, not claims of professional qualifications or expertise in psychology, coaching, or team leadership.
+
+Outside of work, he enjoys basketball, table tennis, and reading.
 
 Source: [About](https://www.malte-grosser.com/#about).
 
 ## Professional background and education
 
 - University of Hamburg: Dr. rer. biol. hum. (2022), MSc Mathematics (2013), and BSc Business Mathematics (2010).
+- His doctoral dissertation is linked from the education section: [Dissertation, University of Hamburg](https://ediss.sub.uni-hamburg.de/handle/ediss/9871). The repository page provides the abstract and access to the full PDF.
 - His 2017 DGNR research poster lists his affiliation as the Department of Diagnostic and Interventional Neuroradiology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany. This is a historical affiliation.
 - His listed research publications cover prediction of tissue outcome in acute ischemic stroke, CT-perfusion imaging, brain volumetry in CLN3 disease, brain metastases, and multiple sclerosis imaging.
 - A current employer, current job title, and detailed employment timeline are not provided in this context.
@@ -20,9 +33,9 @@ Sources: [About](https://www.malte-grosser.com/#about), [publications](https://w
 ## Technical skills and research methods
 
 - R programming and string processing: the snakecase project and accompanying tutorial cover parsing strings and converting naming conventions.
-- Data analysis: his biography describes experience working with datasets of different sizes in industry and research.
+- Programming and data analysis: his biography describes experience programming and exploring data in both industry and research.
 - Statistical modelling in medical imaging: his coauthored 2017 poster describes voxel-wise prediction using diffusion- and perfusion-weighted MRI, logistic regression, global and local models, a hybrid model, ten-fold cross-validation, and evaluation with AUC and Dice coefficients.
-- Machine learning and neuroradiology are explicitly listed as interests. The context does not specify proficiency levels or establish personal expertise in every technology mentioned in a blog post.
+- Medical imaging and machine learning appear in his research and project history. His current personal interests are listed in the biography above. The context does not specify proficiency levels or establish personal expertise in every topic mentioned.
 
 Sources: [About](https://www.malte-grosser.com/#about), [snakecase tutorial](https://www.malte-grosser.com/post/introducing-the-snakecase-package/), and [2017 research poster](https://www.malte-grosser.com/files/talks/POSTER_DGNR_2017.pdf).
 

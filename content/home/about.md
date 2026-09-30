@@ -27,8 +27,8 @@ weight = 10
 # Interests.
 [interests]
   interests = [
-    "Psychology and human behavior",
-    "Collaboration and group dynamics",
+    "Psychology and personal growth",
+    "What makes teams work well",
     "Data platforms and applications",
     "Large language models"
   ]
