@@ -2,6 +2,7 @@
 date = 2017-01-01T00:00:00  # Schedule page publish date.
 
 title = "snakecase-pkg"
+image_preview = "talks/snakecase-pkg.png"
 time_start = 2017-05-16T19:00:00
 time_end = 2017-05-16T22:00:00
 abstract = ""

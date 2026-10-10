@@ -21,7 +21,7 @@ selected = false
 
 # Links (optional).
 url_pdf = ""
-url_slides = "https://github.com/rusershamburg/meetup-8/blob/master/20170221_interactive_spatial_clusters.pdf"
+url_slides = "https://github.com/rusershamburg/meetup-repo/blob/master/meetup-08/20170221_interactive_spatial_clusters.pdf"
 url_video = "https://www.youtube.com/watch?v=85fBxQao_Gg"
 url_code = ""
 

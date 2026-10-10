@@ -2,6 +2,7 @@
 date = 2017-01-01T00:00:00  # Schedule page publish date.
 
 title = "Advanced R Solutions"
+image_preview = "talks/advanced-r-solutions.png"
 time_start = 2017-07-13T16:00:00
 time_end = 2017-07-13T17:00:00
 abstract = ""

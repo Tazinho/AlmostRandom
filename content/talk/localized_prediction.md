@@ -2,6 +2,7 @@
 date = 2017-10-14T00:00:00  # Schedule page publish date.
 
 title = "Improved localized prediction of tissue outcome in acute ischemic stroke patients"
+image_preview = "talks/dgnr-2017.png"
 time_start = 2017-10-14T10:35:00
 time_end = 2017-10-14T10:40:00
 abstract = ""
