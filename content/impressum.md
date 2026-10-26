@@ -5,7 +5,7 @@ draft = false
 disable_comments = true
 +++
 
-**Malte Grosser**
+Malte Grosser
 
 Standort: Hamburg, Deutschland
 
