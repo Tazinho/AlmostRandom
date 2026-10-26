@@ -1,0 +1,12 @@
+{{ partial "header.html" . }}
+{{ partial "navbar.html" . }}
+
+<main class="container" style="padding-top: 40px; padding-bottom: 60px;">
+  <h1>{{ .Title }}</h1>
+  <div class="article-style">
+    {{ .Content }}
+  </div>
+</main>
+
+{{ partial "footer_container.html" . }}
+{{ partial "footer.html" . }}
