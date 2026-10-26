@@ -384,29 +384,88 @@ data-dict render-spec data-dict.yaml
 
 <div class="article-container">
   
-<section id="comments">
+
+<style>
+  #comments [hidden] {
+    display: none !important;
+  }
+</style>
+
+<section id="comments"
+         data-shortname="Taz"
+         data-url="https://www.malte-grosser.com/post/data-dict-jumping-frogs/">
+
+  <p>
+    Comments are provided by Disqus. By clicking “Load comments”,
+    you agree to connect to Disqus, which receives your IP address
+    and page information and may use cookies for analytics and advertising.
+    <a href="https://help.disqus.com/en/articles/1717103-disqus-privacy-policy"
+       target="_blank" rel="noopener noreferrer">Disqus privacy policy</a>.
+    Comments stay disabled until you choose to load them.
+  </p>
+
+  <button id="load-comments" type="button"
+          class="btn btn-primary btn-outline">
+    Load comments
+  </button>
+
+  <button id="disable-comments" type="button"
+          class="btn btn-default" hidden>
+    Disable comments and reload
+  </button>
+
+  <p id="comments-status" role="status"></p>
   <div id="disqus_thread"></div>
-<script type="application/javascript">
-    var disqus_config = function () {
-    
-    
-    
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "Taz" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+  <noscript>JavaScript is required to load comments.</noscript>
 </section>
 
+<script>
+(function () {
+  var section = document.getElementById('comments');
+  var button = document.getElementById('load-comments');
+  var disable = document.getElementById('disable-comments');
+  var status = document.getElementById('comments-status');
+
+  disable.addEventListener('click', function () {
+    window.location.reload();
+  });
+
+  button.addEventListener('click', function () {
+    if (button.disabled) return;
+
+    button.disabled = true;
+    disable.hidden = false;
+    status.textContent = 'Loading comments…';
+
+    window.disqus_config = function () {
+      this.page.url = section.getAttribute('data-url');
+    };
+
+    var script = document.createElement('script');
+    script.src = 'https://' +
+      section.getAttribute('data-shortname').toLowerCase() +
+      '.disqus.com/embed.js';
+    script.async = true;
+    script.setAttribute('data-timestamp', Date.now());
+
+    script.onload = function () {
+      button.hidden = true;
+      status.textContent =
+        'Disqus enabled. If comments do not appear, your browser may be blocking them.';
+    };
+
+    script.onerror = function () {
+      script.remove();
+      button.disabled = false;
+      status.textContent =
+        'Disqus could not load. You can retry or leave comments disabled.';
+    };
+
+    document.head.appendChild(script);
+  });
+})();
+</script>
 
 </div>
 
@@ -458,11 +517,6 @@ data-dict render-spec data-dict.yaml
   </div>
 </div>
 
-    
-
-    
-    
-    <script id="dsq-count-scr" src="//Taz.disqus.com/count.js" async></script>
     
 
     
