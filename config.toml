@@ -12,7 +12,8 @@ paginate = 10
 disqusShortname = "Taz"
 
 # Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = "UA-110831086-1"
+# googleAnalytics = "UA-110831086-1"
+googleAnalytics = ""
 
 # Default language to use (if you setup multilingual support)
 defaultContentLanguage = "en"
