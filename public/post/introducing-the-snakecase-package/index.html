@@ -242,12 +242,6 @@
 
   
   
-  <span class="middot-divider"></span>
-  <a href="https://www.malte-grosser.com/post/introducing-the-snakecase-package/#disqus_thread"></a>
-  
-
-  
-  
   
   <span class="middot-divider"></span>
   <span class="article-categories">
@@ -347,8 +341,44 @@ to_any_case(c(&quot;SomeBAdInput&quot;, &quot;someGoodInput&quot;)) %&gt;% dput(
   
 
 <style>
+  #comments {
+    margin-top: 2rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid #ddd;
+  }
+
   #comments [hidden] {
     display: none !important;
+  }
+
+  #comments .comments-heading {
+    margin: 0 0 0.75rem;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  #comments .comments-note {
+    margin: 0.5rem 0 1rem;
+    max-width: 42rem;
+    font-size: 0.8em;
+    line-height: 1.5;
+  }
+
+  #comments .comments-action {
+    appearance: none;
+    background: none;
+    border: 0;
+    padding: 0;
+    color: inherit;
+    font: inherit;
+    font-size: 0.9em;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  #comments .comments-action:disabled {
+    opacity: 0.6;
+    cursor: wait;
   }
 </style>
 
@@ -356,22 +386,27 @@ to_any_case(c(&quot;SomeBAdInput&quot;, &quot;someGoodInput&quot;)) %&gt;% dput(
          data-shortname="Taz"
          data-url="https://www.malte-grosser.com/post/introducing-the-snakecase-package/">
 
-  <p>
-    Comments are provided by Disqus. By clicking “Load comments”,
-    you agree to connect to Disqus, which receives your IP address
-    and page information and may use cookies for analytics and advertising.
-    <a href="https://help.disqus.com/en/articles/1717103-disqus-privacy-policy"
-       target="_blank" rel="noopener noreferrer">Disqus privacy policy</a>.
-    Comments stay disabled until you choose to load them.
-  </p>
+  <h2 class="comments-heading">Comments</h2>
 
-  <button id="load-comments" type="button"
-          class="btn btn-primary btn-outline">
-    Load comments
+  <button id="load-comments"
+          type="button"
+          class="comments-action"
+          aria-describedby="comments-notice">
+    Agree and load comments
   </button>
 
-  <button id="disable-comments" type="button"
-          class="btn btn-default" hidden>
+  <p id="comments-notice" class="comments-note">
+    Enables Disqus, which receives your IP address and page information
+    and may use cookies for analytics and advertising.
+    <a href="https://help.disqus.com/en/articles/1717103-disqus-privacy-policy"
+       target="_blank"
+       rel="noopener noreferrer">Privacy policy</a>.
+  </p>
+
+  <button id="disable-comments"
+          type="button"
+          class="comments-action"
+          hidden>
     Disable comments and reload
   </button>
 
@@ -427,6 +462,7 @@ to_any_case(c(&quot;SomeBAdInput&quot;, &quot;someGoodInput&quot;)) %&gt;% dput(
   });
 })();
 </script>
+
 
 </div>
 
