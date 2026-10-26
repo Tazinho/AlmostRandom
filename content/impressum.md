@@ -5,8 +5,8 @@ draft = false
 disable_comments = true
 +++
 
-Malte Grosser
-
-Standort: Hamburg, Deutschland
-
-E-Mail: [malte.grosser@gmail.com](mailto:malte.grosser@gmail.com)
+<p>
+Malte Grosser<br>
+Hamburg, Deutschland<br>
+E-Mail: <a href="mailto:malte.grosser@gmail.com">malte.grosser@gmail.com</a>
+</p>
