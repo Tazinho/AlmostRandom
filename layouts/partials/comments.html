@@ -40,6 +40,33 @@
     opacity: 0.6;
     cursor: wait;
   }
+
+  #comments-status:empty {
+    display: none;
+  }
+
+  #comments .comments-controls {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.5rem 1.25rem;
+    margin-top: 1rem;
+    font-size: 0.8em;
+  }
+
+  #comments .comments-controls .comments-action {
+    font-size: inherit;
+  }
+
+  #comments .comments-help summary {
+    cursor: pointer;
+  }
+
+  #comments .comments-help p {
+    max-width: 32rem;
+    margin: 0.5rem 0;
+    line-height: 1.5;
+  }
 </style>
 
 <section id="comments"
@@ -48,30 +75,42 @@
 
   <h2 class="comments-heading">Comments</h2>
 
-  <button id="load-comments"
-          type="button"
-          class="comments-action"
-          aria-describedby="comments-notice">
-    Agree and load comments
-  </button>
+  <div id="comments-consent">
+    <button id="load-comments"
+            type="button"
+            class="comments-action"
+            aria-describedby="comments-notice">
+      Agree and load comments
+    </button>
 
-  <p id="comments-notice" class="comments-note">
-    Enables Disqus, which receives your IP address and page information
-    and may use cookies for analytics and advertising.
-    <a href="https://help.disqus.com/en/articles/1717103-disqus-privacy-policy"
-       target="_blank"
-       rel="noopener noreferrer">Privacy policy</a>.
-  </p>
+    <p id="comments-notice" class="comments-note">
+      Enables Disqus, which receives your IP address and page information
+      and may use cookies for analytics and advertising.
+      <a href="https://help.disqus.com/en/articles/1717103-disqus-privacy-policy"
+         target="_blank"
+         rel="noopener noreferrer">Privacy policy</a>.
+    </p>
+  </div>
 
-  <button id="disable-comments"
-          type="button"
-          class="comments-action"
-          hidden>
-    Disable comments and reload
-  </button>
+  <p id="comments-status" class="comments-note" role="status"></p>
 
-  <p id="comments-status" role="status"></p>
   <div id="disqus_thread"></div>
+
+  <div id="comments-controls" class="comments-controls" hidden>
+    <button id="disable-comments"
+            type="button"
+            class="comments-action">
+      Disable comments and reload
+    </button>
+
+    <details class="comments-help">
+      <summary>Comments not appearing?</summary>
+      <p>
+        Your browser or ad blocker may be blocking Disqus.
+        You can leave comments disabled or allow Disqus and try again.
+      </p>
+    </details>
+  </div>
 
   <noscript>JavaScript is required to load comments.</noscript>
 </section>
@@ -79,7 +118,9 @@
 <script>
 (function () {
   var section = document.getElementById('comments');
+  var consent = document.getElementById('comments-consent');
   var button = document.getElementById('load-comments');
+  var controls = document.getElementById('comments-controls');
   var disable = document.getElementById('disable-comments');
   var status = document.getElementById('comments-status');
 
@@ -91,7 +132,7 @@
     if (button.disabled) return;
 
     button.disabled = true;
-    disable.hidden = false;
+    controls.hidden = false;
     status.textContent = 'Loading comments…';
 
     window.disqus_config = function () {
@@ -106,16 +147,15 @@
     script.setAttribute('data-timestamp', Date.now());
 
     script.onload = function () {
-      button.hidden = true;
-      status.textContent =
-        'Disqus enabled. If comments do not appear, your browser may be blocking them.';
+      consent.hidden = true;
+      status.textContent = '';
     };
 
     script.onerror = function () {
       script.remove();
       button.disabled = false;
       status.textContent =
-        'Disqus could not load. You can retry or leave comments disabled.';
+        'Comments could not load. Please try again or leave them disabled.';
     };
 
     document.head.appendChild(script);
